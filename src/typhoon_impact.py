@@ -43,15 +43,20 @@ JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
 COMPARE_PATH = BASE_DIR / "data" / "typhoon_compare.json"
 JTWC_PATH = BASE_DIR / "data" / "jtwc_typhoon.json"
 OUTPUT_PATH = BASE_DIR / "data" / "typhoon_impact.json"
+TARGET_CONFIG_PATH = BASE_DIR / "config" / "typhoon_target.json"
 
-PARSER_VERSION = "4.6-SAUDEL-HARDLOCK"
+def load_target_typhoon() -> tuple[str, str]:
+    if TARGET_CONFIG_PATH.exists():
+        data = json.loads(TARGET_CONFIG_PATH.read_text(encoding="utf-8"))
+        return str(data.get("number", "")), str(data.get("name", "")).upper()
+    return "", ""
+
+PARSER_VERSION = "4.7-CONFIG-TYPHOON"
 CAUTION_RADIUS_MULTIPLIER = 1.5
 
 # This dashboard is intentionally locked to Typhoon 2618 SAUDEL.
 # Other tropical cyclones may exist in source JSON files, but they
 # must never be used for logistics distance / wind-radius calculations.
-TARGET_TYPHOON_NUMBER = "2618"
-TARGET_TYPHOON_NAME = "SAUDEL"
 
 # Used only if JTWC radii are unavailable.
 FALLBACK_RED_MAX_KM = 300
@@ -385,9 +390,11 @@ def get_primary_typhoon(jma: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         number = str(meta.get("number") or "").strip()
         name = str(meta.get("name") or "").strip().upper()
 
+        target_number, target_name = load_target_typhoon()
+
         if (
-            number == TARGET_TYPHOON_NUMBER
-            and name == TARGET_TYPHOON_NAME
+            number == target_number
+            and name == target_name
         ):
             return item
 
@@ -427,11 +434,13 @@ def find_matching_jtwc_storm(
     """
     meta = jma_typhoon.get("typhoon") or {}
 
+    target_number, target_name = load_target_typhoon()
+
     if (
         str(meta.get("number") or "").strip()
-        != TARGET_TYPHOON_NUMBER
+        != target_number
         or str(meta.get("name") or "").strip().upper()
-        != TARGET_TYPHOON_NAME
+        != target_name
     ):
         return None
 
@@ -889,7 +898,7 @@ def main() -> int:
     print(f"Typhoon impact parser: {PARSER_VERSION}")
 
     jma = load_json(JMA_PATH)
-    compare = load_json_optional(COMPARE_PATH)
+    compare = {}
     jtwc = load_json_optional(JTWC_PATH)
 
     jma_typhoon = get_primary_typhoon(jma)

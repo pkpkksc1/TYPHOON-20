@@ -28,10 +28,15 @@ JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
 RISK_PATH = BASE_DIR / "data" / "typhoon_risk.json"
 FLIGHTS_PATH = BASE_DIR / "data" / "flights.json"
 OUTPUT_PATH = BASE_DIR / "data" / "dashboard.json"
+TARGET_CONFIG_PATH = BASE_DIR / "config" / "typhoon_target.json"
+
+def load_target_typhoon() -> tuple[str, str]:
+    if TARGET_CONFIG_PATH.exists():
+        data = json.loads(TARGET_CONFIG_PATH.read_text(encoding="utf-8"))
+        return str(data.get("number", "")), str(data.get("name", "")).upper()
+    return "", ""
 
 PARSER_VERSION = "8.71.2-T20-NO-COMPARE-NO-FLIGHT"
-TARGET_TYPHOON_NUMBER = "2618"
-TARGET_TYPHOON_NAME = "SAUDEL"
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
 REPRESENTATIVE_FLIGHTS = ["KE249", "KE335", "PR337", "KJ948", "KJ988"]
 LOCATION_NAME_OVERRIDES = {
@@ -131,15 +136,17 @@ def get_typhoon_track(jma: Dict[str, Any]) -> Dict[str, Any]:
 
     # Dashboard is locked to 2618 SAUDEL.
     # Never display another named typhoon or tropical depression.
+    target_number, target_name = load_target_typhoon()
+
     item = next(
         (
             t for t in typhoons
             if isinstance(t, dict)
             and isinstance(t.get("typhoon"), dict)
             and str(t.get("typhoon", {}).get("number") or "").strip()
-                == TARGET_TYPHOON_NUMBER
+                == target_number
             and str(t.get("typhoon", {}).get("name") or "").strip().upper()
-                == TARGET_TYPHOON_NAME
+                == target_name
         ),
         None,
     )

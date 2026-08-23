@@ -37,10 +37,8 @@ IMPACT_PATH = BASE_DIR / "data" / "typhoon_impact.json"
 WEATHER_PATH = BASE_DIR / "data" / "weather.json"
 OUTPUT_PATH = BASE_DIR / "data" / "typhoon_risk.json"
 
-PARSER_VERSION = "6.6-CURRENT-DISTANCE"
+PARSER_VERSION = "6.7-CONFIG-TYPHOON"
 
-TARGET_TYPHOON_NUMBER = "2618"
-TARGET_TYPHOON_NAME = "SAUDEL"
 
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
 
