@@ -1,0 +1,46 @@
+name: FlightAware Status Fetch
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch FlightAware status
+        env:
+          FLIGHTAWARE_API_KEY: ${{ secrets.FLIGHTAWARE_API_KEY }}
+        run: python src/fetch_flightaware.py
+
+      - name: Commit FlightAware data
+        shell: bash
+        run: |
+          if [ ! -f data/flightaware_flights.json ]; then
+            echo "data/flightaware_flights.json was not created."
+            exit 1
+          fi
+
+          git add data/flightaware_flights.json
+
+          if git diff --cached --quiet; then
+            echo "No FlightAware data change."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "Update FlightAware flight status"
+          git push
