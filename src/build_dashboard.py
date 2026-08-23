@@ -31,7 +31,7 @@ RISK_PATH = BASE_DIR / "data" / "typhoon_risk.json"
 FLIGHTS_PATH = BASE_DIR / "data" / "flights.json"
 OUTPUT_PATH = BASE_DIR / "data" / "dashboard.json"
 
-PARSER_VERSION = "8.4.2-CURRENT-DISTANCE-FLIGHT5-API-USAGE"
+PARSER_VERSION = "8.71.1-T20-NO-FLIGHT"
 TARGET_TYPHOON_NUMBER = "2618"
 TARGET_TYPHOON_NAME = "SAUDEL"
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
@@ -188,84 +188,10 @@ def main() -> int:
     jma = load_json(JMA_PATH)
     compare = load_json(COMPARE_PATH)
     risk = load_json(RISK_PATH)
-    flights = load_json(FLIGHTS_PATH)
+    flights = {}
 
-    # HARD GUARD: dashboard must never render risk from another storm.
-    risk_typhoon = risk.get("typhoon") or {}
-    risk_number = str(risk_typhoon.get("number") or "").strip()
-    risk_name = str(risk_typhoon.get("name") or "").strip().upper()
-
-    if (
-        risk_number != TARGET_TYPHOON_NUMBER
-        or risk_name != TARGET_TYPHOON_NAME
-    ):
-        raise RuntimeError(
-            "SAUDEL HARD LOCK: typhoon_risk.json is not "
-            f"{TARGET_TYPHOON_NUMBER} {TARGET_TYPHOON_NAME}. "
-            "Dashboard build stopped."
-        )
-
-    compare_summary = compare.get("summary", {})
-    compare_overall = compare_summary.get("overall", {})
-
-    locations: Dict[str, Dict[str, Any]] = {}
-
-    for code in LOCATION_ORDER:
-        item = risk.get("locations", {}).get(code)
-        if isinstance(item, dict):
-            locations[code] = simplify_location(item, code)
-
-    routes: List[Dict[str, Any]] = []
-
-    for route in risk.get("routes", []):
-        if not isinstance(route, dict):
-            continue
-
-        rr = route.get("risk", {})
-
-        route_name = route.get("name_ko")
-        if route.get("code") == "ICN_PVG":
-            route_name = "한국 → PVG"
-
-        routes.append({
-            "code": route.get("code"),
-            "name_ko": route_name,
-            "score": route.get("score"),
-            "risk": {
-                "emoji": rr.get("emoji"),
-                "label_ko": rr.get("label_ko"),
-            },
-            "reason_ko": route.get("reason_ko"),
-        })
-
-    # Manila route: use the worst risk among SUZHOU / PVG / MNL.
-    # This becomes active as soon as MNL exists in data/typhoon_risk.json.
-    if "MNL" in locations and not any(r.get("code") == "SUZHOU_PVG_MNL" for r in routes):
-        route_codes = ["SUZHOU", "PVG", "MNL"]
-        route_items = [locations[c] for c in route_codes if c in locations]
-        level_rank = {"낮음": 1, "주의": 2, "높음": 3}
-        worst = max(
-            route_items,
-            key=lambda x: level_rank.get(x.get("risk", {}).get("label_ko"), 0),
-        )
-        routes.insert(3, {
-            "code": "SUZHOU_PVG_MNL",
-            "name_ko": "쑤저우 → PVG → 마닐라",
-            "score": max((x.get("score") or 0) for x in route_items),
-            "risk": worst.get("risk", {}),
-            "reason_ko": f"{worst.get('name_ko')} {worst.get('risk', {}).get('label_ko')} ({worst.get('reason_ko') or '-'})",
-        })
-
-    flight_summaries = [
-        simplify_flight(x)
-        for x in flights.get("flights", [])
-        if isinstance(x, dict)
-        and x.get("flight_iata") in REPRESENTATIVE_FLIGHTS
-    ]
-    flight_summaries.sort(
-        key=lambda x: REPRESENTATIVE_FLIGHTS.index(x.get("flight_iata"))
-        if x.get("flight_iata") in REPRESENTATIVE_FLIGHTS else 999
-    )
+    # v8.71.1 TYPHOON-20: flight module disabled (operation dashboard only)
+    flight_summaries = []
 
     typhoon_summary = get_typhoon_track(jma)
 
