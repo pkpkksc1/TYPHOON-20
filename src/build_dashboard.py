@@ -7,7 +7,6 @@ Build one dashboard summary JSON
 
 Inputs:
     data/jma_typhoon.json
-    data/typhoon_compare.json
     data/typhoon_risk.json
     data/flights.json
 
@@ -26,12 +25,11 @@ from typing import Any, Dict, List
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
-COMPARE_PATH = BASE_DIR / "data" / "typhoon_compare.json"
 RISK_PATH = BASE_DIR / "data" / "typhoon_risk.json"
 FLIGHTS_PATH = BASE_DIR / "data" / "flights.json"
 OUTPUT_PATH = BASE_DIR / "data" / "dashboard.json"
 
-PARSER_VERSION = "8.71.1-T20-NO-FLIGHT"
+PARSER_VERSION = "8.71.2-T20-NO-COMPARE-NO-FLIGHT"
 TARGET_TYPHOON_NUMBER = "2618"
 TARGET_TYPHOON_NAME = "SAUDEL"
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
@@ -186,7 +184,6 @@ def get_typhoon_track(jma: Dict[str, Any]) -> Dict[str, Any]:
 
 def main() -> int:
     jma = load_json(JMA_PATH)
-    compare = load_json(COMPARE_PATH)
     risk = load_json(RISK_PATH)
     flights = {}
 
@@ -237,21 +234,13 @@ def main() -> int:
         },
 
         "typhoon": typhoon_summary,
-        "forecast_comparison": {
-            "emoji": compare_overall.get("emoji", "⚪"),
-            "label_ko": compare_overall.get("label_ko", "비교자료 없음"),
-            "average_difference_km": compare_summary.get("average_difference_km"),
-            "max_difference_km": compare_summary.get("max_difference_km"),
-        },
         "locations": locations,
         "routes": routes,
         "flights": flight_summaries,
         "aviationstack_usage": flights.get("api_usage", {}),
         "attribution": [
             "Japan Meteorological Agency (JMA)",
-            "Korea Meteorological Administration (KMA)",
             "Powered by WeatherAPI.com",
-            "Aviationstack",
         ],
     }
 
