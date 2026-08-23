@@ -733,10 +733,9 @@ async function loadDashboard() {
   // 항공편
   // ======================================
 
-  const flights =
-    $("flightsList");
+  const flights = $("flightsList");
 
-  flights.innerHTML = "";
+  flights.innerHTML = "";\n  // v8.71.1 T20 flight display disabled
 
 
   (
