@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SESS 태풍 물류 현황판</title>
+<title>SESS 태풍 물류 운영판</title>
 
 <style>
 :root{
@@ -2066,13 +2066,13 @@ h1,h2,h3,.typhoon-title,.flight-no{
 
     <div class="title-row">
       <h1 data-i18n="dashboardTitle">
-        SESS 태풍 물류 현황판
+        SESS 태풍 물류 운영판
       </h1>
 
       <div id="dashboardVersion" class="dashboard-version">
         <span id="autoModeDot" class="auto-dot off">○</span>
         <span id="autoModeText">AUTO ?</span>
-        <span>· v8.69.7</span>
+        <span>· v8.71.0</span>
       </div>
 
       <a
@@ -2207,35 +2207,6 @@ h1,h2,h3,.typhoon-title,.flight-no{
 
 
 <div class="right-stack">
-
-<section class="panel flights">
-
-  <div class="kicker" data-i18n="flightStatus">
-    항공편 운항 현황
-  </div>
-
-  <div class="panel-title-row">
-    <h2 data-i18n="representativeFlights">
-      대표 항공편 (운영판 전용)
-    </h2>
-
-    <div
-      id="flightInlineMeta"
-      class="flight-inline-meta"
-      data-i18n="flightMetaPlaceholder"
-    >
-      Aviationstack · 이번 달 호출 - / 100회 · 최근 조회 - · 자동 조회 매일 07:00 한국시간 · 5편(5 API)
-    </div>
-  </div>
-
-  <div
-    id="flightsList"
-    class="list"
-  >
-  </div>
-
-</section>
-
 
 <section class="panel routes">
 
@@ -2518,10 +2489,10 @@ const $ =
 
 const I18N = {
   ko:{
-    dashboardTitle:"SESS 태풍 물류 현황판",
+    dashboardTitle:"SESS 태풍 물류 운영판",
     currentTyphoon:"현재 태풍", pressure:"중심기압", maxWind:"최대풍속", direction:"이동방향", speed:"이동속도",
     hubRisk:"주요 거점 위험도", hubStatus:"물류 거점 상태",
-    flightStatus:"항공편 운항 현황", representativeFlights:"대표 항공편 (운영판 전용)",
+    flightStatus:"항공편 운항 현황", representativeFlights:"대표 항공편",
     routeRisk:"물류 노선 위험도", majorRoutes:"주요 노선",
     agencyStatus:"태풍 데이터 사용 현황",
     jmaCountry:"일본기상청", kmaCountry:"한국기상청", cmaCountry:"중국기상국", jtwcCountry:"합동태풍경보센터",
@@ -2591,7 +2562,7 @@ function tr(key){ return (I18N[currentLang] && I18N[currentLang][key]) || (I18N.
 
 function applyStaticLanguage(){
   document.documentElement.lang = isZh() ? "zh-CN" : "ko";
-  document.title = isZh() ? "SESS 台风物流现况板" : "SESS 태풍 물류 현황판";
+  document.title = isZh() ? "SESS 台风物流现况板" : "SESS 태풍 물류 운영판";
 
   document.querySelectorAll("[data-i18n]").forEach(el => {
     el.textContent = tr(el.dataset.i18n);
@@ -4328,7 +4299,7 @@ $("pressure")
 
 
   // ========================================
-  // 대표 항공편 (운영판 전용) 데이터 수집 시각
+  // 대표 항공편 데이터 수집 시각
   // ========================================
 
   const flightInlineMeta =
