@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-26 06:39"
+        "localtime": "2026-08-26 06:58"
       },
       "current": {
-        "last_updated": "2026-08-26 06:30",
+        "last_updated": "2026-08-26 06:45",
         "rain_mm": 0.0,
         "wind_mps": 2.9,
         "wind_dir": "ENE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-26 06:39"
+        "localtime": "2026-08-26 06:58"
       },
       "current": {
-        "last_updated": "2026-08-26 06:30",
+        "last_updated": "2026-08-26 06:45",
         "rain_mm": 0.0,
         "wind_mps": 2.0,
         "wind_dir": "NE",
@@ -1215,15 +1215,15 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Namni",
+        "name": "Sammok",
         "region": "",
         "country": "South Korea",
-        "lat": 37.45,
-        "lon": 126.417,
-        "localtime": "2026-08-26 07:39"
+        "lat": 37.483,
+        "lon": 126.466,
+        "localtime": "2026-08-26 07:58"
       },
       "current": {
-        "last_updated": "2026-08-26 07:30",
+        "last_updated": "2026-08-26 07:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "W",
@@ -1816,15 +1816,15 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Almanza",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.483,
-        "lon": 120.983,
-        "localtime": "2026-08-26 06:39"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-08-26 06:58"
       },
       "current": {
-        "last_updated": "2026-08-26 06:30",
+        "last_updated": "2026-08-26 06:45",
         "rain_mm": 0.03,
         "wind_mps": 6.2,
         "wind_dir": "WSW",
@@ -1850,7 +1850,7 @@
         {
           "time": "2026-08-26 02:00",
           "rain_mm": 0.14,
-          "chance_of_rain_pct": 29,
+          "chance_of_rain_pct": 26,
           "wind_mps": 5.7,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -1858,7 +1858,7 @@
         {
           "time": "2026-08-26 03:00",
           "rain_mm": 0.05,
-          "chance_of_rain_pct": 22,
+          "chance_of_rain_pct": 23,
           "wind_mps": 5.9,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -1890,7 +1890,7 @@
         {
           "time": "2026-08-26 07:00",
           "rain_mm": 0.05,
-          "chance_of_rain_pct": 21,
+          "chance_of_rain_pct": 22,
           "wind_mps": 4.0,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -2106,7 +2106,7 @@
         {
           "time": "2026-08-27 10:00",
           "rain_mm": 0.66,
-          "chance_of_rain_pct": 51,
+          "chance_of_rain_pct": 48,
           "wind_mps": 9.2,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-26 05:39"
+        "localtime": "2026-08-26 05:58"
       },
       "current": {
-        "last_updated": "2026-08-26 05:30",
+        "last_updated": "2026-08-26 05:45",
         "rain_mm": 0.86,
         "wind_mps": 2.2,
         "wind_dir": "NW",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-26 06:39"
+        "localtime": "2026-08-26 06:58"
       },
       "current": {
-        "last_updated": "2026-08-26 06:30",
+        "last_updated": "2026-08-26 06:45",
         "rain_mm": 0.02,
         "wind_mps": 2.1,
         "wind_dir": "W",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-25T22:39:42.066254+00:00"
+  "generated_at_utc": "2026-08-25T22:58:47.088679+00:00"
 }
