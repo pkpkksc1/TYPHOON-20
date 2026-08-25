@@ -13,15 +13,15 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Suzhou",
+        "name": "Yangchiatsun",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.311,
-        "lon": 120.618,
-        "localtime": "2026-08-26 04:40"
+        "lat": 31.285,
+        "lon": 120.596,
+        "localtime": "2026-08-26 04:57"
       },
       "current": {
-        "last_updated": "2026-08-26 04:30",
+        "last_updated": "2026-08-26 04:45",
         "rain_mm": 0.0,
         "wind_mps": 2.8,
         "wind_dir": "ESE",
@@ -63,7 +63,7 @@
         {
           "time": "2026-08-26 04:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 14,
+          "chance_of_rain_pct": 15,
           "wind_mps": 2.8,
           "wind_dir": "ESE",
           "condition": "Clear"
@@ -159,7 +159,7 @@
         {
           "time": "2026-08-26 16:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 10,
+          "chance_of_rain_pct": 12,
           "wind_mps": 2.7,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
@@ -487,7 +487,7 @@
         {
           "time": "2026-08-28 09:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 14,
+          "chance_of_rain_pct": 15,
           "wind_mps": 5.5,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
@@ -527,7 +527,7 @@
         {
           "time": "2026-08-28 14:00",
           "rain_mm": 0.69,
-          "chance_of_rain_pct": 44,
+          "chance_of_rain_pct": 45,
           "wind_mps": 4.7,
           "wind_dir": "NE",
           "condition": "Moderate rain at times"
@@ -543,7 +543,7 @@
         {
           "time": "2026-08-28 16:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 14,
+          "chance_of_rain_pct": 13,
           "wind_mps": 6.3,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
@@ -599,7 +599,7 @@
         {
           "time": "2026-08-28 23:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 25,
+          "chance_of_rain_pct": 24,
           "wind_mps": 4.5,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-26 04:40"
+        "localtime": "2026-08-26 04:57"
       },
       "current": {
-        "last_updated": "2026-08-26 04:30",
+        "last_updated": "2026-08-26 04:45",
         "rain_mm": 0.0,
         "wind_mps": 1.2,
         "wind_dir": "E",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-26 05:40"
+        "localtime": "2026-08-26 05:57"
       },
       "current": {
-        "last_updated": "2026-08-26 05:30",
+        "last_updated": "2026-08-26 05:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "WNW",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-08-26 04:40"
+        "localtime": "2026-08-26 04:57"
       },
       "current": {
-        "last_updated": "2026-08-26 04:30",
+        "last_updated": "2026-08-26 04:45",
         "rain_mm": 0.0,
         "wind_mps": 5.4,
         "wind_dir": "WSW",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-26 03:40"
+        "localtime": "2026-08-26 03:57"
       },
       "current": {
-        "last_updated": "2026-08-26 03:30",
+        "last_updated": "2026-08-26 03:45",
         "rain_mm": 0.69,
         "wind_mps": 1.3,
         "wind_dir": "WSW",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-26 04:40"
+        "localtime": "2026-08-26 04:57"
       },
       "current": {
-        "last_updated": "2026-08-26 04:30",
+        "last_updated": "2026-08-26 04:45",
         "rain_mm": 0.0,
         "wind_mps": 1.8,
         "wind_dir": "SW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-25T20:40:57.612008+00:00"
+  "generated_at_utc": "2026-08-25T20:58:44.354950+00:00"
 }
