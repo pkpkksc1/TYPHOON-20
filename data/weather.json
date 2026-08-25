@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-26 02:53"
+        "localtime": "2026-08-26 03:11"
       },
       "current": {
-        "last_updated": "2026-08-26 02:45",
+        "last_updated": "2026-08-26 03:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.3,
+        "wind_mps": 3.2,
         "wind_dir": "ESE",
         "condition": "Clear"
       },
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-26 02:53"
+        "localtime": "2026-08-26 03:11"
       },
       "current": {
-        "last_updated": "2026-08-26 02:45",
+        "last_updated": "2026-08-26 03:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.8,
+        "wind_mps": 1.6,
         "wind_dir": "E",
         "condition": "Clear"
       },
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-26 03:53"
+        "localtime": "2026-08-26 04:11"
       },
       "current": {
-        "last_updated": "2026-08-26 03:45",
+        "last_updated": "2026-08-26 04:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "SSW",
-        "condition": "Partly Cloudy"
+        "wind_dir": "WNW",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -1258,7 +1258,7 @@
           "time": "2026-08-26 03:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "SSW",
           "condition": "Partly Cloudy"
         },
@@ -1266,7 +1266,7 @@
           "time": "2026-08-26 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 10,
-          "wind_mps": 0.5,
+          "wind_mps": 1.0,
           "wind_dir": "WNW",
           "condition": "Clear"
         },
@@ -1816,16 +1816,16 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Airport Village",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.508,
-        "lon": 121.007,
-        "localtime": "2026-08-26 02:53"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-08-26 03:11"
       },
       "current": {
-        "last_updated": "2026-08-26 02:45",
-        "rain_mm": 0.02,
+        "last_updated": "2026-08-26 03:00",
+        "rain_mm": 0.11,
         "wind_mps": 5.7,
         "wind_dir": "WSW",
         "condition": "Patchy rain nearby"
@@ -2422,13 +2422,13 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-26 01:53"
+        "localtime": "2026-08-26 02:11"
       },
       "current": {
-        "last_updated": "2026-08-26 01:45",
-        "rain_mm": 0.82,
-        "wind_mps": 2.5,
-        "wind_dir": "SE",
+        "last_updated": "2026-08-26 02:00",
+        "rain_mm": 1.79,
+        "wind_mps": 2.0,
+        "wind_dir": "SSE",
         "condition": "Light rain shower"
       },
       "hourly_forecast": [
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-26 02:53"
+        "localtime": "2026-08-26 03:11"
       },
       "current": {
-        "last_updated": "2026-08-26 02:45",
-        "rain_mm": 0.01,
-        "wind_mps": 2.3,
+        "last_updated": "2026-08-26 03:00",
+        "rain_mm": 0.0,
+        "wind_mps": 2.4,
         "wind_dir": "SW",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-25T18:53:37.999169+00:00"
+  "generated_at_utc": "2026-08-25T19:11:19.835172+00:00"
 }
