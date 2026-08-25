@@ -43,6 +43,10 @@ MAX_PRESERVED_FORECAST_AGE_HOURS = 12
 
 USER_AGENT = "sblc-typhoon-dashboard/1.2 (JMA XML PULL client)"
 
+# TYPHOON-20 repository safeguard.
+PRESERVE_TARGET_NUMBER = "2620"
+PRESERVE_TARGET_NAME = "GAENARI"
+
 
 def local_name(tag: str) -> str:
     return tag.split("}", 1)[-1] if "}" in tag else tag
@@ -809,6 +813,37 @@ def main() -> int:
         typhoons.append(
             merge_typhoon_items(items, previous_item)
         )
+
+    # TYPHOON-20 safeguard:
+    # JMA's recent feed can stop listing a cyclone after its final bulletin.
+    # In this dedicated 2620 GAENARI repository, keep the last official
+    # stored GAENARI item when the live feed no longer contains 2620.
+    # We preserve the original report/analysis timestamps and never invent
+    # a newer position. If JMA publishes 2620 again, the live item above wins.
+    live_target_exists = any(
+        str((item.get("typhoon") or {}).get("number") or "") == PRESERVE_TARGET_NUMBER
+        and str((item.get("typhoon") or {}).get("name") or "").upper() == PRESERVE_TARGET_NAME
+        for item in typhoons
+    )
+
+    if not live_target_exists:
+        previous_target = find_previous_typhoon(
+            previous_data,
+            PRESERVE_TARGET_NUMBER,
+        )
+        if (
+            isinstance(previous_target, dict)
+            and str((previous_target.get("typhoon") or {}).get("name") or "").upper()
+                == PRESERVE_TARGET_NAME
+        ):
+            kept = json.loads(json.dumps(previous_target, ensure_ascii=False))
+            kept["retention_status"] = "LAST_KNOWN_JMA_BULLETIN"
+            kept["retention_note_ko"] = (
+                "JMA 최근 feed에서 2620 GAENARI가 더 이상 제공되지 않아 "
+                "마지막 공식 발표 자료를 유지합니다. 원본 발표시각은 변경하지 않습니다."
+            )
+            typhoons.append(kept)
+
     typhoons.sort(
         key=lambda x: parse_iso(x.get("report_time") or x.get("feed_updated"))
         or datetime.min.replace(tzinfo=timezone.utc),
@@ -818,7 +853,7 @@ def main() -> int:
     data = {
         "source": "Japan Meteorological Agency (JMA)",
         "product": "Typhoon Analysis and Forecast Information (5-day)",
-        "parser_version": "1.3-JMA-CURRENT-LONG-MERGE",
+        "parser_version": "1.4-JMA-CURRENT-LONG-MERGE-KEEP-2620",
         "feed_high": HIGH_FEED,
         "feed_long": LONG_FEED,
         "active_count": len(typhoons),

@@ -11,7 +11,8 @@ OUTPUT_PATH = BASE_DIR / "data" / "cma_typhoon.json"
 
 LIST_URL = "http://typhoon.nmc.cn/weatherservice/typhoon/jsons/list_default"
 VIEW_URL = "http://typhoon.nmc.cn/weatherservice/typhoon/jsons/view_{id}"
-PARSER_VERSION = "1.1"
+PARSER_VERSION = "1.2-KEEP-GAENARI"
+PRESERVE_TARGET_NAME = "GAENARI"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 SBLC-Typhoon-Dashboard/1.1",
@@ -157,8 +158,26 @@ def detail(storm):
         "raw_point_count": len(history),
     }
 
+def load_previous_target():
+    if not OUTPUT_PATH.exists():
+        return None
+    try:
+        previous = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+    for item in previous.get("typhoons", []):
+        if (
+            isinstance(item, dict)
+            and str(item.get("name_en") or "").upper() == PRESERVE_TARGET_NAME
+        ):
+            return item
+    return None
+
+
 def main():
     print(f"CMA/NMC fetch version: {PARSER_VERSION}")
+    previous_target = load_previous_target()
     storms, errors = [], []
     active = active_list()
     print(f"Active CMA systems: {len(active)}")
@@ -169,6 +188,21 @@ def main():
             storms.append(detail(s))
         except Exception as e:
             errors.append({"id": s.get("id"), "name_en": s.get("name_en"), "error": str(e)})
+
+    live_target_exists = any(
+        str(item.get("name_en") or "").upper() == PRESERVE_TARGET_NAME
+        for item in storms
+        if isinstance(item, dict)
+    )
+
+    if not live_target_exists and isinstance(previous_target, dict):
+        kept = json.loads(json.dumps(previous_target, ensure_ascii=False))
+        kept["retention_status"] = "LAST_KNOWN_CMA_BULLETIN"
+        kept["retention_note_ko"] = (
+            "CMA 현재 목록에서 GAENARI가 더 이상 제공되지 않아 "
+            "마지막 공식 자료를 유지합니다. 원본 시각은 변경하지 않습니다."
+        )
+        storms.append(kept)
 
     output = {
         "source": "CMA / NMC",

@@ -1,26 +1,29 @@
-TYPHOON-20 GAENARI conversion
-
-Base:
-- Latest local TYPHOON-19 structure
-- Representative flights removed
-- Aviationstack / FlightAware API calls removed
-- JMA v1.3 current-position + long-forecast merge retained
-- Automatic email typhoon number/name naming retained
+TYPHOON-20 GAENARI - last-known official data safeguard
 
 Target:
-- JMA typhoon number: 2620
-- Name: GAENARI
+- JMA: 2620 GAENARI
 
-Changed for TYPHOON-20:
-- 2619 / NARRA hard locks -> 2620 / GAENARI
-- AUTO workflow verification -> 2620 / GAENARI
-- README / comments -> Typhoon 20 GAENARI
-- GitHub AUTO links -> pkpkksc1/TYPHOON-20
-- Mail subject / attachment / body title remain automatic from dashboard.json
+Why this version exists:
+- JMA previously provided 2620 GAENARI, but the recent feed no longer lists it.
+- A normal refresh therefore removed 2620 from jma_typhoon.json and left the
+  dedicated TYPHOON-20 dashboard empty.
 
-Not added:
-- Representative flight panel
-- Aviationstack API
-- FlightAware API
+This version:
+1. Seeds data/jma_typhoon.json with the last official 2620 GAENARI JMA data
+   already collected by this project.
+   - analysis: 2026-08-23 09:00 JST
+   - position: 25.4N / 122.6E
+   - pressure: 998 hPa
+   - max wind: 18.0 m/s
+   - forecast available through +48h
+2. Seeds data/cma_typhoon.json with the last collected CMA GAENARI data.
+3. fetch_jma_typhoon.py keeps the last official 2620 item if the recent JMA
+   feed no longer contains 2620. It never changes the original report time.
+4. fetch_cma_typhoon.py applies the same last-known rule for GAENARI.
+5. If new live 2620/GAENARI data appears again, live data takes priority.
+6. Representative flights / Aviationstack / FlightAware remain removed.
+7. Automatic email typhoon number/name logic remains enabled.
 
-KMA comparison remains exactly as in the TYPHOON-19 base.
+Important:
+- Preserved data is LAST-KNOWN official data, not a newly observed position.
+- Source timestamps remain unchanged so the dashboard can show its actual age.

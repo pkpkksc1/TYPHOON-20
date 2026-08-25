@@ -2,8 +2,41 @@
   "source": "JMA + KMA",
   "product": "Typhoon Forecast Comparison",
   "parser_version": "3.2-GAENARI-HARDLOCK",
-  "status": "NO_JMA_TYPHOON",
-  "message_ko": "JMA 2620 GAENARI 비교자료 없음",
-  "comparisons": [],
-  "generated_at_utc": "2026-08-25T13:37:00.350483+00:00"
+  "status": "OK",
+  "typhoon": {
+    "number": "2620",
+    "name": "GAENARI"
+  },
+  "summary": {
+    "average_difference_km": null,
+    "max_difference_km": null,
+    "overall": {
+      "level": "NO_DATA",
+      "emoji": "⚪",
+      "label_ko": "비교자료 없음"
+    }
+  },
+  "comparisons": [
+    {
+      "forecast_hour": 24,
+      "jma_time": "2026-08-24T09:00:00+09:00",
+      "status": {
+        "level": "NO_DATA",
+        "emoji": "⚪",
+        "label_ko": "KMA 비교자료 없음"
+      },
+      "time_gap_hours": 42.0
+    },
+    {
+      "forecast_hour": 48,
+      "jma_time": "2026-08-25T09:00:00+09:00",
+      "status": {
+        "level": "NO_DATA",
+        "emoji": "⚪",
+        "label_ko": "KMA 비교자료 없음"
+      },
+      "time_gap_hours": 18.0
+    }
+  ],
+  "generated_at_utc": "2026-08-25T13:45:48.030688+00:00"
 }

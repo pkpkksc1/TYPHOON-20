@@ -1,9 +1,154 @@
 {
-  "status": "WAITING_FOR_TARGET_DATA",
+  "product": "Typhoon Historical Similarity",
+  "parser_version": "1.1",
+  "status": "PROVISIONAL",
+  "source_mode": "JMA (JTWC radius unavailable)",
+  "target_location": {
+    "name_ko": "상하이",
+    "lat": 31.2304,
+    "lon": 121.4737
+  },
   "current_typhoon": {
     "number": "2620",
     "name": "GAENARI"
   },
-  "comparisons": [],
-  "generated_at_utc": "2026-08-25T13:32:50.702619+00:00"
+  "current_metrics": {
+    "closest_distance_km": 657.6,
+    "wind_radius_34kt_km": null,
+    "max_wind_mps_at_closest": 18.0,
+    "closest_forecast_hour": 0,
+    "closest_time_utc": "2026-08-23T09:00:00+09:00",
+    "closest_confirmed": false,
+    "movement_speed_kmh_at_closest": 11.1,
+    "strong_wind_impact_hours": null
+  },
+  "weights_pct": {
+    "closest_distance_km": 30,
+    "wind_radius_34kt_km": 25,
+    "strong_wind_impact_hours": 20,
+    "max_wind_mps_at_closest": 15,
+    "movement_speed_kmh_at_closest": 10
+  },
+  "comparisons": [
+    {
+      "benchmark_id": "DOLPHIN_2026",
+      "benchmark_name": "돌핀(白海豚)",
+      "similarity_pct": 53.7,
+      "available_weight_pct": 55.0,
+      "details": {
+        "closest_distance_km": {
+          "weight_pct": 30.0,
+          "current": 657.6,
+          "historical": 343.0,
+          "similarity_pct": 52.2
+        },
+        "wind_radius_34kt_km": {
+          "weight_pct": 25.0,
+          "current": null,
+          "historical": 650.0,
+          "similarity_pct": null
+        },
+        "strong_wind_impact_hours": {
+          "weight_pct": 20.0,
+          "current": null,
+          "historical": 60.0,
+          "similarity_pct": null
+        },
+        "max_wind_mps_at_closest": {
+          "weight_pct": 15.0,
+          "current": 18.0,
+          "historical": 35.0,
+          "similarity_pct": 51.4
+        },
+        "movement_speed_kmh_at_closest": {
+          "weight_pct": 10.0,
+          "current": 11.1,
+          "historical": 18.0,
+          "similarity_pct": 61.7
+        }
+      }
+    },
+    {
+      "benchmark_id": "INFA_2021",
+      "benchmark_name": "인파(烟花)",
+      "similarity_pct": 37.5,
+      "available_weight_pct": 55.0,
+      "details": {
+        "closest_distance_km": {
+          "weight_pct": 30.0,
+          "current": 657.6,
+          "historical": 58.0,
+          "similarity_pct": 8.8
+        },
+        "wind_radius_34kt_km": {
+          "weight_pct": 25.0,
+          "current": null,
+          "historical": 370.0,
+          "similarity_pct": null
+        },
+        "strong_wind_impact_hours": {
+          "weight_pct": 20.0,
+          "current": null,
+          "historical": 72.0,
+          "similarity_pct": null
+        },
+        "max_wind_mps_at_closest": {
+          "weight_pct": 15.0,
+          "current": 18.0,
+          "historical": 25.0,
+          "similarity_pct": 72.0
+        },
+        "movement_speed_kmh_at_closest": {
+          "weight_pct": 10.0,
+          "current": 11.1,
+          "historical": 8.0,
+          "similarity_pct": 72.1
+        }
+      }
+    }
+  ],
+  "most_similar": {
+    "benchmark_id": "DOLPHIN_2026",
+    "benchmark_name": "돌핀(白海豚)",
+    "similarity_pct": 53.7,
+    "available_weight_pct": 55.0,
+    "details": {
+      "closest_distance_km": {
+        "weight_pct": 30.0,
+        "current": 657.6,
+        "historical": 343.0,
+        "similarity_pct": 52.2
+      },
+      "wind_radius_34kt_km": {
+        "weight_pct": 25.0,
+        "current": null,
+        "historical": 650.0,
+        "similarity_pct": null
+      },
+      "strong_wind_impact_hours": {
+        "weight_pct": 20.0,
+        "current": null,
+        "historical": 60.0,
+        "similarity_pct": null
+      },
+      "max_wind_mps_at_closest": {
+        "weight_pct": 15.0,
+        "current": 18.0,
+        "historical": 35.0,
+        "similarity_pct": 51.4
+      },
+      "movement_speed_kmh_at_closest": {
+        "weight_pct": 10.0,
+        "current": 11.1,
+        "historical": 18.0,
+        "similarity_pct": 61.7
+      }
+    }
+  },
+  "provisional_reasons": [
+    "예보 마지막 지점까지 상하이에 접근 중이거나 JTWC 최접근 확정 전",
+    "JTWC 34kt 상하이 방향 풍권반경 없음",
+    "상하이 강풍 영향 지속시간 계산에 필요한 JTWC 34kt 풍권 자료 없음"
+  ],
+  "generated_at_utc": "2026-08-25T13:46:10.991099+00:00"
 }
