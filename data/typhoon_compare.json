@@ -2,20 +2,8 @@
   "source": "JMA + KMA",
   "product": "Typhoon Forecast Comparison",
   "parser_version": "3.2-GAENARI-HARDLOCK",
-  "status": "WAITING_FOR_TARGET_DATA",
-  "typhoon": {
-    "number": "2620",
-    "name": "GAENARI"
-  },
-  "summary": {
-    "average_difference_km": null,
-    "max_difference_km": null,
-    "overall": {
-      "level": "NO_DATA",
-      "emoji": "⚪",
-      "label_ko": "비교자료 없음"
-    }
-  },
+  "status": "NO_JMA_TYPHOON",
+  "message_ko": "JMA 2620 GAENARI 비교자료 없음",
   "comparisons": [],
-  "generated_at_utc": "2026-08-25T13:32:50.702619+00:00"
+  "generated_at_utc": "2026-08-25T13:37:00.350483+00:00"
 }
