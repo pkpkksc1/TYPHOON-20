@@ -8,6 +8,9 @@
   "typhoon": {
     "number": "2620",
     "name": "GAENARI",
+    "observation_status": "LAST_KNOWN",
+    "last_known": true,
+    "last_observation_time": "2026-08-23T09:00:00+09:00",
     "jtwc_id": null,
     "jtwc_warning_number": null,
     "jtwc_issue_time_utc": null
@@ -36,9 +39,9 @@
       "closest_distance_km": 685,
       "closest_time": "2026-08-23T09:00:00+09:00",
       "closest_forecast_hour": 0,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "YELLOW",
         "emoji": "🟡",
@@ -57,16 +60,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 685
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 746
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 881
         }
       ],
       "risk_summary": {
@@ -156,9 +149,9 @@
       "closest_distance_km": 643,
       "closest_time": "2026-08-23T09:00:00+09:00",
       "closest_forecast_hour": 0,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "YELLOW",
         "emoji": "🟡",
@@ -177,16 +170,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 643
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 747
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 894
         }
       ],
       "risk_summary": {
@@ -276,9 +259,9 @@
       "closest_distance_km": 1389,
       "closest_time": "2026-08-23T09:00:00+09:00",
       "closest_forecast_hour": 0,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -297,16 +280,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 1389
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 1551
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 1707
         }
       ],
       "risk_summary": {
@@ -393,12 +366,12 @@
       "name_ko": "마닐라 국제공항",
       "risk_source": "JMA_DISTANCE_FALLBACK",
       "current_distance_km": 1222,
-      "closest_distance_km": 1022,
-      "closest_time": "2026-08-25T09:00:00+09:00",
-      "closest_forecast_hour": 48,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "closest_distance_km": 1222,
+      "closest_time": "2026-08-23T09:00:00+09:00",
+      "closest_forecast_hour": 0,
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -406,10 +379,10 @@
         "severity_rank": 1,
         "basis": "JTWC 미확보: 중심거리 임시 기준"
       },
-      "risk_forecast_hour": 48,
-      "risk_time": "2026-08-25T09:00:00+09:00",
+      "risk_forecast_hour": 0,
+      "risk_time": "2026-08-23T09:00:00+09:00",
       "risk_detail": {
-        "center_distance_km": 1022,
+        "center_distance_km": 1222,
         "boundary_status_ko": "JTWC 풍권 자료 없음 - 임시 거리 기준"
       },
       "timeline": [
@@ -417,16 +390,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 1222
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 1126
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 1022
         }
       ]
     },
@@ -435,12 +398,12 @@
       "name_ko": "하노이 노이바이 국제공항",
       "risk_source": "JMA_DISTANCE_FALLBACK",
       "current_distance_km": 1775,
-      "closest_distance_km": 1380,
-      "closest_time": "2026-08-25T09:00:00+09:00",
-      "closest_forecast_hour": 48,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "closest_distance_km": 1775,
+      "closest_time": "2026-08-23T09:00:00+09:00",
+      "closest_forecast_hour": 0,
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -448,10 +411,10 @@
         "severity_rank": 1,
         "basis": "JTWC 미확보: 중심거리 임시 기준"
       },
-      "risk_forecast_hour": 48,
-      "risk_time": "2026-08-25T09:00:00+09:00",
+      "risk_forecast_hour": 0,
+      "risk_time": "2026-08-23T09:00:00+09:00",
       "risk_detail": {
-        "center_distance_km": 1380,
+        "center_distance_km": 1775,
         "boundary_status_ko": "JTWC 풍권 자료 없음 - 임시 거리 기준"
       },
       "timeline": [
@@ -459,16 +422,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 1775
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 1511
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 1380
         }
       ],
       "risk_summary": {
@@ -506,9 +459,9 @@
           "label_ko": "낮음",
           "severity_rank": 1,
           "basis_ko": "JTWC 미확보: 중심거리 임시 기준",
-          "closest_distance_km": 1380,
-          "closest_time_utc": "2026-08-25T09:00:00+09:00",
-          "closest_forecast_hour": 48,
+          "closest_distance_km": 1775,
+          "closest_time_utc": "2026-08-23T09:00:00+09:00",
+          "closest_forecast_hour": 0,
           "strong_wind_zone_distance_km": null,
           "strong_wind_zone_status_ko": "JTWC 풍권 자료 없음 - 임시 거리 기준",
           "source": "JTWC",
@@ -555,12 +508,12 @@
       "name_ko": "클락 국제공항",
       "risk_source": "JMA_DISTANCE_FALLBACK",
       "current_distance_km": 1155,
-      "closest_distance_km": 939,
-      "closest_time": "2026-08-25T09:00:00+09:00",
-      "closest_forecast_hour": 48,
-      "trend": "UNKNOWN",
-      "trend_ko": "JTWC 풍권 자료 없음",
-      "trend_emoji": "⚪",
+      "closest_distance_km": 1155,
+      "closest_time": "2026-08-23T09:00:00+09:00",
+      "closest_forecast_hour": 0,
+      "trend": "ENDED",
+      "trend_ko": "마지막 위치",
+      "trend_emoji": "•",
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -568,10 +521,10 @@
         "severity_rank": 1,
         "basis": "JTWC 미확보: 중심거리 임시 기준"
       },
-      "risk_forecast_hour": 48,
-      "risk_time": "2026-08-25T09:00:00+09:00",
+      "risk_forecast_hour": 0,
+      "risk_time": "2026-08-23T09:00:00+09:00",
       "risk_detail": {
-        "center_distance_km": 939,
+        "center_distance_km": 1155,
         "boundary_status_ko": "JTWC 풍권 자료 없음 - 임시 거리 기준"
       },
       "timeline": [
@@ -579,16 +532,6 @@
           "forecast_hour": 0,
           "time": "2026-08-23T09:00:00+09:00",
           "distance_km": 1155
-        },
-        {
-          "forecast_hour": 24,
-          "time": "2026-08-24T09:00:00+09:00",
-          "distance_km": 1048
-        },
-        {
-          "forecast_hour": 48,
-          "time": "2026-08-25T09:00:00+09:00",
-          "distance_km": 939
         }
       ],
       "risk_summary": {
@@ -626,9 +569,9 @@
           "label_ko": "낮음",
           "severity_rank": 1,
           "basis_ko": "JTWC 미확보: 중심거리 임시 기준",
-          "closest_distance_km": 939,
-          "closest_time_utc": "2026-08-25T09:00:00+09:00",
-          "closest_forecast_hour": 48,
+          "closest_distance_km": 1155,
+          "closest_time_utc": "2026-08-23T09:00:00+09:00",
+          "closest_forecast_hour": 0,
           "strong_wind_zone_distance_km": null,
           "strong_wind_zone_status_ko": "JTWC 풍권 자료 없음 - 임시 거리 기준",
           "source": "JTWC",
@@ -762,7 +705,7 @@
       ]
     }
   ],
-  "generated_at_utc": "2026-08-25T13:45:57.231210+00:00",
+  "generated_at_utc": "2026-08-25T14:48:44.889477+00:00",
   "display_policy": {
     "technical_units_visible": false,
     "strong_wind_label_ko": "강풍 영향권",
