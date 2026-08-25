@@ -2603,9 +2603,37 @@ function riskLabelText(label){
 }
 
 function trendText(v){
-  if(!isZh()) return safe(v);
+  const raw = String(v ?? "").trim();
+
+  // 화면 표시만 숨김: JTWC 풍권 자료가 없을 때 내부 fallback 문구는 노출하지 않음.
+  if(raw === "JTWC 풍권 자료 없음" || raw === "JTWC 자료 없음"){
+    return "";
+  }
+
+  if(!isZh()) return safe(raw);
   const map = {"접근 중":"接近中","멀어지는 중":"远离中","영향 중":"影响中","정체":"停滞"};
-  return map[v] || translateKoText(v);
+  return map[raw] || translateKoText(raw);
+}
+
+function routeReasonText(v){
+  let raw = String(v ?? "");
+
+  // 위험도/거리 계산은 그대로 두고, 화면의 JTWC 미확보 설명만 제거.
+  raw = raw
+    .replace(/\s*\(JTWC 풍권 자료 없음\s*-\s*임시 거리 기준\)\s*/g, "")
+    .replace(/\s*\(JTWC 미확보:\s*중심거리 임시 기준\)\s*/g, "")
+    .trim();
+
+  if(
+    raw === "JTWC 풍권 자료 없음 - 임시 거리 기준" ||
+    raw === "JTWC 미확보: 중심거리 임시 기준" ||
+    raw === "JTWC 풍권 자료 없음" ||
+    raw === "JTWC 자료 없음"
+  ){
+    return "";
+  }
+
+  return isZh() ? translateKoText(raw) : safe(raw);
 }
 
 function locationNameText(code,item){
@@ -4072,6 +4100,12 @@ $("pressure")
         item.current_weather || {};
 
 
+      const trendLabel =
+        trendText(
+          item.trend_ko
+        );
+
+
       const el =
         document.createElement(
           "div"
@@ -4098,13 +4132,7 @@ $("pressure")
             </div>
 
             <div class="code">
-              ${code}
-              ·
-              ${
-                trendText(
-                  item.trend_ko
-                )
-              }
+              ${code}${trendLabel ? ` · ${trendLabel}` : ""}
             </div>
 
           </div>
@@ -4222,6 +4250,12 @@ $("pressure")
         r.risk || {};
 
 
+      const reasonLabel =
+        routeReasonText(
+          r.reason_ko
+        );
+
+
       const el =
         document.createElement(
           "div"
@@ -4246,13 +4280,11 @@ $("pressure")
               }
             </div>
 
-            <div class="reason">
-              ${
-                isZh()
-                  ? translateKoText(r.reason_ko)
-                  : safe(r.reason_ko)
-              }
-            </div>
+            ${
+              reasonLabel
+                ? `<div class="reason">${reasonLabel}</div>`
+                : ""
+            }
 
           </div>
 
