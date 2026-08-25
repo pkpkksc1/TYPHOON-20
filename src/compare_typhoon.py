@@ -35,10 +35,10 @@ JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
 KMA_PATH = BASE_DIR / "data" / "kma_typhoon.json"
 OUTPUT_PATH = BASE_DIR / "data" / "typhoon_compare.json"
 
-TARGET_TYPHOON_NUMBER = "2618"
-TARGET_TYPHOON_NAME = "SAUDEL"
+TARGET_TYPHOON_NUMBER = "2620"
+TARGET_TYPHOON_NAME = "GAENARI"
 
-PARSER_VERSION = "3.2-SAUDEL-HARDLOCK"
+PARSER_VERSION = "3.2-GAENARI-HARDLOCK"
 
 # Simple thresholds for the dashboard.
 GREEN_MAX_KM = 50
@@ -152,7 +152,7 @@ def status_from_distance(distance_km: float) -> Dict[str, str]:
 
 
 def get_jma_primary_typhoon(data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-    """Return ONLY JMA 2618 SAUDEL."""
+    """Return ONLY JMA 2620 GAENARI."""
     typhoons = data.get("typhoons", [])
 
     if not isinstance(typhoons, list):
@@ -310,7 +310,7 @@ def make_comparison(
     if not jma_typhoon:
         return {
             "status": "NO_JMA_TYPHOON",
-            "message_ko": "JMA 2618 SAUDEL 비교자료 없음",
+            "message_ko": "JMA 2620 GAENARI 비교자료 없음",
             "comparisons": [],
         }
 

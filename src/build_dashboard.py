@@ -7,8 +7,8 @@ Build one dashboard summary JSON
 
 Inputs:
     data/jma_typhoon.json
+    data/typhoon_compare.json
     data/typhoon_risk.json
-    data/flights.json
 
 Output:
     data/dashboard.json
@@ -25,20 +25,14 @@ from typing import Any, Dict, List
 BASE_DIR = Path(__file__).resolve().parents[1]
 
 JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
+COMPARE_PATH = BASE_DIR / "data" / "typhoon_compare.json"
 RISK_PATH = BASE_DIR / "data" / "typhoon_risk.json"
-FLIGHTS_PATH = BASE_DIR / "data" / "flights.json"
 OUTPUT_PATH = BASE_DIR / "data" / "dashboard.json"
-TARGET_CONFIG_PATH = BASE_DIR / "config" / "typhoon_target.json"
 
-def load_target_typhoon() -> tuple[str, str]:
-    if TARGET_CONFIG_PATH.exists():
-        data = json.loads(TARGET_CONFIG_PATH.read_text(encoding="utf-8"))
-        return str(data.get("number", "")), str(data.get("name", "")).upper()
-    return "", ""
-
-PARSER_VERSION = "8.71.2-T20-NO-COMPARE-NO-FLIGHT"
+PARSER_VERSION = "8.72.0-GAENARI-NO-FLIGHT"
+TARGET_TYPHOON_NUMBER = "2620"
+TARGET_TYPHOON_NAME = "GAENARI"
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
-REPRESENTATIVE_FLIGHTS = ["KE249", "KE335", "PR337", "KJ948", "KJ988"]
 LOCATION_NAME_OVERRIDES = {
     "PVG": "푸동 국제공항",
     "ICN": "인천 국제공항",
@@ -87,46 +81,6 @@ def simplify_location(item: Dict[str, Any], code: str = "") -> Dict[str, Any]:
     }
 
 
-def simplify_flight(item: Dict[str, Any]) -> Dict[str, Any]:
-    dep = item.get("departure", {})
-    arr = item.get("arrival", {})
-    status = item.get("status", {})
-
-    def display_label(event: Dict[str, Any], kind: str) -> str:
-        if event.get("actual_local"):
-            return f"실제 {kind}"
-        if event.get("estimated_local"):
-            return f"예상 {kind}"
-        return f"예정 {kind}"
-
-    return {
-        "flight_iata": item.get("flight_iata"),
-        "route": item.get("route"),
-        "status": {
-            "level": status.get("level"),
-            "emoji": status.get("emoji"),
-            "label_ko": status.get("label_ko"),
-        },
-        "departure": {
-            "scheduled_local": dep.get("scheduled_local"),
-            "estimated_local": dep.get("estimated_local"),
-            "actual_local": dep.get("actual_local"),
-            "display_time_local": dep.get("display_time_local"),
-            "display_label_ko": display_label(dep, "출발"),
-            "delay_minutes": dep.get("calculated_delay_minutes"),
-            "timezone_label_ko": dep.get("timezone_label_ko"),
-        },
-        "arrival": {
-            "scheduled_local": arr.get("scheduled_local"),
-            "estimated_local": arr.get("estimated_local"),
-            "actual_local": arr.get("actual_local"),
-            "display_time_local": arr.get("display_time_local"),
-            "display_label_ko": display_label(arr, "도착"),
-            "delay_minutes": arr.get("calculated_delay_minutes"),
-            "timezone_label_ko": arr.get("timezone_label_ko"),
-        },
-    }
-
 
 def get_typhoon_track(jma: Dict[str, Any]) -> Dict[str, Any]:
     typhoons = jma.get("typhoons", [])
@@ -134,19 +88,17 @@ def get_typhoon_track(jma: Dict[str, Any]) -> Dict[str, Any]:
     if not isinstance(typhoons, list) or not typhoons:
         return {}
 
-    # Dashboard is locked to 2618 SAUDEL.
+    # Dashboard is locked to 2620 GAENARI.
     # Never display another named typhoon or tropical depression.
-    target_number, target_name = load_target_typhoon()
-
     item = next(
         (
             t for t in typhoons
             if isinstance(t, dict)
             and isinstance(t.get("typhoon"), dict)
             and str(t.get("typhoon", {}).get("number") or "").strip()
-                == target_number
+                == TARGET_TYPHOON_NUMBER
             and str(t.get("typhoon", {}).get("name") or "").strip().upper()
-                == target_name
+                == TARGET_TYPHOON_NAME
         ),
         None,
     )
@@ -191,11 +143,74 @@ def get_typhoon_track(jma: Dict[str, Any]) -> Dict[str, Any]:
 
 def main() -> int:
     jma = load_json(JMA_PATH)
+    compare = load_json(COMPARE_PATH)
     risk = load_json(RISK_PATH)
-    flights = {}
 
-    # v8.71.1 TYPHOON-20: flight module disabled (operation dashboard only)
-    flight_summaries = []
+    # HARD GUARD: dashboard must never render risk from another storm.
+    risk_typhoon = risk.get("typhoon") or {}
+    risk_number = str(risk_typhoon.get("number") or "").strip()
+    risk_name = str(risk_typhoon.get("name") or "").strip().upper()
+
+    if (
+        risk_number != TARGET_TYPHOON_NUMBER
+        or risk_name != TARGET_TYPHOON_NAME
+    ):
+        raise RuntimeError(
+            "GAENARI HARD LOCK: typhoon_risk.json is not "
+            f"{TARGET_TYPHOON_NUMBER} {TARGET_TYPHOON_NAME}. "
+            "Dashboard build stopped."
+        )
+
+    compare_summary = compare.get("summary", {})
+    compare_overall = compare_summary.get("overall", {})
+
+    locations: Dict[str, Dict[str, Any]] = {}
+
+    for code in LOCATION_ORDER:
+        item = risk.get("locations", {}).get(code)
+        if isinstance(item, dict):
+            locations[code] = simplify_location(item, code)
+
+    routes: List[Dict[str, Any]] = []
+
+    for route in risk.get("routes", []):
+        if not isinstance(route, dict):
+            continue
+
+        rr = route.get("risk", {})
+
+        route_name = route.get("name_ko")
+        if route.get("code") == "ICN_PVG":
+            route_name = "한국 → PVG"
+
+        routes.append({
+            "code": route.get("code"),
+            "name_ko": route_name,
+            "score": route.get("score"),
+            "risk": {
+                "emoji": rr.get("emoji"),
+                "label_ko": rr.get("label_ko"),
+            },
+            "reason_ko": route.get("reason_ko"),
+        })
+
+    # Manila route: use the worst risk among SUZHOU / PVG / MNL.
+    # This becomes active as soon as MNL exists in data/typhoon_risk.json.
+    if "MNL" in locations and not any(r.get("code") == "SUZHOU_PVG_MNL" for r in routes):
+        route_codes = ["SUZHOU", "PVG", "MNL"]
+        route_items = [locations[c] for c in route_codes if c in locations]
+        level_rank = {"낮음": 1, "주의": 2, "높음": 3}
+        worst = max(
+            route_items,
+            key=lambda x: level_rank.get(x.get("risk", {}).get("label_ko"), 0),
+        )
+        routes.insert(3, {
+            "code": "SUZHOU_PVG_MNL",
+            "name_ko": "쑤저우 → PVG → 마닐라",
+            "score": max((x.get("score") or 0) for x in route_items),
+            "risk": worst.get("risk", {}),
+            "reason_ko": f"{worst.get('name_ko')} {worst.get('risk', {}).get('label_ko')} ({worst.get('reason_ko') or '-'})",
+        })
 
     typhoon_summary = get_typhoon_track(jma)
 
@@ -207,7 +222,7 @@ def main() -> int:
 
         # Source-specific refresh times.
         # These remain tied to the source JSON itself, so rebuilding the
-        # dashboard for flights does not falsely make JMA look newer.
+        # rebuilding the dashboard does not falsely make JMA look newer.
         "source_updated_at_utc": {
             "jma": jma.get("generated_at_utc"),
             "weather": (
@@ -216,7 +231,6 @@ def main() -> int:
                 else None
             ),
             "risk": risk.get("generated_at_utc"),
-            "flights": flights.get("generated_at_utc"),
         },
 
         "risk_meta": {
@@ -241,12 +255,17 @@ def main() -> int:
         },
 
         "typhoon": typhoon_summary,
+        "forecast_comparison": {
+            "emoji": compare_overall.get("emoji", "⚪"),
+            "label_ko": compare_overall.get("label_ko", "비교자료 없음"),
+            "average_difference_km": compare_summary.get("average_difference_km"),
+            "max_difference_km": compare_summary.get("max_difference_km"),
+        },
         "locations": locations,
         "routes": routes,
-        "flights": flight_summaries,
-        "aviationstack_usage": flights.get("api_usage", {}),
         "attribution": [
             "Japan Meteorological Agency (JMA)",
+            "Korea Meteorological Administration (KMA)",
             "Powered by WeatherAPI.com",
         ],
     }
@@ -266,7 +285,6 @@ def main() -> int:
     print(f"Updated: {OUTPUT_PATH}")
     print(f"Locations: {len(locations)}")
     print(f"Routes: {len(routes)}")
-    print(f"Flights: {len(flight_summaries)}")
 
     return 0
 

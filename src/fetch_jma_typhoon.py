@@ -34,6 +34,13 @@ TARGET_TITLE_WORDS = (
 MAX_ENTRY_AGE_HOURS = 12
 MAX_XML_DOWNLOADS = 18
 
+# JMA may publish hourly short updates containing only the current position
+# and a very short (for example +1h) estimate. Keep that update for the
+# current position, but merge it with the latest available multi-day forecast.
+MIN_LONG_FORECAST_HOURS = 48
+SHORT_UPDATE_MAX_HOURS = 6
+MAX_PRESERVED_FORECAST_AGE_HOURS = 12
+
 USER_AGENT = "sblc-typhoon-dashboard/1.2 (JMA XML PULL client)"
 
 
@@ -519,6 +526,217 @@ def identity(item: Dict[str, Any]) -> str:
     )
 
 
+
+def item_issue_time(item: Dict[str, Any]) -> Optional[datetime]:
+    return parse_iso(item.get("report_time") or item.get("feed_updated"))
+
+
+def forecast_horizon_hours(item: Dict[str, Any]) -> int:
+    values: List[int] = []
+    for point in item.get("forecast", []):
+        if not isinstance(point, dict):
+            continue
+        value = point.get("forecast_hour")
+        if isinstance(value, (int, float)):
+            values.append(int(round(value)))
+    return max(values) if values else 0
+
+
+def find_previous_typhoon(
+    previous_data: Dict[str, Any],
+    key: str,
+) -> Optional[Dict[str, Any]]:
+    for item in previous_data.get("typhoons", []):
+        if isinstance(item, dict) and identity(item) == key:
+            return item
+    return None
+
+
+def previous_forecast_is_fresh(
+    previous_item: Dict[str, Any],
+    analysis_time: Optional[str],
+) -> bool:
+    analysis_dt = parse_iso(analysis_time)
+    source_dt = parse_iso(
+        previous_item.get("forecast_source_report_time")
+        or previous_item.get("report_time")
+        or previous_item.get("feed_updated")
+    )
+    if analysis_dt is None or source_dt is None:
+        return False
+
+    age_h = (analysis_dt - source_dt).total_seconds() / 3600
+    return 0 <= age_h <= MAX_PRESERVED_FORECAST_AGE_HOURS
+
+
+def merge_forecast_lists(
+    analysis: Optional[Dict[str, Any]],
+    current_item: Dict[str, Any],
+    long_item: Optional[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    if not analysis:
+        return []
+
+    base_time = analysis.get("time")
+    base_dt = parse_iso(base_time)
+    if base_dt is None:
+        return list(current_item.get("forecast", []))
+
+    # Use the long-range bulletin as the base, then let the newest short
+    # bulletin replace any point with the exact same valid time.
+    by_time: Dict[str, Dict[str, Any]] = {}
+
+    sources: List[Dict[str, Any]] = []
+    if long_item is not None:
+        sources.append(long_item)
+    if current_item is not long_item:
+        sources.append(current_item)
+
+    for source in sources:
+        for raw_point in source.get("forecast", []):
+            if not isinstance(raw_point, dict):
+                continue
+
+            point = json.loads(json.dumps(raw_point, ensure_ascii=False))
+            valid_time = point.get("time")
+            valid_dt = parse_iso(valid_time)
+            if valid_dt is None or valid_dt <= base_dt:
+                continue
+
+            rebased_hour = int(
+                round((valid_dt - base_dt).total_seconds() / 3600)
+            )
+            if rebased_hour <= 0:
+                continue
+
+            point["forecast_hour"] = rebased_hour
+            by_time[str(valid_time)] = point
+
+    forecasts = list(by_time.values())
+    forecasts.sort(
+        key=lambda p: (
+            p.get("forecast_hour") is None,
+            p.get("forecast_hour") or 9999,
+        )
+    )
+    return forecasts
+
+
+def merge_typhoon_items(
+    items: List[Dict[str, Any]],
+    previous_item: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """
+    JMA can publish a newer hourly update with only +1h data after a regular
+    multi-day bulletin. Use the newest valid analysis for the current position
+    and merge it with the newest available long-range forecast.
+
+    If the current feed window no longer contains a long-range bulletin,
+    preserve the previous output's future forecast only for a fresh hourly
+    short-update situation. This prevents a 5-day track from collapsing to
+    one point while avoiding indefinite use of stale forecasts.
+    """
+    ordered = sorted(
+        items,
+        key=lambda x: item_issue_time(x)
+        or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+
+    current_item = next(
+        (
+            item
+            for item in ordered
+            if isinstance(item.get("analysis"), dict)
+            and item.get("analysis", {}).get("lat") is not None
+            and item.get("analysis", {}).get("lon") is not None
+        ),
+        ordered[0],
+    )
+
+    current_horizon = forecast_horizon_hours(current_item)
+
+    long_candidates = [
+        item
+        for item in ordered
+        if forecast_horizon_hours(item) >= MIN_LONG_FORECAST_HOURS
+    ]
+    long_item: Optional[Dict[str, Any]] = (
+        long_candidates[0] if long_candidates else None
+    )
+    long_source = "CURRENT_FETCH" if long_item is not None else None
+
+    # Safety net for the exact failure mode seen on hourly JMA updates:
+    # the latest bulletin is very short, and the older long bulletin can be
+    # pushed outside MAX_XML_DOWNLOADS. Reuse only a still-fresh previous
+    # long forecast and only while the latest bulletin is truly short.
+    if (
+        long_item is None
+        and previous_item is not None
+        and current_horizon <= SHORT_UPDATE_MAX_HOURS
+        and forecast_horizon_hours(previous_item) >= MIN_LONG_FORECAST_HOURS
+        and previous_forecast_is_fresh(
+            previous_item,
+            current_item.get("analysis", {}).get("time"),
+        )
+    ):
+        long_item = previous_item
+        long_source = "PREVIOUS_OUTPUT_FALLBACK"
+
+    # If no multi-day source exists, still use the best forecast available
+    # from this fetch rather than discarding forecasts completely.
+    if long_item is None:
+        long_item = max(
+            ordered,
+            key=lambda x: (
+                forecast_horizon_hours(x),
+                item_issue_time(x)
+                or datetime.min.replace(tzinfo=timezone.utc),
+            ),
+        )
+        long_source = "BEST_AVAILABLE_SHORT"
+
+    merged = json.loads(json.dumps(current_item, ensure_ascii=False))
+    merged["analysis"] = current_item.get("analysis")
+    merged["forecast"] = merge_forecast_lists(
+        merged.get("analysis"),
+        current_item,
+        long_item,
+    )
+
+    max_hour = 0
+    for point in merged["forecast"]:
+        value = point.get("forecast_hour")
+        if isinstance(value, (int, float)):
+            max_hour = max(max_hour, int(round(value)))
+
+    merged["forecast_source_report_time"] = (
+        long_item.get("forecast_source_report_time")
+        or long_item.get("report_time")
+        or long_item.get("feed_updated")
+    )
+    merged["forecast_source_url"] = (
+        long_item.get("forecast_source_url")
+        or long_item.get("source_url")
+    )
+    merged["forecast_merge_mode"] = long_source
+    merged["forecast_max_hour"] = max_hour
+    merged["forecast_quality"] = {
+        "status": (
+            "OK"
+            if max_hour >= MIN_LONG_FORECAST_HOURS
+            else "SHORT_ONLY"
+        ),
+        "current_bulletin_horizon_hour": current_horizon,
+        "merged_horizon_hour": max_hour,
+        "used_previous_output": (
+            long_source == "PREVIOUS_OUTPUT_FALLBACK"
+        ),
+    }
+
+    return merged
+
+
 def semantic_payload(data: Dict[str, Any]) -> Dict[str, Any]:
     clone = json.loads(json.dumps(data, ensure_ascii=False))
     clone.pop("generated_at_utc", None)
@@ -547,6 +765,16 @@ def write_if_changed(data: Dict[str, Any]) -> bool:
 
 def main() -> int:
     locations = load_locations()
+
+    previous_data: Dict[str, Any] = {}
+    if OUTPUT_PATH.exists():
+        try:
+            previous_data = json.loads(
+                OUTPUT_PATH.read_text(encoding="utf-8")
+            )
+        except Exception:
+            previous_data = {}
+
     all_entries: List[Dict[str, str]] = []
     feed_errors: List[str] = []
 
@@ -567,20 +795,20 @@ def main() -> int:
         except Exception as e:
             xml_errors.append(f"{entry['url']}: {type(e).__name__}: {e}")
 
-    # Keep newest item for each typhoon identity.
-    dedup: Dict[str, Dict[str, Any]] = {}
+    # Group all bulletins for the same typhoon. JMA can publish a newer
+    # hourly short update (+1h) after a regular multi-day forecast, so do not
+    # discard the older long-range bulletin simply because its report time is
+    # slightly older.
+    grouped: Dict[str, List[Dict[str, Any]]] = {}
     for item in parsed_items:
-        key = identity(item)
-        current = dedup.get(key)
-        if current is None:
-            dedup[key] = item
-            continue
-        old_dt = parse_iso(current.get("report_time") or current.get("feed_updated"))
-        new_dt = parse_iso(item.get("report_time") or item.get("feed_updated"))
-        if new_dt and (not old_dt or new_dt > old_dt):
-            dedup[key] = item
+        grouped.setdefault(identity(item), []).append(item)
 
-    typhoons = list(dedup.values())
+    typhoons: List[Dict[str, Any]] = []
+    for key, items in grouped.items():
+        previous_item = find_previous_typhoon(previous_data, key)
+        typhoons.append(
+            merge_typhoon_items(items, previous_item)
+        )
     typhoons.sort(
         key=lambda x: parse_iso(x.get("report_time") or x.get("feed_updated"))
         or datetime.min.replace(tzinfo=timezone.utc),
@@ -590,7 +818,7 @@ def main() -> int:
     data = {
         "source": "Japan Meteorological Agency (JMA)",
         "product": "Typhoon Analysis and Forecast Information (5-day)",
-        "parser_version": "1.2",
+        "parser_version": "1.3-JMA-CURRENT-LONG-MERGE",
         "feed_high": HIGH_FEED,
         "feed_long": LONG_FEED,
         "active_count": len(typhoons),

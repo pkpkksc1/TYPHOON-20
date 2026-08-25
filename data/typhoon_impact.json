@@ -1,10 +1,14 @@
 {
   "source": "JMA + KMA + JTWC",
   "product": "Logistics Typhoon Impact",
-  "parser_version": "4.7-CONFIG-TYPHOON",
-  "status": "NO_TYPHOON",
-  "message_ko": "2618 SAUDEL 자료 없음 - 다른 태풍 사용 금지",
+  "parser_version": "4.6-GAENARI-HARDLOCK",
+  "status": "WAITING_FOR_TARGET_DATA",
+  "message_ko": "2620 GAENARI 자료 갱신 대기",
+  "typhoon": {
+    "number": "2620",
+    "name": "GAENARI"
+  },
   "locations": {},
   "routes": [],
-  "generated_at_utc": "2026-08-23T04:06:05.860580+00:00"
+  "generated_at_utc": "2026-08-25T13:32:50.702619+00:00"
 }

@@ -37,8 +37,10 @@ IMPACT_PATH = BASE_DIR / "data" / "typhoon_impact.json"
 WEATHER_PATH = BASE_DIR / "data" / "weather.json"
 OUTPUT_PATH = BASE_DIR / "data" / "typhoon_risk.json"
 
-PARSER_VERSION = "6.7-CONFIG-TYPHOON"
+PARSER_VERSION = "6.6-CURRENT-DISTANCE"
 
+TARGET_TYPHOON_NUMBER = "2620"
+TARGET_TYPHOON_NAME = "GAENARI"
 
 LOCATION_ORDER = ["SUZHOU", "PVG", "ICN", "MNL", "HAN", "CRK"]
 
@@ -391,7 +393,7 @@ def main() -> int:
         or impact_name != TARGET_TYPHOON_NAME
     ):
         raise RuntimeError(
-            "SAUDEL HARD LOCK: typhoon_impact.json is not "
+            "GAENARI HARD LOCK: typhoon_impact.json is not "
             f"{TARGET_TYPHOON_NUMBER} {TARGET_TYPHOON_NAME}. "
             f"Received number={impact_number!r}, name={impact_name!r}. "
             "Risk calculation stopped."

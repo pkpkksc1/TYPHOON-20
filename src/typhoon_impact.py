@@ -43,20 +43,15 @@ JMA_PATH = BASE_DIR / "data" / "jma_typhoon.json"
 COMPARE_PATH = BASE_DIR / "data" / "typhoon_compare.json"
 JTWC_PATH = BASE_DIR / "data" / "jtwc_typhoon.json"
 OUTPUT_PATH = BASE_DIR / "data" / "typhoon_impact.json"
-TARGET_CONFIG_PATH = BASE_DIR / "config" / "typhoon_target.json"
 
-def load_target_typhoon() -> tuple[str, str]:
-    if TARGET_CONFIG_PATH.exists():
-        data = json.loads(TARGET_CONFIG_PATH.read_text(encoding="utf-8"))
-        return str(data.get("number", "")), str(data.get("name", "")).upper()
-    return "", ""
-
-PARSER_VERSION = "4.7-CONFIG-TYPHOON"
+PARSER_VERSION = "4.6-GAENARI-HARDLOCK"
 CAUTION_RADIUS_MULTIPLIER = 1.5
 
-# This dashboard is intentionally locked to Typhoon 2618 SAUDEL.
+# This dashboard is intentionally locked to Typhoon 2620 GAENARI.
 # Other tropical cyclones may exist in source JSON files, but they
 # must never be used for logistics distance / wind-radius calculations.
+TARGET_TYPHOON_NUMBER = "2620"
+TARGET_TYPHOON_NAME = "GAENARI"
 
 # Used only if JTWC radii are unavailable.
 FALLBACK_RED_MAX_KM = 300
@@ -374,7 +369,7 @@ def risk_rank(item: Dict[str, Any]) -> int:
 
 def get_primary_typhoon(jma: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """
-    Return ONLY JMA Typhoon 2618 SAUDEL.
+    Return ONLY JMA Typhoon 2620 GAENARI.
     Never fall back to another tropical system.
     """
     typhoons = jma.get("typhoons", [])
@@ -390,11 +385,9 @@ def get_primary_typhoon(jma: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         number = str(meta.get("number") or "").strip()
         name = str(meta.get("name") or "").strip().upper()
 
-        target_number, target_name = load_target_typhoon()
-
         if (
-            number == target_number
-            and name == target_name
+            number == TARGET_TYPHOON_NUMBER
+            and name == TARGET_TYPHOON_NAME
         ):
             return item
 
@@ -429,18 +422,16 @@ def find_matching_jtwc_storm(
     jma_typhoon: Dict[str, Any],
 ) -> Optional[Dict[str, Any]]:
     """
-    Return ONLY JTWC SAUDEL.
+    Return ONLY JTWC GAENARI.
     No 'single active storm' fallback is allowed.
     """
     meta = jma_typhoon.get("typhoon") or {}
 
-    target_number, target_name = load_target_typhoon()
-
     if (
         str(meta.get("number") or "").strip()
-        != target_number
+        != TARGET_TYPHOON_NUMBER
         or str(meta.get("name") or "").strip().upper()
-        != target_name
+        != TARGET_TYPHOON_NAME
     ):
         return None
 
@@ -459,7 +450,7 @@ def find_matching_jtwc_storm(
     if not candidates:
         return None
 
-    # If duplicate SAUDEL bulletins exist, use the newest warning.
+    # If duplicate GAENARI bulletins exist, use the newest warning.
     return max(
         candidates,
         key=lambda storm: str(storm.get("issue_time_utc") or ""),
@@ -898,7 +889,7 @@ def main() -> int:
     print(f"Typhoon impact parser: {PARSER_VERSION}")
 
     jma = load_json(JMA_PATH)
-    compare = {}
+    compare = load_json_optional(COMPARE_PATH)
     jtwc = load_json_optional(JTWC_PATH)
 
     jma_typhoon = get_primary_typhoon(jma)
@@ -909,7 +900,7 @@ def main() -> int:
             "product": "Logistics Typhoon Impact",
             "parser_version": PARSER_VERSION,
             "status": "NO_TYPHOON",
-            "message_ko": "2618 SAUDEL 자료 없음 - 다른 태풍 사용 금지",
+            "message_ko": "2620 GAENARI 자료 없음 - 다른 태풍 사용 금지",
             "locations": {},
             "routes": [],
         }

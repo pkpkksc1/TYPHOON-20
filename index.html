@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SESS 태풍 물류 운영판</title>
+<title>SESS 태풍 물류 현황판</title>
 
 <style>
 :root{
@@ -1953,10 +1953,6 @@ button {
   border-color: #274866 !important;
 }
 
-
-/* v8.71.1 T20 - representative flights disabled */
-.flights { display:none !important; }
-
 </style>
 
 
@@ -2070,19 +2066,19 @@ h1,h2,h3,.typhoon-title,.flight-no{
 
     <div class="title-row">
       <h1 data-i18n="dashboardTitle">
-        SESS 태풍 물류 운영판
+        SESS 태풍 물류 현황판
       </h1>
 
       <div id="dashboardVersion" class="dashboard-version">
         <span id="autoModeDot" class="auto-dot off">○</span>
         <span id="autoModeText">AUTO ?</span>
-        <span>· v8.71.0</span>
+        <span>· v8.69.7</span>
       </div>
 
       <a
         id="autoControlBtn"
         class="auto-control-btn stop"
-        href="https://github.com/pkpkksc1/TYPHOON/actions/workflows/TYPHOON_AUTO_STOP.yml"
+        href="https://github.com/pkpkksc1/TYPHOON-20/actions/workflows/TYPHOON_AUTO_STOP.yml"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -2493,10 +2489,9 @@ const $ =
 
 const I18N = {
   ko:{
-    dashboardTitle:"SESS 태풍 물류 운영판",
+    dashboardTitle:"SESS 태풍 물류 현황판",
     currentTyphoon:"현재 태풍", pressure:"중심기압", maxWind:"최대풍속", direction:"이동방향", speed:"이동속도",
     hubRisk:"주요 거점 위험도", hubStatus:"물류 거점 상태",
-    flightStatus:"항공편 운항 현황", representativeFlights:"대표 항공편",
     routeRisk:"물류 노선 위험도", majorRoutes:"주요 노선",
     agencyStatus:"태풍 데이터 사용 현황",
     jmaCountry:"일본기상청", kmaCountry:"한국기상청", cmaCountry:"중국기상국", jtwcCountry:"합동태풍경보센터",
@@ -2515,7 +2510,6 @@ const I18N = {
     similarityTitle:"과거 태풍 유사도", similarityBadge:"참고용 · 실제 영향 예측 아님",
     lastAutoPlaceholder:"마지막 자동실행 -", currentTimePlaceholder:"현재시간 -", jmaUpdatedPlaceholder:"JMA 갱신 -", baseTimePlaceholder:"기준 시각 -",
     locationsMetaPlaceholder:"태풍 예보 · 날씨 관측 · 위험도 기준 확인중",
-    flightMetaPlaceholder:"Aviationstack · 이번 달 호출 - / 100회 · 최근 조회 - · 자동 조회 매일 07:00 한국시간 · 5편(5 API)",
     similarityStatusPlaceholder:"현재 예보값 기준 단순 비교", similarityCurrentPlaceholder:"현재 태풍 비교값 불러오는 중...",
     similarityCardPlaceholder:"과거 태풍 비교값 불러오는 중...", similarityBestPlaceholder:"예보가 갱신되면 유사도도 함께 변경됩니다.",
     footerUpdatedPlaceholder:"최종 업데이트 -", sourcesPlaceholder:"데이터 출처 -"
@@ -2524,7 +2518,6 @@ const I18N = {
     dashboardTitle:"台风物流仪表板",
     currentTyphoon:"当前台风", pressure:"中心气压", maxWind:"最大风速", direction:"移动方向", speed:"移动速度",
     hubRisk:"主要节点风险", hubStatus:"物流节点状态",
-    flightStatus:"航班运行情况", representativeFlights:"代表航班",
     routeRisk:"物流路线风险", majorRoutes:"主要路线",
     agencyStatus:"台风数据使用情况",
     jmaCountry:"日本气象厅", kmaCountry:"韩国气象厅", cmaCountry:"中国气象局", jtwcCountry:"联合台风警报中心",
@@ -2543,7 +2536,6 @@ const I18N = {
     similarityTitle:"历史台风相似度", similarityBadge:"仅供参考 · 非实际影响预测",
     lastAutoPlaceholder:"上次自动运行 -", currentTimePlaceholder:"当前时间 -", jmaUpdatedPlaceholder:"JMA 更新 -", baseTimePlaceholder:"基准时间 -",
     locationsMetaPlaceholder:"台风预报 · 天气观测 · 正在确认风险判定标准",
-    flightMetaPlaceholder:"Aviationstack · 本月调用 - / 100次 · 最近查询 - · 自动查询 每天23:00韩国时间 · 5个航班(5 API)",
     similarityStatusPlaceholder:"基于当前预报值的简单比较", similarityCurrentPlaceholder:"正在加载当前台风比较值...",
     similarityCardPlaceholder:"正在加载历史台风比较值...", similarityBestPlaceholder:"预报更新后，相似度也会同步变化。",
     footerUpdatedPlaceholder:"最后更新 -", sourcesPlaceholder:"数据来源 -"
@@ -2566,7 +2558,7 @@ function tr(key){ return (I18N[currentLang] && I18N[currentLang][key]) || (I18N.
 
 function applyStaticLanguage(){
   document.documentElement.lang = isZh() ? "zh-CN" : "ko";
-  document.title = isZh() ? "SESS 台风物流现况板" : "SESS 태풍 물류 운영판";
+  document.title = isZh() ? "SESS 台风物流现况板" : "SESS 태풍 물류 현황판";
 
   document.querySelectorAll("[data-i18n]").forEach(el => {
     el.textContent = tr(el.dataset.i18n);
@@ -2902,7 +2894,7 @@ function updateDataClock(
 
 // ==========================================
 // 태풍 번호
-// 2618 → 26년 18호
+// 2620 → 26년 20호
 // ==========================================
 
 function displayTyphoon(
@@ -3225,7 +3217,7 @@ async function updateAutoModeBadge(){
           "auto-control-btn stop";
 
         controlBtn.href =
-          "https://github.com/pkpkksc1/TYPHOON/actions/workflows/TYPHOON_AUTO_STOP.yml";
+          "https://github.com/pkpkksc1/TYPHOON-20/actions/workflows/TYPHOON_AUTO_STOP.yml";
       }
 
       else{
@@ -3238,7 +3230,7 @@ async function updateAutoModeBadge(){
           "auto-control-btn start";
 
         controlBtn.href =
-          "https://github.com/pkpkksc1/TYPHOON/actions/workflows/TYPHOON_AUTO_START.yml";
+          "https://github.com/pkpkksc1/TYPHOON-20/actions/workflows/TYPHOON_AUTO_START.yml";
       }
     }
 
@@ -3330,7 +3322,7 @@ async function updateAutoModeBadge(){
         "auto-control-btn stop";
 
       controlBtn.href =
-        "https://github.com/pkpkksc1/TYPHOON/actions";
+        "https://github.com/pkpkksc1/TYPHOON-20/actions";
     }
 
     if(
@@ -4302,232 +4294,6 @@ $("pressure")
   );
 
 
-  // ========================================
-  // 대표 항공편 데이터 수집 시각
-  // ========================================
-
-  const flightInlineMeta =
-    $("flightInlineMeta");
-
-  if(
-    flightInlineMeta
-  ){
-
-    const flightUpdated =
-      (
-        d.source_updated_at_utc &&
-        d.source_updated_at_utc.flights
-      )
-        ? riskMetaTime(
-            d.source_updated_at_utc.flights
-          )
-        : "-";
-
-    const apiUsage =
-      (d.aviationstack_usage && typeof d.aviationstack_usage === "object")
-        ? d.aviationstack_usage
-        : {};
-
-    const apiUsed =
-      Number.isFinite(Number(apiUsage.monthly_requests))
-        ? Number(apiUsage.monthly_requests)
-        : "-";
-
-    const apiLimit =
-      Number.isFinite(Number(apiUsage.monthly_limit))
-        ? Number(apiUsage.monthly_limit)
-        : 100;
-
-    flightInlineMeta.textContent = isZh()
-      ? `Aviationstack · 本月调用 ${apiUsed}/${apiLimit}次 · 最近查询 ${flightUpdated} 中国时间 · 自动查询 每天23:00韩国时间 · 5个航班(5 API)`
-      : `Aviationstack · 이번 달 호출 ${apiUsed}/${apiLimit}회 · 최근 조회 ${flightUpdated} 중국시간 · 자동 조회 매일 07:00 한국시간 · 5편(5 API)`;
-  }
-
-
-  // ========================================
-  // 항공편
-  // ========================================
-
-  $("flightsList")
-    .innerHTML = "";
-
-
-  (
-    d.flights || []
-  )
-  .sort((a,b)=>{
-    const order = {
-      "문제":0,
-      "운항 중":1,
-      "출발 예정":2,
-      "도착 완료":3
-    };
-    return (order[a.status?.label_ko] ?? 9) - (order[b.status?.label_ko] ?? 9);
-  })
-  .forEach(
-    f => {
-
-      const st =
-        f.status || {};
-
-
-      const dep =
-        f.departure || {};
-
-
-      const arr =
-        f.arrival || {};
-
-
-      const el =
-        document.createElement(
-          "div"
-        );
-
-
-      el.className =
-        "flight-card";
-
-
-      el.innerHTML = `
-
-        <div class="row">
-
-          <div>
-
-            <div class="flight-no">
-              ${
-                safe(
-                  f.flight_iata
-                )
-              }
-            </div>
-
-            <div class="code">
-              ${
-                safe(
-                  f.route
-                )
-              }
-            </div>
-
-            <div class="flight-group ${
-                (f.group_ko || "").includes("수입") ? "import" : "export"
-              }">
-              ${
-                flightGroupText(
-                  f.group_ko,
-                  f.route
-                )
-              }
-            </div>
-
-          </div>
-
-
-          <div
-            class="
-              pill
-              ${
-                flightClass(
-                  st.label_ko
-                )
-              }
-            "
-          >
-            ${
-              safe(
-                st.emoji
-              )
-            }
-
-            ${
-              flightStatusText(
-                st.label_ko
-              )
-            }
-          </div>
-
-        </div>
-
-
-        <div class="times">
-
-          <div class="timebox">
-
-            <span>
-              ${
-                flightDisplayLabelText(
-                  dep.display_label_ko,
-                  "출발"
-                )
-              }
-              · ${
-                timezoneText(
-                  dep.timezone_label_ko
-                )
-              }
-            </span>
-
-            <b>
-              ${
-                short(
-                  dep.display_time_local
-                )
-              }
-            </b>
-
-          </div>
-
-
-          <div
-            style="
-              text-align:center;
-              color:#73b9ff;
-            "
-          >
-            →
-          </div>
-
-
-          <div class="timebox">
-
-            <span>
-              ${
-                flightDisplayLabelText(
-                  arr.display_label_ko,
-                  "도착"
-                )
-              }
-              · ${
-                timezoneText(
-                  arr.timezone_label_ko
-                )
-              }
-            </span>
-
-            <b>
-              ${
-                short(
-                  arr.display_time_local
-                )
-              }
-            </b>
-
-          </div>
-
-        </div>
-
-      `;
-
-
-      $("flightsList")
-        .appendChild(
-          el
-        );
-
-    }
-  );
 
 
   // ========================================

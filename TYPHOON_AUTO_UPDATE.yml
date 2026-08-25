@@ -142,15 +142,6 @@ jobs:
         shell: bash
         run: timeout 90s python src/typhoon_risk.py
 
-      - name: Fetch representative flights
-        if: steps.mode.outputs.enabled == 'true' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '7 * * * *')
-        env:
-          AVIATIONSTACK_API_KEY: ${{ secrets.AVIATIONSTACK_API_KEY }}
-        shell: bash
-        run: |
-          timeout 180s python src/fetch_flights.py || {
-            echo "::warning::Flight fetch failed/timed out. Previous flight data will be used."
-          }
 
       - name: Build dashboard
         if: steps.mode.outputs.enabled == 'true'

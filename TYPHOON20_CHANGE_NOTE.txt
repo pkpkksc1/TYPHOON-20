@@ -1,0 +1,26 @@
+TYPHOON-20 GAENARI conversion
+
+Base:
+- Latest local TYPHOON-19 structure
+- Representative flights removed
+- Aviationstack / FlightAware API calls removed
+- JMA v1.3 current-position + long-forecast merge retained
+- Automatic email typhoon number/name naming retained
+
+Target:
+- JMA typhoon number: 2620
+- Name: GAENARI
+
+Changed for TYPHOON-20:
+- 2619 / NARRA hard locks -> 2620 / GAENARI
+- AUTO workflow verification -> 2620 / GAENARI
+- README / comments -> Typhoon 20 GAENARI
+- GitHub AUTO links -> pkpkksc1/TYPHOON-20
+- Mail subject / attachment / body title remain automatic from dashboard.json
+
+Not added:
+- Representative flight panel
+- Aviationstack API
+- FlightAware API
+
+KMA comparison remains exactly as in the TYPHOON-19 base.
