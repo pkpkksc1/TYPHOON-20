@@ -70,7 +70,6 @@ jobs:
             "weather.yml"
             "typhoon_impact.yml"
             "typhoon_risk.yml"
-            "flights.yml"
             "dashboard.yml"
           )
 

@@ -5,8 +5,6 @@ on:
   schedule:
     - cron: "7 * * * *"
     - cron: "37 * * * *"
-    # Representative flights: once daily at 23:00 KST (14:00 UTC)
-    - cron: "0 14 * * *"
 
 permissions:
   contents: write
@@ -109,12 +107,12 @@ jobs:
             echo "::warning::JTWC fetch failed/timed out. Previous JTWC data will be used."
           }
 
-      - name: Calculate SAUDEL typhoon impact
+      - name: Calculate GAENARI typhoon impact
         if: steps.mode.outputs.enabled == 'true'
         shell: bash
         run: timeout 90s python src/typhoon_impact.py
 
-      - name: Verify SAUDEL impact hard lock
+      - name: Verify GAENARI impact hard lock
         if: steps.mode.outputs.enabled == 'true'
         shell: bash
         run: |
@@ -137,19 +135,19 @@ jobs:
           print("Impact parser:", parser)
           print("Impact typhoon:", number, name)
 
-          if number != "2618" or name != "SAUDEL":
+          if number != "2620" or name != "GAENARI":
               raise SystemExit(
-                  "ERROR: SAUDEL HARD LOCK FAILED. "
+                  "ERROR: GAENARI HARD LOCK FAILED. "
                   f"number={number!r}, name={name!r}"
               )
 
-          if not parser.startswith("4.6-SAUDEL"):
+          if not parser.startswith("4.6-GAENARI"):
               raise SystemExit(
                   "ERROR: old typhoon_impact.py is still running. "
                   f"parser_version={parser!r}"
               )
 
-          print("OK: impact is locked to 2618 SAUDEL")
+          print("OK: impact is locked to 2620 GAENARI")
           PY
 
       - name: Add CMA impact cross-check
@@ -174,12 +172,12 @@ jobs:
             echo "::warning::WeatherAPI fetch failed/timed out. Previous weather data will be used."
           }
 
-      - name: Calculate SAUDEL combined risk
+      - name: Calculate GAENARI combined risk
         if: steps.mode.outputs.enabled == 'true'
         shell: bash
         run: timeout 90s python src/typhoon_risk.py
 
-      - name: Verify SAUDEL risk hard lock
+      - name: Verify GAENARI risk hard lock
         if: steps.mode.outputs.enabled == 'true'
         shell: bash
         run: |
@@ -196,24 +194,15 @@ jobs:
 
           print("Risk typhoon:", number, name)
 
-          if number != "2618" or name != "SAUDEL":
+          if number != "2620" or name != "GAENARI":
               raise SystemExit(
-                  "ERROR: risk is not 2618 SAUDEL. "
+                  "ERROR: risk is not 2620 GAENARI. "
                   "Dashboard will NOT be rebuilt."
               )
 
-          print("OK: risk is locked to 2618 SAUDEL")
+          print("OK: risk is locked to 2620 GAENARI")
           PY
 
-      - name: Fetch representative flights
-        if: steps.mode.outputs.enabled == 'true' && github.event.schedule == '0 14 * * *'
-        env:
-          AVIATIONSTACK_API_KEY: ${{ secrets.AVIATIONSTACK_API_KEY }}
-        shell: bash
-        run: |
-          timeout 180s python src/fetch_flights.py || {
-            echo "::warning::Flight fetch failed/timed out. Previous flight data will be used."
-          }
 
       - name: Build dashboard
         if: steps.mode.outputs.enabled == 'true'
