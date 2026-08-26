@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-26 18:09"
+        "localtime": "2026-08-26 18:45"
       },
       "current": {
-        "last_updated": "2026-08-26 18:00",
+        "last_updated": "2026-08-26 18:30",
         "rain_mm": 0.0,
         "wind_mps": 4.9,
         "wind_dir": "ENE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-26 18:09"
+        "localtime": "2026-08-26 18:45"
       },
       "current": {
-        "last_updated": "2026-08-26 18:00",
+        "last_updated": "2026-08-26 18:30",
         "rain_mm": 0.0,
         "wind_mps": 4.3,
         "wind_dir": "NE",
@@ -1215,15 +1215,15 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Namni",
+        "name": "Sammok",
         "region": "",
         "country": "South Korea",
-        "lat": 37.45,
-        "lon": 126.417,
-        "localtime": "2026-08-26 19:09"
+        "lat": 37.483,
+        "lon": 126.466,
+        "localtime": "2026-08-26 19:45"
       },
       "current": {
-        "last_updated": "2026-08-26 19:00",
+        "last_updated": "2026-08-26 19:30",
         "rain_mm": 0.0,
         "wind_mps": 2.8,
         "wind_dir": "NNW",
@@ -1816,15 +1816,15 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Airport Village",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-08-26 18:09"
+        "lat": 14.508,
+        "lon": 121.007,
+        "localtime": "2026-08-26 18:45"
       },
       "current": {
-        "last_updated": "2026-08-26 18:00",
+        "last_updated": "2026-08-26 18:30",
         "rain_mm": 0.01,
         "wind_mps": 8.0,
         "wind_dir": "WSW",
@@ -2417,15 +2417,15 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-08-26 17:09"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-08-26 17:45"
       },
       "current": {
-        "last_updated": "2026-08-26 17:00",
+        "last_updated": "2026-08-26 17:30",
         "rain_mm": 0.01,
         "wind_mps": 2.6,
         "wind_dir": "NW",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-26 18:09"
+        "localtime": "2026-08-26 18:45"
       },
       "current": {
-        "last_updated": "2026-08-26 18:00",
+        "last_updated": "2026-08-26 18:30",
         "rain_mm": 0.04,
         "wind_mps": 3.2,
         "wind_dir": "WSW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-26T10:09:16.171554+00:00"
+  "generated_at_utc": "2026-08-26T10:47:59.339524+00:00"
 }
