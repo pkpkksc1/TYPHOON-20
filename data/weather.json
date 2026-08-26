@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-26 11:14"
+        "localtime": "2026-08-26 11:35"
       },
       "current": {
-        "last_updated": "2026-08-26 11:00",
+        "last_updated": "2026-08-26 11:15",
         "rain_mm": 0.0,
         "wind_mps": 3.4,
         "wind_dir": "SE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-26 11:14"
+        "localtime": "2026-08-26 11:35"
       },
       "current": {
-        "last_updated": "2026-08-26 11:00",
+        "last_updated": "2026-08-26 11:30",
         "rain_mm": 0.0,
         "wind_mps": 4.0,
         "wind_dir": "ENE",
@@ -1215,15 +1215,15 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Sammok",
+        "name": "Namni",
         "region": "",
         "country": "South Korea",
-        "lat": 37.483,
-        "lon": 126.466,
-        "localtime": "2026-08-26 12:14"
+        "lat": 37.45,
+        "lon": 126.417,
+        "localtime": "2026-08-26 12:35"
       },
       "current": {
-        "last_updated": "2026-08-26 12:00",
+        "last_updated": "2026-08-26 12:15",
         "rain_mm": 0.0,
         "wind_mps": 2.2,
         "wind_dir": "WSW",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-08-26 11:14"
+        "localtime": "2026-08-26 11:35"
       },
       "current": {
-        "last_updated": "2026-08-26 11:00",
+        "last_updated": "2026-08-26 11:30",
         "rain_mm": 0.0,
         "wind_mps": 6.8,
         "wind_dir": "WSW",
@@ -2417,15 +2417,15 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-08-26 10:14"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-08-26 10:35"
       },
       "current": {
-        "last_updated": "2026-08-26 10:00",
+        "last_updated": "2026-08-26 10:15",
         "rain_mm": 0.5,
         "wind_mps": 2.8,
         "wind_dir": "WNW",
@@ -3018,15 +3018,15 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Culayo",
+        "name": "Mamatitang",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.183,
+        "lat": 15.233,
         "lon": 120.567,
-        "localtime": "2026-08-26 11:14"
+        "localtime": "2026-08-26 11:35"
       },
       "current": {
-        "last_updated": "2026-08-26 11:00",
+        "last_updated": "2026-08-26 11:30",
         "rain_mm": 0.11,
         "wind_mps": 4.6,
         "wind_dir": "SW",
@@ -3124,7 +3124,7 @@
         {
           "time": "2026-08-26 11:00",
           "rain_mm": 0.11,
-          "chance_of_rain_pct": 22,
+          "chance_of_rain_pct": 24,
           "wind_mps": 4.6,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-26T03:15:07.735249+00:00"
+  "generated_at_utc": "2026-08-26T03:35:20.471099+00:00"
 }
