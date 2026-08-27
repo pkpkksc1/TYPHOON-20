@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-08-27 07:24"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-08-27 09:01"
       },
       "current": {
-        "last_updated": "2026-08-27 07:15",
+        "last_updated": "2026-08-27 09:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.9,
+        "wind_mps": 5.6,
         "wind_dir": "NNE",
-        "condition": "Sunny"
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -119,7 +119,7 @@
         {
           "time": "2026-08-27 11:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 10,
+          "chance_of_rain_pct": 11,
           "wind_mps": 6.8,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -223,7 +223,7 @@
         {
           "time": "2026-08-28 00:00",
           "rain_mm": 0.03,
-          "chance_of_rain_pct": 26,
+          "chance_of_rain_pct": 29,
           "wind_mps": 5.4,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -231,7 +231,7 @@
         {
           "time": "2026-08-28 01:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 27,
+          "chance_of_rain_pct": 25,
           "wind_mps": 5.4,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -239,7 +239,7 @@
         {
           "time": "2026-08-28 02:00",
           "rain_mm": 0.52,
-          "chance_of_rain_pct": 61,
+          "chance_of_rain_pct": 60,
           "wind_mps": 5.3,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -247,7 +247,7 @@
         {
           "time": "2026-08-28 03:00",
           "rain_mm": 0.26,
-          "chance_of_rain_pct": 42,
+          "chance_of_rain_pct": 45,
           "wind_mps": 5.4,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -255,7 +255,7 @@
         {
           "time": "2026-08-28 04:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 26,
+          "chance_of_rain_pct": 27,
           "wind_mps": 5.3,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -519,7 +519,7 @@
         {
           "time": "2026-08-29 13:00",
           "rain_mm": 0.25,
-          "chance_of_rain_pct": 26,
+          "chance_of_rain_pct": 25,
           "wind_mps": 6.3,
           "wind_dir": "ESE",
           "condition": "Patchy rain nearby"
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-27 07:24"
+        "localtime": "2026-08-27 09:01"
       },
       "current": {
-        "last_updated": "2026-08-27 07:15",
+        "last_updated": "2026-08-27 08:45",
         "rain_mm": 0.01,
-        "wind_mps": 4.6,
+        "wind_mps": 5.9,
         "wind_dir": "NNE",
         "condition": "Patchy rain nearby"
       },
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-27 08:24"
+        "localtime": "2026-08-27 10:01"
       },
       "current": {
-        "last_updated": "2026-08-27 08:15",
+        "last_updated": "2026-08-27 09:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
+        "wind_mps": 1.6,
         "wind_dir": "N",
         "condition": "Overcast"
       },
@@ -1816,17 +1816,17 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Pulanglupa",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.475,
-        "lon": 120.98,
-        "localtime": "2026-08-27 07:24"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-08-27 09:01"
       },
       "current": {
-        "last_updated": "2026-08-27 07:15",
-        "rain_mm": 0.93,
-        "wind_mps": 8.3,
+        "last_updated": "2026-08-27 08:45",
+        "rain_mm": 0.54,
+        "wind_mps": 8.1,
         "wind_dir": "WSW",
         "condition": "Light rain shower"
       },
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-27 06:24"
+        "localtime": "2026-08-27 08:01"
       },
       "current": {
-        "last_updated": "2026-08-27 06:15",
-        "rain_mm": 0.01,
-        "wind_mps": 1.4,
-        "wind_dir": "NNW",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-08-27 07:45",
+        "rain_mm": 0.0,
+        "wind_mps": 1.7,
+        "wind_dir": "N",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-27 07:24"
+        "localtime": "2026-08-27 09:01"
       },
       "current": {
-        "last_updated": "2026-08-27 07:15",
-        "rain_mm": 0.03,
-        "wind_mps": 1.4,
-        "wind_dir": "SW",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-08-27 09:00",
+        "rain_mm": 0.36,
+        "wind_mps": 3.7,
+        "wind_dir": "WSW",
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-26T23:24:34.435809+00:00"
+  "generated_at_utc": "2026-08-27T01:01:39.147159+00:00"
 }
