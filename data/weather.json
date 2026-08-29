@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-29 17:00"
+        "localtime": "2026-08-29 17:21"
       },
       "current": {
-        "last_updated": "2026-08-29 16:45",
-        "rain_mm": 0.01,
+        "last_updated": "2026-08-29 17:15",
+        "rain_mm": 0.0,
         "wind_mps": 6.0,
         "wind_dir": "ESE",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-29 17:00"
+        "localtime": "2026-08-29 17:21"
       },
       "current": {
-        "last_updated": "2026-08-29 16:45",
-        "rain_mm": 0.01,
+        "last_updated": "2026-08-29 17:15",
+        "rain_mm": 0.0,
         "wind_mps": 5.1,
         "wind_dir": "SE",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-29 18:00"
+        "localtime": "2026-08-29 18:21"
       },
       "current": {
-        "last_updated": "2026-08-29 17:45",
+        "last_updated": "2026-08-29 18:15",
         "rain_mm": 0.0,
-        "wind_mps": 3.8,
+        "wind_mps": 3.4,
         "wind_dir": "WNW",
         "condition": "Sunny"
       },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Airport Village",
-        "region": "Rizal",
+        "name": "Airmen Village",
+        "region": "Pasay",
         "country": "Philippines",
-        "lat": 14.508,
-        "lon": 121.007,
-        "localtime": "2026-08-29 17:00"
+        "lat": 14.526,
+        "lon": 121.016,
+        "localtime": "2026-08-29 17:21"
       },
       "current": {
-        "last_updated": "2026-08-29 16:45",
-        "rain_mm": 5.27,
-        "wind_mps": 9.8,
-        "wind_dir": "SW",
-        "condition": "Moderate or heavy rain shower"
+        "last_updated": "2026-08-29 17:15",
+        "rain_mm": 14.86,
+        "wind_mps": 10.6,
+        "wind_dir": "WSW",
+        "condition": "Torrential rain shower"
       },
       "hourly_forecast": [
         {
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-29 16:00"
+        "localtime": "2026-08-29 16:21"
       },
       "current": {
-        "last_updated": "2026-08-29 15:45",
-        "rain_mm": 0.22,
-        "wind_mps": 1.5,
-        "wind_dir": "ENE",
-        "condition": "Light rain shower"
+        "last_updated": "2026-08-29 16:00",
+        "rain_mm": 0.0,
+        "wind_mps": 1.8,
+        "wind_dir": "NE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-29 17:00"
+        "localtime": "2026-08-29 17:21"
       },
       "current": {
-        "last_updated": "2026-08-29 16:45",
-        "rain_mm": 8.54,
-        "wind_mps": 7.2,
+        "last_updated": "2026-08-29 17:15",
+        "rain_mm": 5.11,
+        "wind_mps": 6.5,
         "wind_dir": "WSW",
-        "condition": "Torrential rain shower"
+        "condition": "Moderate or heavy rain shower"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-29T09:00:04.196789+00:00"
+  "generated_at_utc": "2026-08-29T09:21:04.927653+00:00"
 }
