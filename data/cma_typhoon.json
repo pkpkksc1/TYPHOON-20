@@ -148,7 +148,7 @@
       "name_cn": "沙德尔",
       "state": "start",
       "current": {
-        "point_id": 3325537,
+        "point_id": 3325561,
         "time_utc": "202608300600",
         "grade": "TD",
         "grade_ko": "열대저압부",
@@ -287,5 +287,5 @@
     }
   ],
   "errors": [],
-  "generated_at_utc": "2026-08-30T06:34:09.951171+00:00"
+  "generated_at_utc": "2026-08-30T07:19:36.095135+00:00"
 }
