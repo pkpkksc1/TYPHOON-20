@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-08-30 05:55"
+        "localtime": "2026-08-30 08:12"
       },
       "current": {
-        "last_updated": "2026-08-30 05:45",
-        "rain_mm": 0.32,
-        "wind_mps": 3.4,
-        "wind_dir": "ENE",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-08-30 08:00",
+        "rain_mm": 0.0,
+        "wind_mps": 6.3,
+        "wind_dir": "SE",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-30 05:55"
+        "localtime": "2026-08-30 08:12"
       },
       "current": {
-        "last_updated": "2026-08-30 05:45",
-        "rain_mm": 0.06,
-        "wind_mps": 2.6,
-        "wind_dir": "ESE",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-08-30 08:00",
+        "rain_mm": 0.0,
+        "wind_mps": 4.2,
+        "wind_dir": "SE",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-30 06:55"
+        "localtime": "2026-08-30 09:12"
       },
       "current": {
-        "last_updated": "2026-08-30 06:45",
-        "rain_mm": 0.07,
+        "last_updated": "2026-08-30 09:00",
+        "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "NE",
-        "condition": "Patchy rain nearby"
+        "wind_dir": "NNW",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -1282,7 +1282,7 @@
           "time": "2026-08-30 06:00",
           "rain_mm": 0.07,
           "chance_of_rain_pct": 30,
-          "wind_mps": 1.0,
+          "wind_mps": 0.7,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
         },
@@ -1306,7 +1306,7 @@
           "time": "2026-08-30 09:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 18,
-          "wind_mps": 0.9,
+          "wind_mps": 1.0,
           "wind_dir": "NNW",
           "condition": "Overcast"
         },
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-08-30 05:55"
+        "localtime": "2026-08-30 08:12"
       },
       "current": {
-        "last_updated": "2026-08-30 05:45",
-        "rain_mm": 1.26,
-        "wind_mps": 8.2,
-        "wind_dir": "SW",
+        "last_updated": "2026-08-30 08:00",
+        "rain_mm": 0.67,
+        "wind_mps": 10.3,
+        "wind_dir": "WSW",
         "condition": "Light rain shower"
       },
       "hourly_forecast": [
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-30 04:55"
+        "localtime": "2026-08-30 07:12"
       },
       "current": {
-        "last_updated": "2026-08-30 04:45",
-        "rain_mm": 0.06,
-        "wind_mps": 2.9,
-        "wind_dir": "WNW",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-08-30 07:00",
+        "rain_mm": 0.0,
+        "wind_mps": 2.8,
+        "wind_dir": "NW",
+        "condition": "Mist"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-30 05:55"
+        "localtime": "2026-08-30 08:12"
       },
       "current": {
-        "last_updated": "2026-08-30 05:45",
-        "rain_mm": 1.4,
-        "wind_mps": 1.0,
-        "wind_dir": "SW",
-        "condition": "Light rain shower"
+        "last_updated": "2026-08-30 08:00",
+        "rain_mm": 3.29,
+        "wind_mps": 2.2,
+        "wind_dir": "WSW",
+        "condition": "Moderate or heavy rain shower"
       },
       "hourly_forecast": [
         {
@@ -3077,7 +3077,7 @@
           "time": "2026-08-30 05:00",
           "rain_mm": 1.4,
           "chance_of_rain_pct": 80,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "SW",
           "condition": "Light rain shower"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-29T21:55:24.607731+00:00"
+  "generated_at_utc": "2026-08-30T00:12:50.337294+00:00"
 }
