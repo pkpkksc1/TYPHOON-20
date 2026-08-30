@@ -13,15 +13,15 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-08-31 07:25"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-08-31 07:47"
       },
       "current": {
-        "last_updated": "2026-08-31 07:15",
+        "last_updated": "2026-08-31 07:30",
         "rain_mm": 0.04,
         "wind_mps": 4.1,
         "wind_dir": "SSE",
@@ -119,7 +119,7 @@
         {
           "time": "2026-08-31 11:00",
           "rain_mm": 0.03,
-          "chance_of_rain_pct": 17,
+          "chance_of_rain_pct": 18,
           "wind_mps": 4.0,
           "wind_dir": "SSW",
           "condition": "Patchy rain nearby"
@@ -127,7 +127,7 @@
         {
           "time": "2026-08-31 12:00",
           "rain_mm": 2.13,
-          "chance_of_rain_pct": 64,
+          "chance_of_rain_pct": 67,
           "wind_mps": 3.8,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -135,7 +135,7 @@
         {
           "time": "2026-08-31 13:00",
           "rain_mm": 0.52,
-          "chance_of_rain_pct": 47,
+          "chance_of_rain_pct": 48,
           "wind_mps": 3.8,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -143,7 +143,7 @@
         {
           "time": "2026-08-31 14:00",
           "rain_mm": 0.2,
-          "chance_of_rain_pct": 34,
+          "chance_of_rain_pct": 32,
           "wind_mps": 4.2,
           "wind_dir": "W",
           "condition": "Patchy rain nearby"
@@ -311,7 +311,7 @@
         {
           "time": "2026-09-01 11:00",
           "rain_mm": 0.06,
-          "chance_of_rain_pct": 19,
+          "chance_of_rain_pct": 20,
           "wind_mps": 0.9,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -327,7 +327,7 @@
         {
           "time": "2026-09-01 13:00",
           "rain_mm": 0.03,
-          "chance_of_rain_pct": 15,
+          "chance_of_rain_pct": 13,
           "wind_mps": 1.9,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -335,7 +335,7 @@
         {
           "time": "2026-09-01 14:00",
           "rain_mm": 0.02,
-          "chance_of_rain_pct": 11,
+          "chance_of_rain_pct": 13,
           "wind_mps": 1.9,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-08-31 07:25"
+        "localtime": "2026-08-31 07:47"
       },
       "current": {
-        "last_updated": "2026-08-31 07:15",
+        "last_updated": "2026-08-31 07:45",
         "rain_mm": 0.0,
         "wind_mps": 4.5,
         "wind_dir": "SSE",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-08-31 08:25"
+        "localtime": "2026-08-31 08:47"
       },
       "current": {
-        "last_updated": "2026-08-31 08:15",
+        "last_updated": "2026-08-31 08:30",
         "rain_mm": 3.23,
         "wind_mps": 2.7,
         "wind_dir": "NE",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-08-31 07:25"
+        "localtime": "2026-08-31 07:47"
       },
       "current": {
-        "last_updated": "2026-08-31 07:15",
+        "last_updated": "2026-08-31 07:30",
         "rain_mm": 0.23,
         "wind_mps": 7.9,
         "wind_dir": "SW",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-08-31 06:25"
+        "localtime": "2026-08-31 06:47"
       },
       "current": {
-        "last_updated": "2026-08-31 06:15",
+        "last_updated": "2026-08-31 06:30",
         "rain_mm": 0.02,
         "wind_mps": 3.3,
         "wind_dir": "NW",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-08-31 07:25"
+        "localtime": "2026-08-31 07:47"
       },
       "current": {
-        "last_updated": "2026-08-31 07:15",
+        "last_updated": "2026-08-31 07:45",
         "rain_mm": 0.4,
         "wind_mps": 4.3,
         "wind_dir": "SW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-08-30T23:25:57.931150+00:00"
+  "generated_at_utc": "2026-08-30T23:47:47.717112+00:00"
 }
