@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-03T14:59:02.950775+00:00",
-    "weather": "2026-09-03T14:59:04.274698+00:00"
+    "impact": "2026-09-03T18:34:10.975348+00:00",
+    "weather": "2026-09-03T18:34:12.958742+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -28,7 +28,7 @@
     "SUZHOU": {
       "code": "SUZHOU",
       "name_ko": "쑤저우",
-      "score": 33,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -45,18 +45,18 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 22:45",
+        "current_last_updated": "2026-09-04 02:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.6,
-        "max_72h_rain_mm": 1.69,
-        "max_72h_rain_time": "2026-09-03 00:00",
-        "max_72h_wind_mps": 7.0,
-        "max_72h_wind_time": "2026-09-03 13:00"
+        "current_wind_mps": 4.2,
+        "max_72h_rain_mm": 0.54,
+        "max_72h_rain_time": "2026-09-04 13:00",
+        "max_72h_wind_mps": 6.4,
+        "max_72h_wind_time": "2026-09-04 14:00"
       },
       "score_detail": {
         "distance": 20,
         "rain": 8,
-        "wind": 5
+        "wind": 0
       }
     },
     "PVG": {
@@ -79,11 +79,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 22:45",
-        "current_rain_mm": 0.02,
-        "current_wind_mps": 4.7,
-        "max_72h_rain_mm": 0.62,
-        "max_72h_rain_time": "2026-09-03 00:00",
+        "current_last_updated": "2026-09-04 02:15",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 4.5,
+        "max_72h_rain_mm": 0.57,
+        "max_72h_rain_time": "2026-09-04 14:00",
         "max_72h_wind_mps": 6.4,
         "max_72h_wind_time": "2026-09-04 15:00"
       },
@@ -113,11 +113,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 23:45",
+        "current_last_updated": "2026-09-04 03:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.1,
+        "current_wind_mps": 2.3,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-09-03 23:45",
+        "max_72h_rain_time": "2026-09-04 03:15",
         "max_72h_wind_mps": 6.0,
         "max_72h_wind_time": "2026-09-05 19:00"
       },
@@ -147,9 +147,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 22:45",
-        "current_rain_mm": 0.5,
-        "current_wind_mps": 7.4,
+        "current_last_updated": "2026-09-04 02:15",
+        "current_rain_mm": 1.6,
+        "current_wind_mps": 8.3,
         "max_72h_rain_mm": 3.09,
         "max_72h_rain_time": "2026-09-04 19:00",
         "max_72h_wind_mps": 10.8,
@@ -181,9 +181,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 21:45",
+        "current_last_updated": "2026-09-04 01:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
+        "current_wind_mps": 1.5,
         "max_72h_rain_mm": 0.21,
         "max_72h_rain_time": "2026-09-04 17:00",
         "max_72h_wind_mps": 5.2,
@@ -198,7 +198,7 @@
     "CRK": {
       "code": "CRK",
       "name_ko": "클락 국제공항",
-      "score": 25,
+      "score": 20,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -215,18 +215,18 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-03 22:45",
+        "current_last_updated": "2026-09-04 02:15",
         "current_rain_mm": 0.01,
-        "current_wind_mps": 3.0,
+        "current_wind_mps": 1.8,
         "max_72h_rain_mm": 5.99,
         "max_72h_rain_time": "2026-09-05 21:00",
-        "max_72h_wind_mps": 8.2,
-        "max_72h_wind_time": "2026-09-03 11:00"
+        "max_72h_wind_mps": 6.0,
+        "max_72h_wind_time": "2026-09-04 14:00"
       },
       "score_detail": {
         "distance": 0,
         "rain": 20,
-        "wind": 5
+        "wind": 0
       }
     }
   },
@@ -234,7 +234,7 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 33,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -250,7 +250,7 @@
     {
       "code": "SUZHOU_PVG_HAN",
       "name_ko": "쑤저우 → PVG → 하노이",
-      "score": 33,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -266,7 +266,7 @@
     {
       "code": "SUZHOU_PVG_CRK",
       "name_ko": "쑤저우 → PVG → 클락",
-      "score": 33,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -282,7 +282,7 @@
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 33,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-03T14:59:04.339043+00:00"
+  "generated_at_utc": "2026-09-03T18:34:13.013799+00:00"
 }
