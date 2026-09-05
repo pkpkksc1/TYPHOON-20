@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-05T01:21:08.267690+00:00",
-    "weather": "2026-09-05T01:21:09.486296+00:00"
+    "impact": "2026-09-05T04:17:50.262186+00:00",
+    "weather": "2026-09-05T04:17:51.608738+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,13 +45,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 09:15",
-        "current_rain_mm": 0.0,
-        "current_wind_mps": 4.8,
-        "max_72h_rain_mm": 0.18,
-        "max_72h_rain_time": "2026-09-06 11:00",
-        "max_72h_wind_mps": 6.0,
-        "max_72h_wind_time": "2026-09-05 14:00"
+        "current_last_updated": "2026-09-05 12:00",
+        "current_rain_mm": 0.03,
+        "current_wind_mps": 5.6,
+        "max_72h_rain_mm": 0.2,
+        "max_72h_rain_time": "2026-09-07 16:00",
+        "max_72h_wind_mps": 5.9,
+        "max_72h_wind_time": "2026-09-05 16:00"
       },
       "score_detail": {
         "distance": 20,
@@ -79,13 +79,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 09:15",
-        "current_rain_mm": 0.37,
-        "current_wind_mps": 5.0,
-        "max_72h_rain_mm": 0.48,
-        "max_72h_rain_time": "2026-09-05 07:00",
-        "max_72h_wind_mps": 6.1,
-        "max_72h_wind_time": "2026-09-07 13:00"
+        "current_last_updated": "2026-09-05 12:00",
+        "current_rain_mm": 0.04,
+        "current_wind_mps": 5.7,
+        "max_72h_rain_mm": 0.37,
+        "max_72h_rain_time": "2026-09-05 03:00",
+        "max_72h_wind_mps": 5.8,
+        "max_72h_wind_time": "2026-09-06 09:00"
       },
       "score_detail": {
         "distance": 20,
@@ -113,13 +113,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 10:15",
+        "current_last_updated": "2026-09-05 13:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 5.3,
+        "current_wind_mps": 4.2,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-09-05 10:15",
-        "max_72h_wind_mps": 6.2,
-        "max_72h_wind_time": "2026-09-05 20:00"
+        "max_72h_rain_time": "2026-09-05 13:15",
+        "max_72h_wind_mps": 6.1,
+        "max_72h_wind_time": "2026-09-05 21:00"
       },
       "score_detail": {
         "distance": 0,
@@ -130,13 +130,13 @@
     "MNL": {
       "code": "MNL",
       "name_ko": "마닐라 국제공항",
-      "score": 20,
+      "score": 25,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.88 mm",
+      "reason_ko": "최대 시간당 강수 4.99 mm / 최대 풍속 10.9 m/s",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1222,
@@ -147,18 +147,18 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 09:15",
-        "current_rain_mm": 0.1,
-        "current_wind_mps": 7.9,
-        "max_72h_rain_mm": 2.88,
-        "max_72h_rain_time": "2026-09-05 05:00",
-        "max_72h_wind_mps": 8.9,
-        "max_72h_wind_time": "2026-09-05 16:00"
+        "current_last_updated": "2026-09-05 12:15",
+        "current_rain_mm": 0.02,
+        "current_wind_mps": 10.9,
+        "max_72h_rain_mm": 4.99,
+        "max_72h_rain_time": "2026-09-07 03:00",
+        "max_72h_wind_mps": 10.9,
+        "max_72h_wind_time": "2026-09-05 12:15"
       },
       "score_detail": {
         "distance": 0,
         "rain": 15,
-        "wind": 5
+        "wind": 10
       }
     },
     "HAN": {
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 08:15",
-        "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
-        "max_72h_rain_mm": 0.07,
-        "max_72h_rain_time": "2026-09-05 15:00",
-        "max_72h_wind_mps": 4.2,
-        "max_72h_wind_time": "2026-09-07 20:00"
+        "current_last_updated": "2026-09-05 11:00",
+        "current_rain_mm": 0.02,
+        "current_wind_mps": 2.0,
+        "max_72h_rain_mm": 0.17,
+        "max_72h_rain_time": "2026-09-07 11:00",
+        "max_72h_wind_mps": 4.4,
+        "max_72h_wind_time": "2026-09-05 15:00"
       },
       "score_detail": {
         "distance": 0,
@@ -198,13 +198,13 @@
     "CRK": {
       "code": "CRK",
       "name_ko": "클락 국제공항",
-      "score": 15,
+      "score": 8,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 3.85 mm",
+      "reason_ko": "특이 위험요소 낮음",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1155,
@@ -215,17 +215,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-05 09:15",
-        "current_rain_mm": 0.87,
-        "current_wind_mps": 3.0,
-        "max_72h_rain_mm": 3.85,
-        "max_72h_rain_time": "2026-09-05 11:00",
-        "max_72h_wind_mps": 6.4,
+        "current_last_updated": "2026-09-05 12:15",
+        "current_rain_mm": 0.46,
+        "current_wind_mps": 4.6,
+        "max_72h_rain_mm": 1.19,
+        "max_72h_rain_time": "2026-09-07 02:00",
+        "max_72h_wind_mps": 5.3,
         "max_72h_wind_time": "2026-09-06 12:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 15,
+        "rain": 8,
         "wind": 0
       }
     }
@@ -282,13 +282,13 @@
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 23,
+      "score": 25,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)",
+      "reason_ko": "마닐라 국제공항 낮음 (최대 시간당 강수 4.99 mm / 최대 풍속 10.9 m/s)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-05T01:21:09.548484+00:00"
+  "generated_at_utc": "2026-09-05T04:17:51.668204+00:00"
 }
