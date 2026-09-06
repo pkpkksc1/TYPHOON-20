@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-07 05:18"
+        "localtime": "2026-09-07 05:39"
       },
       "current": {
-        "last_updated": "2026-09-07 05:00",
+        "last_updated": "2026-09-07 05:30",
         "rain_mm": 0.0,
         "wind_mps": 2.6,
         "wind_dir": "N",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-07 05:18"
+        "localtime": "2026-09-07 05:39"
       },
       "current": {
-        "last_updated": "2026-09-07 05:15",
+        "last_updated": "2026-09-07 05:30",
         "rain_mm": 0.05,
         "wind_mps": 2.0,
         "wind_dir": "NNW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-07 06:18"
+        "localtime": "2026-09-07 06:39"
       },
       "current": {
-        "last_updated": "2026-09-07 06:00",
+        "last_updated": "2026-09-07 06:30",
         "rain_mm": 0.0,
         "wind_mps": 2.1,
         "wind_dir": "NNE",
@@ -1816,15 +1816,15 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Almanza",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-09-07 05:18"
+        "lat": 14.483,
+        "lon": 120.983,
+        "localtime": "2026-09-07 05:39"
       },
       "current": {
-        "last_updated": "2026-09-07 05:15",
+        "last_updated": "2026-09-07 05:30",
         "rain_mm": 0.02,
         "wind_mps": 4.5,
         "wind_dir": "WSW",
@@ -1906,7 +1906,7 @@
         {
           "time": "2026-09-07 09:00",
           "rain_mm": 0.27,
-          "chance_of_rain_pct": 35,
+          "chance_of_rain_pct": 38,
           "wind_mps": 6.5,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -1922,7 +1922,7 @@
         {
           "time": "2026-09-07 11:00",
           "rain_mm": 0.45,
-          "chance_of_rain_pct": 41,
+          "chance_of_rain_pct": 45,
           "wind_mps": 7.2,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -2306,7 +2306,7 @@
         {
           "time": "2026-09-09 11:00",
           "rain_mm": 0.75,
-          "chance_of_rain_pct": 49,
+          "chance_of_rain_pct": 54,
           "wind_mps": 6.3,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -2314,7 +2314,7 @@
         {
           "time": "2026-09-09 12:00",
           "rain_mm": 0.8,
-          "chance_of_rain_pct": 52,
+          "chance_of_rain_pct": 50,
           "wind_mps": 7.2,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -2322,7 +2322,7 @@
         {
           "time": "2026-09-09 13:00",
           "rain_mm": 1.07,
-          "chance_of_rain_pct": 61,
+          "chance_of_rain_pct": 63,
           "wind_mps": 8.2,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-07 04:18"
+        "localtime": "2026-09-07 04:39"
       },
       "current": {
-        "last_updated": "2026-09-07 04:00",
+        "last_updated": "2026-09-07 04:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "NE",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-07 05:18"
+        "localtime": "2026-09-07 05:39"
       },
       "current": {
-        "last_updated": "2026-09-07 05:00",
+        "last_updated": "2026-09-07 05:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "WNW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-06T21:18:24.337435+00:00"
+  "generated_at_utc": "2026-09-06T21:39:48.787679+00:00"
 }
