@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-06T13:37:41.383206+00:00",
-    "weather": "2026-09-06T13:37:43.385390+00:00"
+    "impact": "2026-09-06T13:47:13.570576+00:00",
+    "weather": "2026-09-06T13:47:14.857384+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -181,7 +181,7 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-06 20:15",
+        "current_last_updated": "2026-09-06 20:30",
         "current_rain_mm": 0.01,
         "current_wind_mps": 4.4,
         "max_72h_rain_mm": 0.39,
@@ -215,7 +215,7 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-06 21:30",
+        "current_last_updated": "2026-09-06 21:45",
         "current_rain_mm": 0.2,
         "current_wind_mps": 2.4,
         "max_72h_rain_mm": 2.55,
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-06T13:37:43.444926+00:00"
+  "generated_at_utc": "2026-09-06T13:47:14.908701+00:00"
 }
