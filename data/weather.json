@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Suzhou",
+        "name": "Yangchiatsun",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.311,
-        "lon": 120.618,
-        "localtime": "2026-09-11 06:30"
+        "lat": 31.285,
+        "lon": 120.596,
+        "localtime": "2026-09-11 07:22"
       },
       "current": {
-        "last_updated": "2026-09-11 06:15",
+        "last_updated": "2026-09-11 07:15",
         "rain_mm": 0.0,
-        "wind_mps": 4.4,
+        "wind_mps": 4.0,
         "wind_dir": "NW",
-        "condition": "Cloudy"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -575,7 +575,7 @@
         {
           "time": "2026-09-13 20:00",
           "rain_mm": 0.07,
-          "chance_of_rain_pct": 26,
+          "chance_of_rain_pct": 25,
           "wind_mps": 4.2,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
@@ -583,7 +583,7 @@
         {
           "time": "2026-09-13 21:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 22,
+          "chance_of_rain_pct": 20,
           "wind_mps": 3.7,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-11 06:30"
+        "localtime": "2026-09-11 07:22"
       },
       "current": {
-        "last_updated": "2026-09-11 06:15",
-        "rain_mm": 0.12,
+        "last_updated": "2026-09-11 07:15",
+        "rain_mm": 0.25,
         "wind_mps": 2.1,
         "wind_dir": "NW",
-        "condition": "Patchy rain nearby"
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -1215,15 +1215,15 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Namni",
+        "name": "Sammok",
         "region": "",
         "country": "South Korea",
-        "lat": 37.45,
-        "lon": 126.417,
-        "localtime": "2026-09-11 07:30"
+        "lat": 37.483,
+        "lon": 126.466,
+        "localtime": "2026-09-11 08:22"
       },
       "current": {
-        "last_updated": "2026-09-11 07:15",
+        "last_updated": "2026-09-11 08:15",
         "rain_mm": 0.0,
         "wind_mps": 1.8,
         "wind_dir": "NNE",
@@ -1816,18 +1816,18 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Airmen Village",
+        "region": "Pasay",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-09-11 06:30"
+        "lat": 14.526,
+        "lon": 121.016,
+        "localtime": "2026-09-11 07:22"
       },
       "current": {
-        "last_updated": "2026-09-11 06:15",
-        "rain_mm": 0.78,
-        "wind_mps": 1.0,
-        "wind_dir": "SSE",
+        "last_updated": "2026-09-11 07:15",
+        "rain_mm": 0.57,
+        "wind_mps": 1.1,
+        "wind_dir": "E",
         "condition": "Light rain shower"
       },
       "hourly_forecast": [
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-11 05:30"
+        "localtime": "2026-09-11 06:22"
       },
       "current": {
-        "last_updated": "2026-09-11 05:15",
-        "rain_mm": 0.21,
-        "wind_mps": 2.7,
+        "last_updated": "2026-09-11 06:15",
+        "rain_mm": 0.0,
+        "wind_mps": 3.0,
         "wind_dir": "N",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-11 06:30"
+        "localtime": "2026-09-11 07:22"
       },
       "current": {
-        "last_updated": "2026-09-11 06:30",
-        "rain_mm": 25.83,
+        "last_updated": "2026-09-11 07:15",
+        "rain_mm": 6.53,
         "wind_mps": 1.6,
-        "wind_dir": "SW",
-        "condition": "Heavy rain"
+        "wind_dir": "SSW",
+        "condition": "Moderate or heavy rain shower"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-10T22:30:03.855302+00:00"
+  "generated_at_utc": "2026-09-10T23:22:08.594171+00:00"
 }
