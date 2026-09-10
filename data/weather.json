@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-10 13:10"
+        "localtime": "2026-09-10 13:53"
       },
       "current": {
-        "last_updated": "2026-09-10 13:00",
+        "last_updated": "2026-09-10 13:45",
         "rain_mm": 0.01,
         "wind_mps": 6.5,
         "wind_dir": "NNW",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-10 13:10"
+        "localtime": "2026-09-10 13:53"
       },
       "current": {
-        "last_updated": "2026-09-10 13:00",
+        "last_updated": "2026-09-10 13:45",
         "rain_mm": 0.03,
         "wind_mps": 4.5,
         "wind_dir": "NNW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-10 14:10"
+        "localtime": "2026-09-10 14:53"
       },
       "current": {
-        "last_updated": "2026-09-10 14:00",
+        "last_updated": "2026-09-10 14:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "SE",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-10 13:10"
+        "localtime": "2026-09-10 13:53"
       },
       "current": {
-        "last_updated": "2026-09-10 13:00",
+        "last_updated": "2026-09-10 13:45",
         "rain_mm": 0.56,
         "wind_mps": 1.0,
         "wind_dir": "WSW",
@@ -2417,15 +2417,15 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Noi Bai",
+        "name": "Huong Gia",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.217,
-        "lon": 105.817,
-        "localtime": "2026-09-10 12:10"
+        "lat": 21.2,
+        "lon": 105.8,
+        "localtime": "2026-09-10 12:53"
       },
       "current": {
-        "last_updated": "2026-09-10 12:00",
+        "last_updated": "2026-09-10 12:45",
         "rain_mm": 0.7,
         "wind_mps": 3.0,
         "wind_dir": "E",
@@ -3018,15 +3018,15 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Mamatitang",
+        "name": "Culayo",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.233,
+        "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-10 13:10"
+        "localtime": "2026-09-10 13:53"
       },
       "current": {
-        "last_updated": "2026-09-10 13:00",
+        "last_updated": "2026-09-10 13:45",
         "rain_mm": 4.4,
         "wind_mps": 1.2,
         "wind_dir": "SSE",
@@ -3332,7 +3332,7 @@
         {
           "time": "2026-09-11 13:00",
           "rain_mm": 0.56,
-          "chance_of_rain_pct": 65,
+          "chance_of_rain_pct": 66,
           "wind_mps": 2.0,
           "wind_dir": "SSE",
           "condition": "Light rain shower"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-10T05:10:41.393352+00:00"
+  "generated_at_utc": "2026-09-10T05:53:46.871735+00:00"
 }
