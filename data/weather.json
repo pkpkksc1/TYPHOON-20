@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-10 08:32"
+        "localtime": "2026-09-10 09:00"
       },
       "current": {
-        "last_updated": "2026-09-10 08:15",
+        "last_updated": "2026-09-10 08:45",
         "rain_mm": 0.0,
         "wind_mps": 5.2,
         "wind_dir": "NNW",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-10 08:32"
+        "localtime": "2026-09-10 09:00"
       },
       "current": {
-        "last_updated": "2026-09-10 08:15",
+        "last_updated": "2026-09-10 08:45",
         "rain_mm": 0.0,
         "wind_mps": 4.5,
         "wind_dir": "NW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-10 09:32"
+        "localtime": "2026-09-10 10:00"
       },
       "current": {
-        "last_updated": "2026-09-10 09:15",
+        "last_updated": "2026-09-10 09:45",
         "rain_mm": 0.0,
         "wind_mps": 2.9,
         "wind_dir": "ENE",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-10 08:32"
+        "localtime": "2026-09-10 09:00"
       },
       "current": {
-        "last_updated": "2026-09-10 08:15",
+        "last_updated": "2026-09-10 08:45",
         "rain_mm": 0.11,
         "wind_mps": 2.4,
         "wind_dir": "SSE",
@@ -2417,15 +2417,15 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Noi Bai",
+        "name": "Huong Gia",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.217,
-        "lon": 105.817,
-        "localtime": "2026-09-10 07:32"
+        "lat": 21.2,
+        "lon": 105.8,
+        "localtime": "2026-09-10 08:00"
       },
       "current": {
-        "last_updated": "2026-09-10 07:15",
+        "last_updated": "2026-09-10 07:45",
         "rain_mm": 0.55,
         "wind_mps": 1.0,
         "wind_dir": "SE",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-10 08:32"
+        "localtime": "2026-09-10 09:00"
       },
       "current": {
-        "last_updated": "2026-09-10 08:30",
+        "last_updated": "2026-09-10 08:45",
         "rain_mm": 2.92,
         "wind_mps": 1.0,
         "wind_dir": "SSE",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-10T00:32:29.541751+00:00"
+  "generated_at_utc": "2026-09-10T01:00:46.741882+00:00"
 }
