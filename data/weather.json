@@ -18,7 +18,7 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-12 06:30"
+        "localtime": "2026-09-12 06:45"
       },
       "current": {
         "last_updated": "2026-09-12 06:30",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-12 06:30"
+        "localtime": "2026-09-12 06:45"
       },
       "current": {
-        "last_updated": "2026-09-12 06:15",
+        "last_updated": "2026-09-12 06:30",
         "rain_mm": 0.0,
         "wind_mps": 1.7,
         "wind_dir": "NE",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-12 07:30"
+        "localtime": "2026-09-12 07:45"
       },
       "current": {
-        "last_updated": "2026-09-12 07:15",
+        "last_updated": "2026-09-12 07:30",
         "rain_mm": 0.0,
         "wind_mps": 1.7,
         "wind_dir": "NNE",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-12 06:30"
+        "localtime": "2026-09-12 06:45"
       },
       "current": {
-        "last_updated": "2026-09-12 06:15",
+        "last_updated": "2026-09-12 06:30",
         "rain_mm": 0.17,
         "wind_mps": 1.0,
         "wind_dir": "NNE",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-12 05:30"
+        "localtime": "2026-09-12 05:45"
       },
       "current": {
-        "last_updated": "2026-09-12 05:15",
+        "last_updated": "2026-09-12 05:30",
         "rain_mm": 0.0,
         "wind_mps": 2.9,
         "wind_dir": "NW",
@@ -3023,7 +3023,7 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-12 06:30"
+        "localtime": "2026-09-12 06:45"
       },
       "current": {
         "last_updated": "2026-09-12 06:30",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-11T22:30:55.115659+00:00"
+  "generated_at_utc": "2026-09-11T22:45:24.436608+00:00"
 }
