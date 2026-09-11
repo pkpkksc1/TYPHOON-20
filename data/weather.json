@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-12 03:37"
+        "localtime": "2026-09-12 03:59"
       },
       "current": {
-        "last_updated": "2026-09-12 03:30",
+        "last_updated": "2026-09-12 03:45",
         "rain_mm": 0.0,
         "wind_mps": 2.0,
         "wind_dir": "NE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-12 03:37"
+        "localtime": "2026-09-12 03:59"
       },
       "current": {
-        "last_updated": "2026-09-12 03:30",
+        "last_updated": "2026-09-12 03:45",
         "rain_mm": 0.0,
         "wind_mps": 1.4,
         "wind_dir": "NE",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-12 04:37"
+        "localtime": "2026-09-12 04:59"
       },
       "current": {
-        "last_updated": "2026-09-12 04:30",
+        "last_updated": "2026-09-12 04:45",
         "rain_mm": 0.0,
         "wind_mps": 1.4,
         "wind_dir": "NNE",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-12 03:37"
+        "localtime": "2026-09-12 03:59"
       },
       "current": {
-        "last_updated": "2026-09-12 03:30",
+        "last_updated": "2026-09-12 03:45",
         "rain_mm": 0.0,
         "wind_mps": 1.2,
         "wind_dir": "ESE",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-12 02:37"
+        "localtime": "2026-09-12 02:59"
       },
       "current": {
-        "last_updated": "2026-09-12 02:30",
+        "last_updated": "2026-09-12 02:45",
         "rain_mm": 0.0,
         "wind_mps": 3.0,
         "wind_dir": "NW",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-12 03:37"
+        "localtime": "2026-09-12 03:59"
       },
       "current": {
-        "last_updated": "2026-09-12 03:30",
+        "last_updated": "2026-09-12 03:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "SSW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-11T19:37:40.321187+00:00"
+  "generated_at_utc": "2026-09-11T19:59:59.335644+00:00"
 }
