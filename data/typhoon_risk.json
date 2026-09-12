@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-12T14:20:47.902327+00:00",
-    "weather": "2026-09-12T14:20:51.072574+00:00"
+    "impact": "2026-09-12T17:03:10.695200+00:00",
+    "weather": "2026-09-12T17:03:11.994932+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,13 +45,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 22:15",
+        "current_last_updated": "2026-09-13 00:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.8,
+        "current_wind_mps": 1.9,
         "max_72h_rain_mm": 0.01,
         "max_72h_rain_time": "2026-09-13 18:00",
-        "max_72h_wind_mps": 4.9,
-        "max_72h_wind_time": "2026-09-14 15:00"
+        "max_72h_wind_mps": 5.8,
+        "max_72h_wind_time": "2026-09-15 17:00"
       },
       "score_detail": {
         "distance": 20,
@@ -79,13 +79,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 22:15",
+        "current_last_updated": "2026-09-13 01:00",
         "current_rain_mm": 0.0,
         "current_wind_mps": 1.1,
-        "max_72h_rain_mm": 0.03,
-        "max_72h_rain_time": "2026-09-13 11:00",
-        "max_72h_wind_mps": 4.6,
-        "max_72h_wind_time": "2026-09-14 16:00"
+        "max_72h_rain_mm": 0.01,
+        "max_72h_rain_time": "2026-09-13 15:00",
+        "max_72h_wind_mps": 4.9,
+        "max_72h_wind_time": "2026-09-15 14:00"
       },
       "score_detail": {
         "distance": 20,
@@ -113,11 +113,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 23:15",
+        "current_last_updated": "2026-09-13 02:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
+        "current_wind_mps": 1.1,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-09-12 23:15",
+        "max_72h_rain_time": "2026-09-13 02:00",
         "max_72h_wind_mps": 5.2,
         "max_72h_wind_time": "2026-09-14 17:00"
       },
@@ -147,9 +147,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 22:15",
+        "current_last_updated": "2026-09-13 01:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.5,
+        "current_wind_mps": 4.3,
         "max_72h_rain_mm": 3.14,
         "max_72h_rain_time": "2026-09-14 20:00",
         "max_72h_wind_mps": 4.8,
@@ -170,7 +170,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 10.59 mm",
+      "reason_ko": "최대 시간당 강수 38.68 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1775,
@@ -181,11 +181,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 21:00",
+        "current_last_updated": "2026-09-13 00:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.6,
-        "max_72h_rain_mm": 10.59,
-        "max_72h_rain_time": "2026-09-14 22:00",
+        "current_wind_mps": 2.8,
+        "max_72h_rain_mm": 38.68,
+        "max_72h_rain_time": "2026-09-15 00:00",
         "max_72h_wind_mps": 6.4,
         "max_72h_wind_time": "2026-09-14 13:00"
       },
@@ -215,9 +215,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-12 22:15",
-        "current_rain_mm": 0.21,
-        "current_wind_mps": 1.8,
+        "current_last_updated": "2026-09-13 00:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 1.0,
         "max_72h_rain_mm": 4.51,
         "max_72h_rain_time": "2026-09-13 18:00",
         "max_72h_wind_mps": 4.1,
@@ -256,7 +256,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "하노이 노이바이 국제공항 낮음 (최대 시간당 강수 10.59 mm)",
+      "reason_ko": "하노이 노이바이 국제공항 낮음 (최대 시간당 강수 38.68 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-12T14:20:51.131322+00:00"
+  "generated_at_utc": "2026-09-12T17:03:12.046041+00:00"
 }

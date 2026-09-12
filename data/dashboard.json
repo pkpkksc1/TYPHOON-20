@@ -2,18 +2,18 @@
   "source": "SBLC Typhoon Dashboard",
   "product": "Dashboard Summary",
   "parser_version": "8.72.0-GAENARI-NO-FLIGHT",
-  "generated_at_utc": "2026-09-12T14:20:51.215423+00:00",
+  "generated_at_utc": "2026-09-12T17:03:12.121543+00:00",
   "source_updated_at_utc": {
     "jma": "2026-09-07T16:24:49.768646+00:00",
-    "weather": "2026-09-12T14:20:51.072574+00:00",
-    "risk": "2026-09-12T14:20:51.131322+00:00"
+    "weather": "2026-09-12T17:03:11.994932+00:00",
+    "risk": "2026-09-12T17:03:12.046041+00:00"
   },
   "risk_meta": {
     "typhoon_reference_time": "2026-08-23T09:00:00+09:00",
     "jma_updated_at_utc": "2026-09-07T16:24:49.768646+00:00",
-    "weather_updated_at_utc": "2026-09-12T14:20:51.072574+00:00",
-    "impact_updated_at_utc": "2026-09-12T14:20:47.902327+00:00",
-    "risk_updated_at_utc": "2026-09-12T14:20:51.131322+00:00",
+    "weather_updated_at_utc": "2026-09-12T17:03:11.994932+00:00",
+    "impact_updated_at_utc": "2026-09-12T17:03:10.695200+00:00",
+    "risk_updated_at_utc": "2026-09-12T17:03:12.046041+00:00",
     "risk_version": "6.6-CURRENT-DISTANCE"
   },
   "typhoon": {
@@ -57,15 +57,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 22:15",
+        "last_updated": "2026-09-13 00:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.8
+        "wind_mps": 1.9
       },
       "forecast_72h": {
         "max_rain_mm": 0.01,
         "max_rain_time": "2026-09-13 18:00",
-        "max_wind_mps": 4.9,
-        "max_wind_time": "2026-09-14 15:00"
+        "max_wind_mps": 5.8,
+        "max_wind_time": "2026-09-15 17:00"
       }
     },
     "PVG": {
@@ -84,15 +84,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 22:15",
+        "last_updated": "2026-09-13 01:00",
         "rain_mm": 0.0,
         "wind_mps": 1.1
       },
       "forecast_72h": {
-        "max_rain_mm": 0.03,
-        "max_rain_time": "2026-09-13 11:00",
-        "max_wind_mps": 4.6,
-        "max_wind_time": "2026-09-14 16:00"
+        "max_rain_mm": 0.01,
+        "max_rain_time": "2026-09-13 15:00",
+        "max_wind_mps": 4.9,
+        "max_wind_time": "2026-09-15 14:00"
       }
     },
     "ICN": {
@@ -111,13 +111,13 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 23:15",
+        "last_updated": "2026-09-13 02:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.0
+        "wind_mps": 1.1
       },
       "forecast_72h": {
         "max_rain_mm": 0.0,
-        "max_rain_time": "2026-09-12 23:15",
+        "max_rain_time": "2026-09-13 02:00",
         "max_wind_mps": 5.2,
         "max_wind_time": "2026-09-14 17:00"
       }
@@ -138,9 +138,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 22:15",
+        "last_updated": "2026-09-13 01:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.5
+        "wind_mps": 4.3
       },
       "forecast_72h": {
         "max_rain_mm": 3.14,
@@ -156,7 +156,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 10.59 mm",
+      "reason_ko": "최대 시간당 강수 38.68 mm",
       "current_distance_km": 1775,
       "closest_distance_km": 1775,
       "closest_time": "2026-08-23T09:00:00+09:00",
@@ -165,13 +165,13 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 21:00",
+        "last_updated": "2026-09-13 00:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.6
+        "wind_mps": 2.8
       },
       "forecast_72h": {
-        "max_rain_mm": 10.59,
-        "max_rain_time": "2026-09-14 22:00",
+        "max_rain_mm": 38.68,
+        "max_rain_time": "2026-09-15 00:00",
         "max_wind_mps": 6.4,
         "max_wind_time": "2026-09-14 13:00"
       }
@@ -192,9 +192,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-12 22:15",
-        "rain_mm": 0.21,
-        "wind_mps": 1.8
+        "last_updated": "2026-09-13 00:45",
+        "rain_mm": 0.0,
+        "wind_mps": 1.0
       },
       "forecast_72h": {
         "max_rain_mm": 4.51,
@@ -223,7 +223,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "하노이 노이바이 국제공항 낮음 (최대 시간당 강수 10.59 mm)"
+      "reason_ko": "하노이 노이바이 국제공항 낮음 (최대 시간당 강수 38.68 mm)"
     },
     {
       "code": "SUZHOU_PVG_CRK",
