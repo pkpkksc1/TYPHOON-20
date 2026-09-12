@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-13 01:25"
+        "localtime": "2026-09-13 03:15"
       },
       "current": {
-        "last_updated": "2026-09-13 01:15",
+        "last_updated": "2026-09-13 03:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
+        "wind_mps": 1.6,
         "wind_dir": "E",
         "condition": "Smoky haze"
       },
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-13 01:25"
+        "localtime": "2026-09-13 03:15"
       },
       "current": {
-        "last_updated": "2026-09-13 01:15",
+        "last_updated": "2026-09-13 03:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
+        "wind_mps": 1.0,
         "wind_dir": "E",
         "condition": "Smoky haze"
       },
@@ -657,7 +657,7 @@
           "time": "2026-09-13 03:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 8,
-          "wind_mps": 0.9,
+          "wind_mps": 1.0,
           "wind_dir": "E",
           "condition": "Smoky haze"
         },
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-13 02:25"
+        "localtime": "2026-09-13 04:15"
       },
       "current": {
-        "last_updated": "2026-09-13 02:15",
+        "last_updated": "2026-09-13 04:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
-        "wind_dir": "N",
-        "condition": "Overcast"
+        "wind_mps": 1.0,
+        "wind_dir": "NE",
+        "condition": "Smoky haze"
       },
       "hourly_forecast": [
         {
@@ -1266,7 +1266,7 @@
           "time": "2026-09-13 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 12,
-          "wind_mps": 0.7,
+          "wind_mps": 1.0,
           "wind_dir": "NE",
           "condition": "Smoky haze"
         },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Ebaiu",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.507,
-        "lon": 120.995,
-        "localtime": "2026-09-13 01:25"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-09-13 03:15"
       },
       "current": {
-        "last_updated": "2026-09-13 01:15",
+        "last_updated": "2026-09-13 03:15",
         "rain_mm": 0.0,
-        "wind_mps": 4.3,
+        "wind_mps": 4.6,
         "wind_dir": "N",
-        "condition": "Smoky haze"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-13 00:25"
+        "localtime": "2026-09-13 02:15"
       },
       "current": {
-        "last_updated": "2026-09-13 00:15",
+        "last_updated": "2026-09-13 02:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.8,
+        "wind_mps": 3.0,
         "wind_dir": "NNW",
         "condition": "Smoky haze"
       },
@@ -3023,13 +3023,13 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-13 01:25"
+        "localtime": "2026-09-13 03:15"
       },
       "current": {
-        "last_updated": "2026-09-13 01:15",
+        "last_updated": "2026-09-13 03:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "W",
+        "wind_dir": "NW",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -3045,7 +3045,7 @@
           "time": "2026-09-13 01:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 27,
-          "wind_mps": 1.0,
+          "wind_mps": 0.6,
           "wind_dir": "W",
           "condition": "Overcast"
         },
@@ -3061,7 +3061,7 @@
           "time": "2026-09-13 03:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 27,
-          "wind_mps": 0.7,
+          "wind_mps": 1.0,
           "wind_dir": "NW",
           "condition": "Overcast"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-12T17:25:08.630869+00:00"
+  "generated_at_utc": "2026-09-12T19:15:15.475392+00:00"
 }
