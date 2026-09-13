@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-13 18:34"
+        "localtime": "2026-09-13 19:42"
       },
       "current": {
-        "last_updated": "2026-09-13 18:30",
+        "last_updated": "2026-09-13 19:30",
         "rain_mm": 0.0,
-        "wind_mps": 4.0,
-        "wind_dir": "NE",
-        "condition": "Partly Cloudy"
+        "wind_mps": 3.6,
+        "wind_dir": "ENE",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-13 18:35"
+        "localtime": "2026-09-13 19:42"
       },
       "current": {
-        "last_updated": "2026-09-13 18:15",
+        "last_updated": "2026-09-13 19:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.1,
+        "wind_mps": 2.7,
         "wind_dir": "ENE",
-        "condition": "Sunny"
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-13 19:35"
+        "localtime": "2026-09-13 20:42"
       },
       "current": {
-        "last_updated": "2026-09-13 19:30",
+        "last_updated": "2026-09-13 20:30",
         "rain_mm": 0.0,
-        "wind_mps": 2.0,
-        "wind_dir": "WSW",
+        "wind_mps": 1.6,
+        "wind_dir": "SW",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1821,11 +1821,11 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-13 18:35"
+        "localtime": "2026-09-13 19:42"
       },
       "current": {
-        "last_updated": "2026-09-13 18:15",
-        "rain_mm": 1.42,
+        "last_updated": "2026-09-13 19:30",
+        "rain_mm": 1.7,
         "wind_mps": 3.2,
         "wind_dir": "WSW",
         "condition": "Light rain shower"
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-13 17:35"
+        "localtime": "2026-09-13 18:42"
       },
       "current": {
-        "last_updated": "2026-09-13 17:30",
-        "rain_mm": 0.12,
-        "wind_mps": 2.6,
+        "last_updated": "2026-09-13 18:30",
+        "rain_mm": 0.2,
+        "wind_mps": 2.4,
         "wind_dir": "WNW",
-        "condition": "Patchy rain nearby"
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -3018,18 +3018,18 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Mamatitang",
+        "name": "Culayo",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.233,
+        "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-13 18:35"
+        "localtime": "2026-09-13 19:42"
       },
       "current": {
-        "last_updated": "2026-09-13 18:30",
-        "rain_mm": 5.54,
-        "wind_mps": 1.9,
-        "wind_dir": "NNE",
+        "last_updated": "2026-09-13 19:30",
+        "rain_mm": 4.55,
+        "wind_mps": 1.0,
+        "wind_dir": "E",
         "condition": "Moderate or heavy rain shower"
       },
       "hourly_forecast": [
@@ -3324,7 +3324,7 @@
         {
           "time": "2026-09-14 12:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 13,
+          "chance_of_rain_pct": 15,
           "wind_mps": 2.0,
           "wind_dir": "E",
           "condition": "Patchy rain nearby"
@@ -3492,7 +3492,7 @@
         {
           "time": "2026-09-15 09:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 21,
+          "chance_of_rain_pct": 19,
           "wind_mps": 1.4,
           "wind_dir": "ESE",
           "condition": "Patchy rain nearby"
@@ -3604,7 +3604,7 @@
         {
           "time": "2026-09-15 23:00",
           "rain_mm": 0.37,
-          "chance_of_rain_pct": 54,
+          "chance_of_rain_pct": 53,
           "wind_mps": 0.2,
           "wind_dir": "SSW",
           "condition": "Light rain shower"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-13T10:35:02.139964+00:00"
+  "generated_at_utc": "2026-09-13T11:42:04.411097+00:00"
 }
