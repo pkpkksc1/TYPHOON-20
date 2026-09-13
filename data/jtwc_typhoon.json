@@ -1,6 +1,6 @@
 {
   "parser_version": "1.0",
-  "generated_at_utc": "2026-09-13T00:14:00.198198Z",
+  "generated_at_utc": "2026-09-13T00:54:55.754746Z",
   "source": "NOAA/NWS public relay of JTWC tropical cyclone warnings",
   "source_note": "JTWC maximum sustained winds are one-minute averages. JTWC wind radii are valid over open water only.",
   "active_count": 1,
@@ -8,7 +8,7 @@
     {
       "bulletin": "WTPN34",
       "issue_time_utc": "2026-09-11T03:00:00Z",
-      "age_hours": 45.2,
+      "age_hours": 45.9,
       "jtwc_id": "15W",
       "name": "FIFTEEN",
       "storm_type": "TROPICAL DEPRESSION",
