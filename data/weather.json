@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-09-15 07:05"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-09-15 09:23"
       },
       "current": {
-        "last_updated": "2026-09-15 07:00",
+        "last_updated": "2026-09-15 09:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.4,
-        "wind_dir": "NE",
-        "condition": "Cloudy"
+        "wind_mps": 4.3,
+        "wind_dir": "ENE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-15 07:05"
+        "localtime": "2026-09-15 09:23"
       },
       "current": {
-        "last_updated": "2026-09-15 07:00",
+        "last_updated": "2026-09-15 09:15",
         "rain_mm": 0.0,
-        "wind_mps": 3.2,
-        "wind_dir": "NNE",
-        "condition": "Cloudy"
+        "wind_mps": 4.8,
+        "wind_dir": "NE",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-15 08:05"
+        "localtime": "2026-09-15 10:23"
       },
       "current": {
-        "last_updated": "2026-09-15 08:00",
+        "last_updated": "2026-09-15 10:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.0,
+        "wind_mps": 2.3,
         "wind_dir": "NNW",
         "condition": "Sunny"
       },
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-15 07:05"
+        "localtime": "2026-09-15 09:23"
       },
       "current": {
-        "last_updated": "2026-09-15 07:00",
+        "last_updated": "2026-09-15 09:15",
         "rain_mm": 0.0,
-        "wind_mps": 3.0,
-        "wind_dir": "SE",
+        "wind_mps": 3.7,
+        "wind_dir": "ESE",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-15 06:05"
+        "localtime": "2026-09-15 08:23"
       },
       "current": {
-        "last_updated": "2026-09-15 06:00",
-        "rain_mm": 9.51,
-        "wind_mps": 3.7,
-        "wind_dir": "N",
-        "condition": "Heavy rain"
+        "last_updated": "2026-09-15 08:15",
+        "rain_mm": 5.83,
+        "wind_mps": 5.8,
+        "wind_dir": "NNE",
+        "condition": "Moderate or heavy rain shower"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-15 07:05"
+        "localtime": "2026-09-15 09:23"
       },
       "current": {
-        "last_updated": "2026-09-15 07:00",
+        "last_updated": "2026-09-15 09:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
-        "wind_dir": "SSE",
-        "condition": "Smoky haze"
+        "wind_mps": 2.1,
+        "wind_dir": "SE",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-14T23:05:32.076527+00:00"
+  "generated_at_utc": "2026-09-15T01:24:49.379119+00:00"
 }
