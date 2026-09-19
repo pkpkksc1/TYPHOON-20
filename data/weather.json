@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-20 04:57"
+        "localtime": "2026-09-20 06:54"
       },
       "current": {
-        "last_updated": "2026-09-20 04:45",
-        "rain_mm": 0.05,
+        "last_updated": "2026-09-20 06:45",
+        "rain_mm": 0.0,
         "wind_mps": 2.1,
         "wind_dir": "ENE",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-20 04:57"
+        "localtime": "2026-09-20 06:54"
       },
       "current": {
-        "last_updated": "2026-09-20 04:45",
+        "last_updated": "2026-09-20 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.0,
+        "wind_mps": 1.7,
         "wind_dir": "NE",
-        "condition": "Overcast"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1215,19 +1215,19 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Sammok",
+        "name": "Namni",
         "region": "",
         "country": "South Korea",
-        "lat": 37.483,
-        "lon": 126.466,
-        "localtime": "2026-09-20 05:57"
+        "lat": 37.45,
+        "lon": 126.417,
+        "localtime": "2026-09-20 07:54"
       },
       "current": {
-        "last_updated": "2026-09-20 05:45",
+        "last_updated": "2026-09-20 07:45",
         "rain_mm": 0.0,
         "wind_mps": 1.9,
-        "wind_dir": "NNE",
-        "condition": "Cloudy"
+        "wind_dir": "NE",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-20 04:57"
+        "localtime": "2026-09-20 06:54"
       },
       "current": {
-        "last_updated": "2026-09-20 04:45",
-        "rain_mm": 2.02,
-        "wind_mps": 1.0,
-        "wind_dir": "ESE",
+        "last_updated": "2026-09-20 06:45",
+        "rain_mm": 0.33,
+        "wind_mps": 1.9,
+        "wind_dir": "ENE",
         "condition": "Light rain shower"
       },
       "hourly_forecast": [
@@ -1867,7 +1867,7 @@
           "time": "2026-09-20 04:00",
           "rain_mm": 2.02,
           "chance_of_rain_pct": 71,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "ESE",
           "condition": "Light rain shower"
         },
@@ -2417,18 +2417,18 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-09-20 03:57"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-09-20 05:54"
       },
       "current": {
-        "last_updated": "2026-09-20 03:45",
+        "last_updated": "2026-09-20 05:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "WSW",
+        "wind_dir": "W",
         "condition": "Haze"
       },
       "hourly_forecast": [
@@ -2460,7 +2460,7 @@
           "time": "2026-09-20 03:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 10,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "WSW",
           "condition": "Haze"
         },
@@ -2476,7 +2476,7 @@
           "time": "2026-09-20 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 11,
-          "wind_mps": 0.4,
+          "wind_mps": 1.0,
           "wind_dir": "W",
           "condition": "Haze"
         },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-20 04:57"
+        "localtime": "2026-09-20 06:54"
       },
       "current": {
-        "last_updated": "2026-09-20 04:45",
+        "last_updated": "2026-09-20 06:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "WNW",
-        "condition": "Partly Cloudy"
+        "wind_dir": "SW",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3069,7 +3069,7 @@
           "time": "2026-09-20 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 18,
-          "wind_mps": 1.0,
+          "wind_mps": 0.6,
           "wind_dir": "WNW",
           "condition": "Partly Cloudy"
         },
@@ -3085,7 +3085,7 @@
           "time": "2026-09-20 06:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 0.5,
+          "wind_mps": 1.0,
           "wind_dir": "SW",
           "condition": "Sunny"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-19T20:57:23.575812+00:00"
+  "generated_at_utc": "2026-09-19T22:56:04.813818+00:00"
 }
