@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-19T14:44:06.104136+00:00",
-    "weather": "2026-09-19T14:44:07.561180+00:00"
+    "impact": "2026-09-19T17:57:47.370473+00:00",
+    "weather": "2026-09-19T17:57:48.695221+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -28,7 +28,7 @@
     "SUZHOU": {
       "code": "SUZHOU",
       "name_ko": "쑤저우",
-      "score": 28,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -45,24 +45,24 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 22:30",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 3.3,
-        "max_72h_rain_mm": 1.58,
-        "max_72h_rain_time": "2026-09-19 17:00",
+        "current_last_updated": "2026-09-20 01:45",
+        "current_rain_mm": 0.02,
+        "current_wind_mps": 2.5,
+        "max_72h_rain_mm": 0.05,
+        "max_72h_rain_time": "2026-09-20 04:00",
         "max_72h_wind_mps": 4.5,
         "max_72h_wind_time": "2026-09-21 17:00"
       },
       "score_detail": {
         "distance": 20,
-        "rain": 8,
+        "rain": 3,
         "wind": 0
       }
     },
     "PVG": {
       "code": "PVG",
       "name_ko": "푸동 국제공항",
-      "score": 28,
+      "score": 20,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -79,17 +79,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 22:30",
+        "current_last_updated": "2026-09-20 01:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.7,
-        "max_72h_rain_mm": 0.76,
-        "max_72h_rain_time": "2026-09-19 11:00",
+        "current_wind_mps": 2.0,
+        "max_72h_rain_mm": 0.0,
+        "max_72h_rain_time": "2026-09-20 01:45",
         "max_72h_wind_mps": 4.8,
         "max_72h_wind_time": "2026-09-21 16:00"
       },
       "score_detail": {
         "distance": 20,
-        "rain": 8,
+        "rain": 0,
         "wind": 0
       }
     },
@@ -113,11 +113,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 23:30",
+        "current_last_updated": "2026-09-20 02:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.3,
+        "current_wind_mps": 1.6,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-09-19 23:30",
+        "max_72h_rain_time": "2026-09-20 02:45",
         "max_72h_wind_mps": 4.9,
         "max_72h_wind_time": "2026-09-20 17:00"
       },
@@ -147,9 +147,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 22:30",
-        "current_rain_mm": 1.6,
-        "current_wind_mps": 1.4,
+        "current_last_updated": "2026-09-20 01:45",
+        "current_rain_mm": 1.13,
+        "current_wind_mps": 1.0,
         "max_72h_rain_mm": 2.74,
         "max_72h_rain_time": "2026-09-21 04:00",
         "max_72h_wind_mps": 5.7,
@@ -164,7 +164,7 @@
     "HAN": {
       "code": "HAN",
       "name_ko": "하노이 노이바이 국제공항",
-      "score": 8,
+      "score": 0,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -181,17 +181,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 21:30",
+        "current_last_updated": "2026-09-20 00:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.9,
-        "max_72h_rain_mm": 1.49,
-        "max_72h_rain_time": "2026-09-19 17:00",
-        "max_72h_wind_mps": 3.3,
-        "max_72h_wind_time": "2026-09-19 19:00"
+        "current_wind_mps": 1.0,
+        "max_72h_rain_mm": 0.0,
+        "max_72h_rain_time": "2026-09-20 00:45",
+        "max_72h_wind_mps": 3.7,
+        "max_72h_wind_time": "2026-09-22 21:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 8,
+        "rain": 0,
         "wind": 0
       }
     },
@@ -204,7 +204,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 3.4 mm",
+      "reason_ko": "최대 시간당 강수 3.91 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1155,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-19 22:30",
-        "current_rain_mm": 0.39,
-        "current_wind_mps": 1.3,
-        "max_72h_rain_mm": 3.4,
-        "max_72h_rain_time": "2026-09-19 18:00",
+        "current_last_updated": "2026-09-20 01:45",
+        "current_rain_mm": 0.26,
+        "current_wind_mps": 1.0,
+        "max_72h_rain_mm": 3.91,
+        "max_72h_rain_time": "2026-09-22 19:00",
         "max_72h_wind_mps": 2.5,
-        "max_72h_wind_time": "2026-09-19 12:00"
+        "max_72h_wind_time": "2026-09-20 16:00"
       },
       "score_detail": {
         "distance": 0,
@@ -234,7 +234,7 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 28,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -250,7 +250,7 @@
     {
       "code": "SUZHOU_PVG_HAN",
       "name_ko": "쑤저우 → PVG → 하노이",
-      "score": 28,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -266,7 +266,7 @@
     {
       "code": "SUZHOU_PVG_CRK",
       "name_ko": "쑤저우 → PVG → 클락",
-      "score": 28,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -282,7 +282,7 @@
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 28,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -298,7 +298,7 @@
     {
       "code": "ICN_PVG",
       "name_ko": "한국 → PVG",
-      "score": 28,
+      "score": 20,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-19T14:44:07.613233+00:00"
+  "generated_at_utc": "2026-09-19T17:57:48.755601+00:00"
 }
