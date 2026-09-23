@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-23T12:06:24.234338+00:00",
-    "weather": "2026-09-23T12:06:25.527033+00:00"
+    "impact": "2026-09-23T16:49:35.947869+00:00",
+    "weather": "2026-09-23T16:49:39.684254+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -28,7 +28,7 @@
     "SUZHOU": {
       "code": "SUZHOU",
       "name_ko": "쑤저우",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -45,24 +45,24 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 20:00",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 3.6,
-        "max_72h_rain_mm": 0.05,
-        "max_72h_rain_time": "2026-09-23 16:00",
-        "max_72h_wind_mps": 4.3,
-        "max_72h_wind_time": "2026-09-24 08:00"
+        "current_last_updated": "2026-09-24 00:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 3.0,
+        "max_72h_rain_mm": 0.57,
+        "max_72h_rain_time": "2026-09-26 14:00",
+        "max_72h_wind_mps": 4.7,
+        "max_72h_wind_time": "2026-09-26 16:00"
       },
       "score_detail": {
         "distance": 20,
-        "rain": 3,
+        "rain": 8,
         "wind": 0
       }
     },
     "PVG": {
       "code": "PVG",
       "name_ko": "푸동 국제공항",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -79,30 +79,30 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 20:00",
+        "current_last_updated": "2026-09-24 00:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.9,
-        "max_72h_rain_mm": 0.04,
-        "max_72h_rain_time": "2026-09-23 06:00",
-        "max_72h_wind_mps": 5.0,
-        "max_72h_wind_time": "2026-09-24 14:00"
+        "current_wind_mps": 1.8,
+        "max_72h_rain_mm": 0.54,
+        "max_72h_rain_time": "2026-09-26 06:00",
+        "max_72h_wind_mps": 4.9,
+        "max_72h_wind_time": "2026-09-24 15:00"
       },
       "score_detail": {
         "distance": 20,
-        "rain": 3,
+        "rain": 8,
         "wind": 0
       }
     },
     "ICN": {
       "code": "ICN",
       "name_ko": "인천 국제공항",
-      "score": 20,
+      "score": 15,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 5.3 mm",
+      "reason_ko": "최대 시간당 강수 4.39 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1389,
@@ -113,17 +113,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 21:00",
+        "current_last_updated": "2026-09-24 01:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.3,
-        "max_72h_rain_mm": 5.3,
+        "current_wind_mps": 1.8,
+        "max_72h_rain_mm": 4.39,
         "max_72h_rain_time": "2026-09-25 16:00",
-        "max_72h_wind_mps": 4.6,
-        "max_72h_wind_time": "2026-09-23 15:00"
+        "max_72h_wind_mps": 4.8,
+        "max_72h_wind_time": "2026-09-25 17:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 20,
+        "rain": 15,
         "wind": 0
       }
     },
@@ -136,7 +136,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.07 mm",
+      "reason_ko": "최대 시간당 강수 2.54 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1222,
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 20:00",
-        "current_rain_mm": 0.62,
-        "current_wind_mps": 2.3,
-        "max_72h_rain_mm": 2.07,
-        "max_72h_rain_time": "2026-09-24 19:00",
-        "max_72h_wind_mps": 3.8,
-        "max_72h_wind_time": "2026-09-25 18:00"
+        "current_last_updated": "2026-09-24 00:30",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 1.5,
+        "max_72h_rain_mm": 2.54,
+        "max_72h_rain_time": "2026-09-24 20:00",
+        "max_72h_wind_mps": 5.7,
+        "max_72h_wind_time": "2026-09-26 17:00"
       },
       "score_detail": {
         "distance": 0,
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 19:00",
-        "current_rain_mm": 0.56,
-        "current_wind_mps": 3.8,
+        "current_last_updated": "2026-09-23 23:30",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 2.1,
         "max_72h_rain_mm": 1.65,
         "max_72h_rain_time": "2026-09-23 13:00",
-        "max_72h_wind_mps": 4.0,
-        "max_72h_wind_time": "2026-09-25 16:00"
+        "max_72h_wind_mps": 4.2,
+        "max_72h_wind_time": "2026-09-23 17:00"
       },
       "score_detail": {
         "distance": 0,
@@ -198,13 +198,13 @@
     "CRK": {
       "code": "CRK",
       "name_ko": "클락 국제공항",
-      "score": 20,
+      "score": 15,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 5.35 mm",
+      "reason_ko": "최대 시간당 강수 4.44 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1155,
@@ -215,17 +215,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-23 20:00",
-        "current_rain_mm": 3.04,
-        "current_wind_mps": 1.9,
-        "max_72h_rain_mm": 5.35,
-        "max_72h_rain_time": "2026-09-23 17:00",
-        "max_72h_wind_mps": 2.3,
-        "max_72h_wind_time": "2026-09-23 12:00"
+        "current_last_updated": "2026-09-24 00:30",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 1.0,
+        "max_72h_rain_mm": 4.44,
+        "max_72h_rain_time": "2026-09-25 01:00",
+        "max_72h_wind_mps": 2.1,
+        "max_72h_wind_time": "2026-09-26 19:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 20,
+        "rain": 15,
         "wind": 0
       }
     }
@@ -234,7 +234,7 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -250,7 +250,7 @@
     {
       "code": "SUZHOU_PVG_HAN",
       "name_ko": "쑤저우 → PVG → 하노이",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -266,7 +266,7 @@
     {
       "code": "SUZHOU_PVG_CRK",
       "name_ko": "쑤저우 → PVG → 클락",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -282,7 +282,7 @@
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -298,7 +298,7 @@
     {
       "code": "ICN_PVG",
       "name_ko": "한국 → PVG",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-23T12:06:25.585773+00:00"
+  "generated_at_utc": "2026-09-23T16:49:39.750197+00:00"
 }
