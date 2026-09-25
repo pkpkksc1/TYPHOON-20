@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-26 02:30"
+        "localtime": "2026-09-26 02:50"
       },
       "current": {
-        "last_updated": "2026-09-26 02:15",
+        "last_updated": "2026-09-26 02:45",
         "rain_mm": 0.05,
         "wind_mps": 2.2,
         "wind_dir": "WNW",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-26 02:30"
+        "localtime": "2026-09-26 02:50"
       },
       "current": {
-        "last_updated": "2026-09-26 02:15",
+        "last_updated": "2026-09-26 02:30",
         "rain_mm": 0.0,
         "wind_mps": 1.4,
         "wind_dir": "SSW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-26 03:30"
+        "localtime": "2026-09-26 03:50"
       },
       "current": {
-        "last_updated": "2026-09-26 03:15",
+        "last_updated": "2026-09-26 03:30",
         "rain_mm": 0.0,
         "wind_mps": 1.8,
         "wind_dir": "E",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-26 02:30"
+        "localtime": "2026-09-26 02:50"
       },
       "current": {
-        "last_updated": "2026-09-26 02:15",
+        "last_updated": "2026-09-26 02:30",
         "rain_mm": 0.93,
         "wind_mps": 1.9,
         "wind_dir": "SE",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-26 01:30"
+        "localtime": "2026-09-26 01:50"
       },
       "current": {
-        "last_updated": "2026-09-26 01:15",
+        "last_updated": "2026-09-26 01:45",
         "rain_mm": 0.0,
         "wind_mps": 2.6,
         "wind_dir": "SSE",
@@ -3018,15 +3018,15 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Culayo",
+        "name": "Mamatitang",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.183,
+        "lat": 15.233,
         "lon": 120.567,
-        "localtime": "2026-09-26 02:30"
+        "localtime": "2026-09-26 02:50"
       },
       "current": {
-        "last_updated": "2026-09-26 02:30",
+        "last_updated": "2026-09-26 02:45",
         "rain_mm": 1.16,
         "wind_mps": 1.1,
         "wind_dir": "W",
@@ -3036,7 +3036,7 @@
         {
           "time": "2026-09-26 00:00",
           "rain_mm": 2.81,
-          "chance_of_rain_pct": 81,
+          "chance_of_rain_pct": 82,
           "wind_mps": 1.5,
           "wind_dir": "WSW",
           "condition": "Moderate or heavy rain shower"
@@ -3044,7 +3044,7 @@
         {
           "time": "2026-09-26 01:00",
           "rain_mm": 0.8,
-          "chance_of_rain_pct": 65,
+          "chance_of_rain_pct": 63,
           "wind_mps": 1.2,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -3052,7 +3052,7 @@
         {
           "time": "2026-09-26 02:00",
           "rain_mm": 1.16,
-          "chance_of_rain_pct": 68,
+          "chance_of_rain_pct": 71,
           "wind_mps": 1.1,
           "wind_dir": "W",
           "condition": "Patchy rain nearby"
@@ -3060,7 +3060,7 @@
         {
           "time": "2026-09-26 03:00",
           "rain_mm": 0.04,
-          "chance_of_rain_pct": 27,
+          "chance_of_rain_pct": 31,
           "wind_mps": 0.7,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -3116,7 +3116,7 @@
         {
           "time": "2026-09-26 10:00",
           "rain_mm": 0.02,
-          "chance_of_rain_pct": 20,
+          "chance_of_rain_pct": 19,
           "wind_mps": 1.5,
           "wind_dir": "SE",
           "condition": "Patchy rain nearby"
@@ -3148,7 +3148,7 @@
         {
           "time": "2026-09-26 14:00",
           "rain_mm": 2.23,
-          "chance_of_rain_pct": 64,
+          "chance_of_rain_pct": 62,
           "wind_mps": 0.9,
           "wind_dir": "SSW",
           "condition": "Patchy rain nearby"
@@ -3156,7 +3156,7 @@
         {
           "time": "2026-09-26 15:00",
           "rain_mm": 1.77,
-          "chance_of_rain_pct": 57,
+          "chance_of_rain_pct": 61,
           "wind_mps": 0.8,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -3492,7 +3492,7 @@
         {
           "time": "2026-09-28 09:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 19,
+          "chance_of_rain_pct": 20,
           "wind_mps": 1.5,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
@@ -3596,7 +3596,7 @@
         {
           "time": "2026-09-28 22:00",
           "rain_mm": 2.95,
-          "chance_of_rain_pct": 75,
+          "chance_of_rain_pct": 76,
           "wind_mps": 0.7,
           "wind_dir": "NW",
           "condition": "Moderate or heavy rain shower"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-25T18:30:59.324349+00:00"
+  "generated_at_utc": "2026-09-25T18:50:38.257422+00:00"
 }
