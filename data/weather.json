@@ -13,17 +13,17 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-09-25 21:39"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-09-25 22:07"
       },
       "current": {
-        "last_updated": "2026-09-25 21:30",
-        "rain_mm": 0.17,
-        "wind_mps": 1.5,
+        "last_updated": "2026-09-25 22:00",
+        "rain_mm": 0.1,
+        "wind_mps": 1.9,
         "wind_dir": "SSE",
         "condition": "Patchy rain nearby"
       },
@@ -183,7 +183,7 @@
         {
           "time": "2026-09-25 19:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 23,
+          "chance_of_rain_pct": 21,
           "wind_mps": 0.9,
           "wind_dir": "SSE",
           "condition": "Patchy rain nearby"
@@ -199,7 +199,7 @@
         {
           "time": "2026-09-25 21:00",
           "rain_mm": 0.17,
-          "chance_of_rain_pct": 37,
+          "chance_of_rain_pct": 33,
           "wind_mps": 1.5,
           "wind_dir": "SSE",
           "condition": "Patchy rain nearby"
@@ -247,7 +247,7 @@
         {
           "time": "2026-09-26 03:00",
           "rain_mm": 1.11,
-          "chance_of_rain_pct": 67,
+          "chance_of_rain_pct": 70,
           "wind_mps": 2.4,
           "wind_dir": "WNW",
           "condition": "Light rain shower"
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-25 21:39"
+        "localtime": "2026-09-25 22:07"
       },
       "current": {
-        "last_updated": "2026-09-25 21:30",
+        "last_updated": "2026-09-25 22:00",
         "rain_mm": 0.0,
         "wind_mps": 2.1,
         "wind_dir": "SSE",
-        "condition": "Overcast"
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -1215,18 +1215,18 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Namni",
+        "name": "Sammok",
         "region": "",
         "country": "South Korea",
-        "lat": 37.45,
-        "lon": 126.417,
-        "localtime": "2026-09-25 22:39"
+        "lat": 37.483,
+        "lon": 126.466,
+        "localtime": "2026-09-25 23:07"
       },
       "current": {
-        "last_updated": "2026-09-25 22:30",
+        "last_updated": "2026-09-25 23:00",
         "rain_mm": 0.04,
-        "wind_mps": 2.8,
-        "wind_dir": "E",
+        "wind_mps": 2.4,
+        "wind_dir": "ENE",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-25 21:39"
+        "localtime": "2026-09-25 22:07"
       },
       "current": {
-        "last_updated": "2026-09-25 21:30",
-        "rain_mm": 0.34,
-        "wind_mps": 2.3,
-        "wind_dir": "SW",
+        "last_updated": "2026-09-25 22:00",
+        "rain_mm": 0.35,
+        "wind_mps": 2.1,
+        "wind_dir": "SSW",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -2417,17 +2417,17 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Noi Bai",
+        "name": "Ninh Bac",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.217,
-        "lon": 105.817,
-        "localtime": "2026-09-25 20:39"
+        "lat": 21.233,
+        "lon": 105.8,
+        "localtime": "2026-09-25 21:07"
       },
       "current": {
-        "last_updated": "2026-09-25 20:15",
-        "rain_mm": 0.15,
-        "wind_mps": 3.5,
+        "last_updated": "2026-09-25 21:00",
+        "rain_mm": 0.12,
+        "wind_mps": 3.6,
         "wind_dir": "SSE",
         "condition": "Patchy rain nearby"
       },
@@ -3023,11 +3023,11 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-25 21:39"
+        "localtime": "2026-09-25 22:07"
       },
       "current": {
-        "last_updated": "2026-09-25 21:30",
-        "rain_mm": 2.43,
+        "last_updated": "2026-09-25 22:00",
+        "rain_mm": 1.52,
         "wind_mps": 1.8,
         "wind_dir": "W",
         "condition": "Patchy rain nearby"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-25T13:40:13.875829+00:00"
+  "generated_at_utc": "2026-09-25T14:07:48.091809+00:00"
 }
