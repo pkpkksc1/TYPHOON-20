@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-26 15:58"
+        "localtime": "2026-09-26 21:00"
       },
       "current": {
-        "last_updated": "2026-09-26 15:45",
-        "rain_mm": 1.37,
-        "wind_mps": 3.3,
-        "wind_dir": "NW",
-        "condition": "Light rain shower"
+        "last_updated": "2026-09-26 20:45",
+        "rain_mm": 0.08,
+        "wind_mps": 1.0,
+        "wind_dir": "SSE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -192,7 +192,7 @@
           "time": "2026-09-26 20:00",
           "rain_mm": 0.08,
           "chance_of_rain_pct": 41,
-          "wind_mps": 0.0,
+          "wind_mps": 1.0,
           "wind_dir": "SSE",
           "condition": "Patchy rain nearby"
         },
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-26 15:58"
+        "localtime": "2026-09-26 21:00"
       },
       "current": {
-        "last_updated": "2026-09-26 15:45",
-        "rain_mm": 0.24,
-        "wind_mps": 2.3,
-        "wind_dir": "NW",
-        "condition": "Light rain shower"
+        "last_updated": "2026-09-26 20:45",
+        "rain_mm": 0.0,
+        "wind_mps": 1.0,
+        "wind_dir": "SSE",
+        "condition": "Mist"
       },
       "hourly_forecast": [
         {
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-26 16:58"
+        "localtime": "2026-09-26 22:00"
       },
       "current": {
-        "last_updated": "2026-09-26 16:45",
+        "last_updated": "2026-09-26 21:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.8,
-        "wind_dir": "SW",
+        "wind_mps": 1.0,
+        "wind_dir": "W",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1402,7 +1402,7 @@
           "time": "2026-09-26 21:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 0.9,
+          "wind_mps": 1.0,
           "wind_dir": "W",
           "condition": "Overcast"
         },
@@ -1821,12 +1821,12 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-26 15:58"
+        "localtime": "2026-09-26 21:00"
       },
       "current": {
-        "last_updated": "2026-09-26 15:45",
-        "rain_mm": 0.24,
-        "wind_mps": 5.0,
+        "last_updated": "2026-09-26 20:45",
+        "rain_mm": 0.19,
+        "wind_mps": 3.7,
         "wind_dir": "WSW",
         "condition": "Light rain shower"
       },
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-26 14:58"
+        "localtime": "2026-09-26 20:00"
       },
       "current": {
-        "last_updated": "2026-09-26 14:45",
-        "rain_mm": 0.04,
-        "wind_mps": 3.7,
+        "last_updated": "2026-09-26 19:45",
+        "rain_mm": 0.0,
+        "wind_mps": 4.5,
         "wind_dir": "SSE",
-        "condition": "Patchy rain nearby"
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -3018,19 +3018,19 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Camp Stolsenburg",
+        "name": "Culayo",
         "region": "Pampanga",
         "country": "Philippines",
         "lat": 15.183,
-        "lon": 120.517,
-        "localtime": "2026-09-26 15:58"
+        "lon": 120.567,
+        "localtime": "2026-09-26 21:00"
       },
       "current": {
-        "last_updated": "2026-09-26 15:45",
-        "rain_mm": 1.7,
-        "wind_mps": 1.4,
-        "wind_dir": "SW",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-09-26 20:45",
+        "rain_mm": 0.0,
+        "wind_mps": 1.9,
+        "wind_dir": "W",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-26T07:58:37.011941+00:00"
+  "generated_at_utc": "2026-09-26T13:00:30.277194+00:00"
 }
