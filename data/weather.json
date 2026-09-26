@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-26 15:34"
+        "localtime": "2026-09-26 15:58"
       },
       "current": {
-        "last_updated": "2026-09-26 15:30",
+        "last_updated": "2026-09-26 15:45",
         "rain_mm": 1.37,
         "wind_mps": 3.3,
         "wind_dir": "NW",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-26 15:34"
+        "localtime": "2026-09-26 15:58"
       },
       "current": {
-        "last_updated": "2026-09-26 15:30",
+        "last_updated": "2026-09-26 15:45",
         "rain_mm": 0.24,
         "wind_mps": 2.3,
         "wind_dir": "NW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-26 16:34"
+        "localtime": "2026-09-26 16:58"
       },
       "current": {
-        "last_updated": "2026-09-26 16:15",
+        "last_updated": "2026-09-26 16:45",
         "rain_mm": 0.0,
         "wind_mps": 2.8,
         "wind_dir": "SW",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-26 15:34"
+        "localtime": "2026-09-26 15:58"
       },
       "current": {
-        "last_updated": "2026-09-26 15:30",
+        "last_updated": "2026-09-26 15:45",
         "rain_mm": 0.24,
         "wind_mps": 5.0,
         "wind_dir": "WSW",
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-26 14:34"
+        "localtime": "2026-09-26 14:58"
       },
       "current": {
-        "last_updated": "2026-09-26 14:15",
-        "rain_mm": 0.02,
-        "wind_mps": 4.1,
+        "last_updated": "2026-09-26 14:45",
+        "rain_mm": 0.04,
+        "wind_mps": 3.7,
         "wind_dir": "SSE",
         "condition": "Patchy rain nearby"
       },
@@ -2546,9 +2546,9 @@
         },
         {
           "time": "2026-09-26 14:00",
-          "rain_mm": 0.02,
-          "chance_of_rain_pct": 12,
-          "wind_mps": 4.1,
+          "rain_mm": 0.04,
+          "chance_of_rain_pct": 16,
+          "wind_mps": 3.7,
           "wind_dir": "SSE",
           "condition": "Patchy rain nearby"
         },
@@ -3018,15 +3018,15 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Culayo",
+        "name": "Camp Stolsenburg",
         "region": "Pampanga",
         "country": "Philippines",
         "lat": 15.183,
-        "lon": 120.567,
-        "localtime": "2026-09-26 15:34"
+        "lon": 120.517,
+        "localtime": "2026-09-26 15:58"
       },
       "current": {
-        "last_updated": "2026-09-26 15:30",
+        "last_updated": "2026-09-26 15:45",
         "rain_mm": 1.7,
         "wind_mps": 1.4,
         "wind_dir": "SW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-26T07:34:46.534012+00:00"
+  "generated_at_utc": "2026-09-26T07:58:37.011941+00:00"
 }
