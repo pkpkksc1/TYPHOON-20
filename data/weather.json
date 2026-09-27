@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Suzhou",
+        "name": "Yangchiatsun",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.311,
-        "lon": 120.618,
-        "localtime": "2026-09-27 07:06"
+        "lat": 31.285,
+        "lon": 120.596,
+        "localtime": "2026-09-27 09:21"
       },
       "current": {
-        "last_updated": "2026-09-27 07:00",
-        "rain_mm": 0.09,
-        "wind_mps": 1.5,
-        "wind_dir": "SSE",
-        "condition": "Mist"
+        "last_updated": "2026-09-27 09:15",
+        "rain_mm": 0.03,
+        "wind_mps": 1.1,
+        "wind_dir": "S",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -135,7 +135,7 @@
         {
           "time": "2026-09-27 13:00",
           "rain_mm": 0.02,
-          "chance_of_rain_pct": 20,
+          "chance_of_rain_pct": 17,
           "wind_mps": 3.6,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -151,7 +151,7 @@
         {
           "time": "2026-09-27 15:00",
           "rain_mm": 0.64,
-          "chance_of_rain_pct": 47,
+          "chance_of_rain_pct": 49,
           "wind_mps": 3.5,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-27 07:07"
+        "localtime": "2026-09-27 09:21"
       },
       "current": {
-        "last_updated": "2026-09-27 07:00",
-        "rain_mm": 0.56,
-        "wind_mps": 2.9,
-        "wind_dir": "ESE",
-        "condition": "Light rain shower"
+        "last_updated": "2026-09-27 09:15",
+        "rain_mm": 0.03,
+        "wind_mps": 2.6,
+        "wind_dir": "SE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-27 08:07"
+        "localtime": "2026-09-27 10:21"
       },
       "current": {
-        "last_updated": "2026-09-27 08:00",
+        "last_updated": "2026-09-27 10:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
-        "wind_dir": "NE",
-        "condition": "Smoky haze"
+        "wind_mps": 1.0,
+        "wind_dir": "E",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1314,7 +1314,7 @@
           "time": "2026-09-27 10:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 2,
-          "wind_mps": 0.9,
+          "wind_mps": 1.0,
           "wind_dir": "E",
           "condition": "Sunny"
         },
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-09-27 07:07"
+        "localtime": "2026-09-27 09:21"
       },
       "current": {
-        "last_updated": "2026-09-27 07:00",
-        "rain_mm": 0.0,
-        "wind_mps": 1.1,
+        "last_updated": "2026-09-27 09:15",
+        "rain_mm": 0.12,
+        "wind_mps": 1.8,
         "wind_dir": "WNW",
-        "condition": "Partly Cloudy"
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -2417,19 +2417,19 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-09-27 06:07"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-09-27 08:21"
       },
       "current": {
-        "last_updated": "2026-09-27 06:00",
-        "rain_mm": 0.0,
-        "wind_mps": 1.6,
-        "wind_dir": "SSE",
-        "condition": "Smoky haze"
+        "last_updated": "2026-09-27 08:15",
+        "rain_mm": 0.01,
+        "wind_mps": 2.2,
+        "wind_dir": "S",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-27 07:07"
+        "localtime": "2026-09-27 09:21"
       },
       "current": {
-        "last_updated": "2026-09-27 07:00",
+        "last_updated": "2026-09-27 09:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.0,
-        "wind_dir": "SSW",
-        "condition": "Overcast"
+        "wind_mps": 1.1,
+        "wind_dir": "SE",
+        "condition": "Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3093,7 +3093,7 @@
           "time": "2026-09-27 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 27,
-          "wind_mps": 1.0,
+          "wind_mps": 0.6,
           "wind_dir": "SSW",
           "condition": "Overcast"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-26T23:07:00.987962+00:00"
+  "generated_at_utc": "2026-09-27T01:21:15.584762+00:00"
 }
