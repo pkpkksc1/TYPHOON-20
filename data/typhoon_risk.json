@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-09-27T13:52:59.416440+00:00",
-    "weather": "2026-09-27T13:53:00.688402+00:00"
+    "impact": "2026-09-27T14:15:10.988158+00:00",
+    "weather": "2026-09-27T14:15:12.537532+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,9 +45,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 21:30",
-        "current_rain_mm": 0.95,
-        "current_wind_mps": 2.4,
+        "current_last_updated": "2026-09-27 22:00",
+        "current_rain_mm": 0.3,
+        "current_wind_mps": 2.2,
         "max_72h_rain_mm": 1.94,
         "max_72h_rain_time": "2026-09-27 06:00",
         "max_72h_wind_mps": 5.3,
@@ -79,9 +79,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 21:45",
-        "current_rain_mm": 0.67,
-        "current_wind_mps": 1.4,
+        "current_last_updated": "2026-09-27 22:00",
+        "current_rain_mm": 1.26,
+        "current_wind_mps": 1.1,
         "max_72h_rain_mm": 1.83,
         "max_72h_rain_time": "2026-09-27 06:00",
         "max_72h_wind_mps": 5.2,
@@ -96,7 +96,7 @@
     "ICN": {
       "code": "ICN",
       "name_ko": "인천 국제공항",
-      "score": 3,
+      "score": 0,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -113,30 +113,30 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 22:45",
+        "current_last_updated": "2026-09-27 23:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.6,
-        "max_72h_rain_mm": 0.01,
-        "max_72h_rain_time": "2026-09-28 03:00",
-        "max_72h_wind_mps": 4.5,
-        "max_72h_wind_time": "2026-09-28 17:00"
+        "current_wind_mps": 2.8,
+        "max_72h_rain_mm": 0.0,
+        "max_72h_rain_time": "2026-09-27 23:00",
+        "max_72h_wind_mps": 4.8,
+        "max_72h_wind_time": "2026-09-28 14:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 3,
+        "rain": 0,
         "wind": 0
       }
     },
     "MNL": {
       "code": "MNL",
       "name_ko": "마닐라 국제공항",
-      "score": 15,
+      "score": 8,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.16 mm",
+      "reason_ko": "특이 위험요소 낮음",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1222,
@@ -147,17 +147,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 21:45",
-        "current_rain_mm": 0.0,
-        "current_wind_mps": 3.2,
-        "max_72h_rain_mm": 2.16,
-        "max_72h_rain_time": "2026-09-29 19:00",
-        "max_72h_wind_mps": 4.9,
-        "max_72h_wind_time": "2026-09-27 17:00"
+        "current_last_updated": "2026-09-27 22:00",
+        "current_rain_mm": 0.01,
+        "current_wind_mps": 2.5,
+        "max_72h_rain_mm": 1.88,
+        "max_72h_rain_time": "2026-09-29 18:00",
+        "max_72h_wind_mps": 4.8,
+        "max_72h_wind_time": "2026-09-27 16:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 15,
+        "rain": 8,
         "wind": 0
       }
     },
@@ -181,9 +181,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 20:45",
+        "current_last_updated": "2026-09-27 21:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.8,
+        "current_wind_mps": 3.7,
         "max_72h_rain_mm": 6.78,
         "max_72h_rain_time": "2026-09-29 21:00",
         "max_72h_wind_mps": 5.0,
@@ -204,7 +204,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 3.88 mm",
+      "reason_ko": "최대 시간당 강수 4.18 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1155,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-09-27 21:45",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 1.1,
-        "max_72h_rain_mm": 3.88,
-        "max_72h_rain_time": "2026-09-29 16:00",
-        "max_72h_wind_mps": 2.1,
-        "max_72h_wind_time": "2026-09-28 13:00"
+        "current_last_updated": "2026-09-27 22:00",
+        "current_rain_mm": 0.54,
+        "current_wind_mps": 1.2,
+        "max_72h_rain_mm": 4.18,
+        "max_72h_rain_time": "2026-09-28 14:00",
+        "max_72h_wind_mps": 2.0,
+        "max_72h_wind_time": "2026-09-28 20:00"
       },
       "score_detail": {
         "distance": 0,
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-09-27T13:53:00.754340+00:00"
+  "generated_at_utc": "2026-09-27T14:15:12.589115+00:00"
 }
