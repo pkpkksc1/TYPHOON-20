@@ -2,18 +2,18 @@
   "source": "SBLC Typhoon Dashboard",
   "product": "Dashboard Summary",
   "parser_version": "8.72.0-GAENARI-NO-FLIGHT",
-  "generated_at_utc": "2026-09-28T01:07:47.192139+00:00",
+  "generated_at_utc": "2026-09-28T06:44:13.540736+00:00",
   "source_updated_at_utc": {
-    "jma": "2026-09-28T01:07:19.759046+00:00",
-    "weather": "2026-09-28T01:07:47.020427+00:00",
-    "risk": "2026-09-28T01:07:47.088481+00:00"
+    "jma": "2026-09-28T06:44:04.130435+00:00",
+    "weather": "2026-09-28T06:44:13.375731+00:00",
+    "risk": "2026-09-28T06:44:13.440773+00:00"
   },
   "risk_meta": {
     "typhoon_reference_time": "2026-08-23T09:00:00+09:00",
-    "jma_updated_at_utc": "2026-09-28T01:07:19.759046+00:00",
-    "weather_updated_at_utc": "2026-09-28T01:07:47.020427+00:00",
-    "impact_updated_at_utc": "2026-09-28T01:07:45.693618+00:00",
-    "risk_updated_at_utc": "2026-09-28T01:07:47.088481+00:00",
+    "jma_updated_at_utc": "2026-09-28T06:44:04.130435+00:00",
+    "weather_updated_at_utc": "2026-09-28T06:44:13.375731+00:00",
+    "impact_updated_at_utc": "2026-09-28T06:44:11.408778+00:00",
+    "risk_updated_at_utc": "2026-09-28T06:44:13.440773+00:00",
     "risk_version": "6.6-CURRENT-DISTANCE"
   },
   "typhoon": {
@@ -57,15 +57,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 09:00",
-        "rain_mm": 0.33,
-        "wind_mps": 3.9
+        "last_updated": "2026-09-28 14:30",
+        "rain_mm": 0.0,
+        "wind_mps": 5.0
       },
       "forecast_72h": {
-        "max_rain_mm": 1.82,
-        "max_rain_time": "2026-09-29 08:00",
-        "max_wind_mps": 6.2,
-        "max_wind_time": "2026-09-29 11:00"
+        "max_rain_mm": 1.77,
+        "max_rain_time": "2026-09-28 03:00",
+        "max_wind_mps": 5.8,
+        "max_wind_time": "2026-09-28 11:00"
       }
     },
     "PVG": {
@@ -84,20 +84,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 09:00",
-        "rain_mm": 0.03,
-        "wind_mps": 3.8
+        "last_updated": "2026-09-28 14:30",
+        "rain_mm": 0.0,
+        "wind_mps": 4.0
       },
       "forecast_72h": {
-        "max_rain_mm": 0.57,
-        "max_rain_time": "2026-09-28 02:00",
-        "max_wind_mps": 4.5,
-        "max_wind_time": "2026-09-29 11:00"
+        "max_rain_mm": 0.7,
+        "max_rain_time": "2026-09-28 08:00",
+        "max_wind_mps": 4.8,
+        "max_wind_time": "2026-09-28 11:00"
       }
     },
     "ICN": {
       "name_ko": "인천 국제공항",
-      "score": 8,
+      "score": 3,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -111,25 +111,25 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 10:00",
+        "last_updated": "2026-09-28 15:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.6
+        "wind_mps": 4.4
       },
       "forecast_72h": {
-        "max_rain_mm": 0.56,
+        "max_rain_mm": 0.15,
         "max_rain_time": "2026-09-30 18:00",
-        "max_wind_mps": 6.9,
+        "max_wind_mps": 6.5,
         "max_wind_time": "2026-09-30 17:00"
       }
     },
     "MNL": {
       "name_ko": "마닐라 국제공항",
-      "score": 8,
+      "score": 15,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "특이 위험요소 낮음",
+      "reason_ko": "최대 시간당 강수 2.36 mm",
       "current_distance_km": 1222,
       "closest_distance_km": 1222,
       "closest_time": "2026-08-23T09:00:00+09:00",
@@ -138,20 +138,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 09:00",
-        "rain_mm": 1.27,
-        "wind_mps": 1.0
+        "last_updated": "2026-09-28 14:30",
+        "rain_mm": 0.0,
+        "wind_mps": 2.1
       },
       "forecast_72h": {
-        "max_rain_mm": 1.28,
-        "max_rain_time": "2026-09-29 22:00",
-        "max_wind_mps": 3.6,
-        "max_wind_time": "2026-09-28 17:00"
+        "max_rain_mm": 2.36,
+        "max_rain_time": "2026-09-28 08:00",
+        "max_wind_mps": 3.7,
+        "max_wind_time": "2026-09-30 16:00"
       }
     },
     "HAN": {
       "name_ko": "하노이 노이바이 국제공항",
-      "score": 3,
+      "score": 8,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -165,25 +165,25 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 08:00",
-        "rain_mm": 0.02,
-        "wind_mps": 1.2
+        "last_updated": "2026-09-28 13:30",
+        "rain_mm": 0.0,
+        "wind_mps": 1.6
       },
       "forecast_72h": {
-        "max_rain_mm": 0.15,
-        "max_rain_time": "2026-09-29 17:00",
-        "max_wind_mps": 5.0,
+        "max_rain_mm": 1.78,
+        "max_rain_time": "2026-09-29 00:00",
+        "max_wind_mps": 5.2,
         "max_wind_time": "2026-09-29 19:00"
       }
     },
     "CRK": {
       "name_ko": "클락 국제공항",
-      "score": 15,
+      "score": 20,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 4.14 mm",
+      "reason_ko": "최대 시간당 강수 5.03 mm",
       "current_distance_km": 1155,
       "closest_distance_km": 1155,
       "closest_time": "2026-08-23T09:00:00+09:00",
@@ -192,13 +192,13 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-09-28 09:00",
-        "rain_mm": 0.13,
-        "wind_mps": 1.0
+        "last_updated": "2026-09-28 14:30",
+        "rain_mm": 2.15,
+        "wind_mps": 1.5
       },
       "forecast_72h": {
-        "max_rain_mm": 4.14,
-        "max_rain_time": "2026-09-28 16:00",
+        "max_rain_mm": 5.03,
+        "max_rain_time": "2026-09-28 22:00",
         "max_wind_mps": 1.9,
         "max_wind_time": "2026-09-28 12:00"
       }
