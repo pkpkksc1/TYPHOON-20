@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-28 08:37"
+        "localtime": "2026-09-28 09:07"
       },
       "current": {
-        "last_updated": "2026-09-28 08:30",
-        "rain_mm": 0.06,
-        "wind_mps": 3.3,
+        "last_updated": "2026-09-28 09:00",
+        "rain_mm": 0.33,
+        "wind_mps": 3.9,
         "wind_dir": "NE",
-        "condition": "Mist"
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-28 08:37"
+        "localtime": "2026-09-28 09:07"
       },
       "current": {
-        "last_updated": "2026-09-28 08:30",
-        "rain_mm": 0.4,
+        "last_updated": "2026-09-28 09:00",
+        "rain_mm": 0.03,
         "wind_mps": 3.8,
-        "wind_dir": "NNE",
-        "condition": "Light rain shower"
+        "wind_dir": "NE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-28 09:37"
+        "localtime": "2026-09-28 10:07"
       },
       "current": {
-        "last_updated": "2026-09-28 09:30",
+        "last_updated": "2026-09-28 10:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.2,
-        "wind_dir": "NNW",
+        "wind_mps": 3.6,
+        "wind_dir": "NW",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1816,16 +1816,16 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Airmen Village",
-        "region": "Pasay",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.526,
-        "lon": 121.016,
-        "localtime": "2026-09-28 08:37"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-09-28 09:07"
       },
       "current": {
-        "last_updated": "2026-09-28 08:30",
-        "rain_mm": 0.8,
+        "last_updated": "2026-09-28 09:00",
+        "rain_mm": 1.27,
         "wind_mps": 1.0,
         "wind_dir": "NW",
         "condition": "Light rain shower"
@@ -1899,7 +1899,7 @@
           "time": "2026-09-28 08:00",
           "rain_mm": 0.8,
           "chance_of_rain_pct": 55,
-          "wind_mps": 1.0,
+          "wind_mps": 0.7,
           "wind_dir": "NW",
           "condition": "Light rain shower"
         },
@@ -1907,7 +1907,7 @@
           "time": "2026-09-28 09:00",
           "rain_mm": 1.27,
           "chance_of_rain_pct": 67,
-          "wind_mps": 0.8,
+          "wind_mps": 1.0,
           "wind_dir": "NW",
           "condition": "Light rain shower"
         },
@@ -2422,13 +2422,13 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-28 07:37"
+        "localtime": "2026-09-28 08:07"
       },
       "current": {
-        "last_updated": "2026-09-28 07:30",
-        "rain_mm": 0.01,
-        "wind_mps": 1.0,
-        "wind_dir": "NW",
+        "last_updated": "2026-09-28 08:00",
+        "rain_mm": 0.02,
+        "wind_mps": 1.2,
+        "wind_dir": "W",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -2492,7 +2492,7 @@
           "time": "2026-09-28 07:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 26,
-          "wind_mps": 1.0,
+          "wind_mps": 0.3,
           "wind_dir": "NW",
           "condition": "Patchy rain nearby"
         },
@@ -3018,18 +3018,18 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Camp Stolsenburg",
+        "name": "Culayo",
         "region": "Pampanga",
         "country": "Philippines",
         "lat": 15.183,
-        "lon": 120.517,
-        "localtime": "2026-09-28 08:37"
+        "lon": 120.567,
+        "localtime": "2026-09-28 09:07"
       },
       "current": {
-        "last_updated": "2026-09-28 08:30",
-        "rain_mm": 0.01,
+        "last_updated": "2026-09-28 09:00",
+        "rain_mm": 0.13,
         "wind_mps": 1.0,
-        "wind_dir": "N",
+        "wind_dir": "ENE",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -3101,7 +3101,7 @@
           "time": "2026-09-28 08:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 18,
-          "wind_mps": 1.0,
+          "wind_mps": 0.6,
           "wind_dir": "N",
           "condition": "Patchy rain nearby"
         },
@@ -3109,7 +3109,7 @@
           "time": "2026-09-28 09:00",
           "rain_mm": 0.13,
           "chance_of_rain_pct": 34,
-          "wind_mps": 0.4,
+          "wind_mps": 1.0,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-28T00:37:26.045203+00:00"
+  "generated_at_utc": "2026-09-28T01:07:47.020427+00:00"
 }
