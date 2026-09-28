@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-09-28 23:20"
+        "localtime": "2026-09-28 23:52"
       },
       "current": {
-        "last_updated": "2026-09-28 23:15",
+        "last_updated": "2026-09-28 23:45",
         "rain_mm": 0.0,
         "wind_mps": 4.2,
         "wind_dir": "ENE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-09-28 23:20"
+        "localtime": "2026-09-28 23:52"
       },
       "current": {
-        "last_updated": "2026-09-28 23:15",
+        "last_updated": "2026-09-28 23:45",
         "rain_mm": 0.0,
         "wind_mps": 4.2,
         "wind_dir": "ENE",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-09-29 00:20"
+        "localtime": "2026-09-29 00:52"
       },
       "current": {
-        "last_updated": "2026-09-29 00:15",
+        "last_updated": "2026-09-29 00:30",
         "rain_mm": 0.0,
         "wind_mps": 2.2,
         "wind_dir": "NNW",
@@ -1816,15 +1816,15 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Almanza",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-09-28 23:20"
+        "lat": 14.483,
+        "lon": 120.983,
+        "localtime": "2026-09-28 23:52"
       },
       "current": {
-        "last_updated": "2026-09-28 23:15",
+        "last_updated": "2026-09-28 23:45",
         "rain_mm": 0.06,
         "wind_mps": 2.2,
         "wind_dir": "SSE",
@@ -1869,7 +1869,7 @@
           "chance_of_rain_pct": 23,
           "wind_mps": 0.7,
           "wind_dir": "W",
-          "condition": "Smoky haze"
+          "condition": "Overcast"
         },
         {
           "time": "2026-09-28 05:00",
@@ -1877,7 +1877,7 @@
           "chance_of_rain_pct": 23,
           "wind_mps": 0.5,
           "wind_dir": "WNW",
-          "condition": "Smoky haze"
+          "condition": "Overcast"
         },
         {
           "time": "2026-09-28 06:00",
@@ -1885,7 +1885,7 @@
           "chance_of_rain_pct": 25,
           "wind_mps": 0.6,
           "wind_dir": "NW",
-          "condition": "Smoky haze"
+          "condition": "Overcast"
         },
         {
           "time": "2026-09-28 07:00",
@@ -2002,7 +2002,7 @@
         {
           "time": "2026-09-28 21:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 17,
+          "chance_of_rain_pct": 16,
           "wind_mps": 2.0,
           "wind_dir": "S",
           "condition": "Patchy rain nearby"
@@ -2069,7 +2069,7 @@
           "chance_of_rain_pct": 12,
           "wind_mps": 1.9,
           "wind_dir": "E",
-          "condition": "Smoky haze"
+          "condition": "Clear"
         },
         {
           "time": "2026-09-29 06:00",
@@ -2077,12 +2077,12 @@
           "chance_of_rain_pct": 11,
           "wind_mps": 1.4,
           "wind_dir": "ENE",
-          "condition": "Smoky haze"
+          "condition": "Sunny"
         },
         {
           "time": "2026-09-29 07:00",
           "rain_mm": 0.06,
-          "chance_of_rain_pct": 28,
+          "chance_of_rain_pct": 25,
           "wind_mps": 1.2,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
@@ -2090,7 +2090,7 @@
         {
           "time": "2026-09-29 08:00",
           "rain_mm": 0.05,
-          "chance_of_rain_pct": 22,
+          "chance_of_rain_pct": 23,
           "wind_mps": 0.8,
           "wind_dir": "ENE",
           "condition": "Patchy rain nearby"
@@ -2122,7 +2122,7 @@
         {
           "time": "2026-09-29 12:00",
           "rain_mm": 0.02,
-          "chance_of_rain_pct": 16,
+          "chance_of_rain_pct": 13,
           "wind_mps": 0.9,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -2130,7 +2130,7 @@
         {
           "time": "2026-09-29 13:00",
           "rain_mm": 0.04,
-          "chance_of_rain_pct": 14,
+          "chance_of_rain_pct": 13,
           "wind_mps": 2.0,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
@@ -2138,7 +2138,7 @@
         {
           "time": "2026-09-29 14:00",
           "rain_mm": 0.2,
-          "chance_of_rain_pct": 24,
+          "chance_of_rain_pct": 22,
           "wind_mps": 2.9,
           "wind_dir": "W",
           "condition": "Patchy rain nearby"
@@ -2154,7 +2154,7 @@
         {
           "time": "2026-09-29 16:00",
           "rain_mm": 0.12,
-          "chance_of_rain_pct": 23,
+          "chance_of_rain_pct": 20,
           "wind_mps": 3.5,
           "wind_dir": "W",
           "condition": "Patchy rain nearby"
@@ -2170,7 +2170,7 @@
         {
           "time": "2026-09-29 18:00",
           "rain_mm": 1.19,
-          "chance_of_rain_pct": 57,
+          "chance_of_rain_pct": 58,
           "wind_mps": 3.2,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -2178,7 +2178,7 @@
         {
           "time": "2026-09-29 19:00",
           "rain_mm": 1.11,
-          "chance_of_rain_pct": 59,
+          "chance_of_rain_pct": 58,
           "wind_mps": 2.9,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -2186,7 +2186,7 @@
         {
           "time": "2026-09-29 20:00",
           "rain_mm": 0.07,
-          "chance_of_rain_pct": 23,
+          "chance_of_rain_pct": 22,
           "wind_mps": 2.3,
           "wind_dir": "SW",
           "condition": "Patchy rain nearby"
@@ -2194,7 +2194,7 @@
         {
           "time": "2026-09-29 21:00",
           "rain_mm": 1.82,
-          "chance_of_rain_pct": 65,
+          "chance_of_rain_pct": 66,
           "wind_mps": 1.7,
           "wind_dir": "SSW",
           "condition": "Patchy rain nearby"
@@ -2202,7 +2202,7 @@
         {
           "time": "2026-09-29 22:00",
           "rain_mm": 2.42,
-          "chance_of_rain_pct": 73,
+          "chance_of_rain_pct": 74,
           "wind_mps": 1.2,
           "wind_dir": "S",
           "condition": "Patchy rain nearby"
@@ -2210,7 +2210,7 @@
         {
           "time": "2026-09-29 23:00",
           "rain_mm": 0.98,
-          "chance_of_rain_pct": 65,
+          "chance_of_rain_pct": 64,
           "wind_mps": 1.3,
           "wind_dir": "SE",
           "condition": "Patchy rain nearby"
@@ -2218,7 +2218,7 @@
         {
           "time": "2026-09-30 00:00",
           "rain_mm": 0.33,
-          "chance_of_rain_pct": 39,
+          "chance_of_rain_pct": 43,
           "wind_mps": 1.4,
           "wind_dir": "ESE",
           "condition": "Patchy rain nearby"
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-09-28 22:20"
+        "localtime": "2026-09-28 22:52"
       },
       "current": {
-        "last_updated": "2026-09-28 22:15",
+        "last_updated": "2026-09-28 22:30",
         "rain_mm": 0.0,
         "wind_mps": 3.4,
         "wind_dir": "SE",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-09-28 23:20"
+        "localtime": "2026-09-28 23:52"
       },
       "current": {
-        "last_updated": "2026-09-28 23:15",
+        "last_updated": "2026-09-28 23:45",
         "rain_mm": 0.01,
         "wind_mps": 1.0,
         "wind_dir": "NNE",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-09-28T15:20:46.870171+00:00"
+  "generated_at_utc": "2026-09-28T15:52:34.376483+00:00"
 }
