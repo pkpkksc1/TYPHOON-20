@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-03 04:56"
+        "localtime": "2026-10-03 05:17"
       },
       "current": {
-        "last_updated": "2026-10-03 04:45",
-        "rain_mm": 0.4,
-        "wind_mps": 3.0,
+        "last_updated": "2026-10-03 05:15",
+        "rain_mm": 0.19,
+        "wind_mps": 3.4,
         "wind_dir": "ENE",
         "condition": "Light drizzle"
       },
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-03 04:56"
+        "localtime": "2026-10-03 05:17"
       },
       "current": {
-        "last_updated": "2026-10-03 04:45",
-        "rain_mm": 0.01,
-        "wind_mps": 2.8,
+        "last_updated": "2026-10-03 05:15",
+        "rain_mm": 0.06,
+        "wind_mps": 3.1,
         "wind_dir": "E",
         "condition": "Patchy rain nearby"
       },
@@ -1215,18 +1215,18 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Namni",
+        "name": "Sammok",
         "region": "",
         "country": "South Korea",
-        "lat": 37.45,
-        "lon": 126.417,
-        "localtime": "2026-10-03 05:56"
+        "lat": 37.483,
+        "lon": 126.466,
+        "localtime": "2026-10-03 06:17"
       },
       "current": {
-        "last_updated": "2026-10-03 05:45",
+        "last_updated": "2026-10-03 06:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.7,
-        "wind_dir": "NE",
+        "wind_mps": 1.6,
+        "wind_dir": "ENE",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-03 04:56"
+        "localtime": "2026-10-03 05:17"
       },
       "current": {
-        "last_updated": "2026-10-03 04:45",
-        "rain_mm": 0.88,
-        "wind_mps": 2.2,
-        "wind_dir": "SE",
-        "condition": "Light rain shower"
+        "last_updated": "2026-10-03 05:00",
+        "rain_mm": 0.52,
+        "wind_mps": 2.0,
+        "wind_dir": "ESE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-03 03:56"
+        "localtime": "2026-10-03 04:17"
       },
       "current": {
-        "last_updated": "2026-10-03 03:45",
+        "last_updated": "2026-10-03 04:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.5,
+        "wind_mps": 3.1,
         "wind_dir": "SSE",
         "condition": "Overcast"
       },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-03 04:56"
+        "localtime": "2026-10-03 05:17"
       },
       "current": {
-        "last_updated": "2026-10-03 04:45",
+        "last_updated": "2026-10-03 05:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "W",
-        "condition": "Clear"
+        "wind_dir": "WSW",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3069,7 +3069,7 @@
           "time": "2026-10-03 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 15,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "W",
           "condition": "Clear"
         },
@@ -3077,7 +3077,7 @@
           "time": "2026-10-03 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 30,
-          "wind_mps": 0.6,
+          "wind_mps": 1.0,
           "wind_dir": "WSW",
           "condition": "Overcast"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-02T20:56:02.973014+00:00"
+  "generated_at_utc": "2026-10-02T21:17:40.930190+00:00"
 }
