@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-03T07:02:53.572223+00:00",
-    "weather": "2026-10-03T07:02:54.832240+00:00"
+    "impact": "2026-10-03T12:27:49.882046+00:00",
+    "weather": "2026-10-03T12:27:51.192733+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -34,7 +34,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "태풍 최접근 685 km / 최대 시간당 강수 2.76 mm",
+      "reason_ko": "태풍 최접근 685 km / 최대 시간당 강수 3.84 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 685,
@@ -45,11 +45,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 14:45",
-        "current_rain_mm": 0.98,
-        "current_wind_mps": 4.2,
-        "max_72h_rain_mm": 2.76,
-        "max_72h_rain_time": "2026-10-03 13:00",
+        "current_last_updated": "2026-10-03 20:15",
+        "current_rain_mm": 3.73,
+        "current_wind_mps": 5.3,
+        "max_72h_rain_mm": 3.84,
+        "max_72h_rain_time": "2026-10-03 19:00",
         "max_72h_wind_mps": 6.4,
         "max_72h_wind_time": "2026-10-05 12:00"
       },
@@ -68,7 +68,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "태풍 최접근 643 km / 최대 시간당 강수 3.23 mm",
+      "reason_ko": "태풍 최접근 643 km / 최대 시간당 강수 4.22 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 643,
@@ -79,13 +79,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 15:00",
-        "current_rain_mm": 3.23,
-        "current_wind_mps": 3.4,
-        "max_72h_rain_mm": 3.23,
-        "max_72h_rain_time": "2026-10-03 15:00",
+        "current_last_updated": "2026-10-03 20:15",
+        "current_rain_mm": 1.27,
+        "current_wind_mps": 3.5,
+        "max_72h_rain_mm": 4.22,
+        "max_72h_rain_time": "2026-10-03 21:00",
         "max_72h_wind_mps": 5.8,
-        "max_72h_wind_time": "2026-10-05 13:00"
+        "max_72h_wind_time": "2026-10-05 14:00"
       },
       "score_detail": {
         "distance": 20,
@@ -113,12 +113,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 15:45",
+        "current_last_updated": "2026-10-03 21:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.5,
-        "max_72h_rain_mm": 1.59,
-        "max_72h_rain_time": "2026-10-04 20:00",
-        "max_72h_wind_mps": 7.2,
+        "current_wind_mps": 1.7,
+        "max_72h_rain_mm": 1.26,
+        "max_72h_rain_time": "2026-10-04 19:00",
+        "max_72h_wind_mps": 7.5,
         "max_72h_wind_time": "2026-10-05 17:00"
       },
       "score_detail": {
@@ -136,7 +136,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.02 mm",
+      "reason_ko": "최대 시간당 강수 2.36 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1222,
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 15:00",
-        "current_rain_mm": 0.26,
-        "current_wind_mps": 2.2,
-        "max_72h_rain_mm": 2.02,
+        "current_last_updated": "2026-10-03 20:15",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 1.7,
+        "max_72h_rain_mm": 2.36,
         "max_72h_rain_time": "2026-10-05 01:00",
-        "max_72h_wind_mps": 4.6,
-        "max_72h_wind_time": "2026-10-04 17:00"
+        "max_72h_wind_mps": 5.0,
+        "max_72h_wind_time": "2026-10-04 18:00"
       },
       "score_detail": {
         "distance": 0,
@@ -170,7 +170,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 16.69 mm",
+      "reason_ko": "최대 시간당 강수 44.62 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1775,
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 13:45",
+        "current_last_updated": "2026-10-03 19:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.8,
-        "max_72h_rain_mm": 16.69,
-        "max_72h_rain_time": "2026-10-05 02:00",
-        "max_72h_wind_mps": 8.0,
-        "max_72h_wind_time": "2026-10-04 20:00"
+        "current_wind_mps": 4.7,
+        "max_72h_rain_mm": 44.62,
+        "max_72h_rain_time": "2026-10-04 21:00",
+        "max_72h_wind_mps": 7.7,
+        "max_72h_wind_time": "2026-10-04 19:00"
       },
       "score_detail": {
         "distance": 0,
@@ -204,7 +204,7 @@
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.56 mm",
+      "reason_ko": "최대 시간당 강수 2.5 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1155,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-03 15:00",
-        "current_rain_mm": 0.01,
+        "current_last_updated": "2026-10-03 20:15",
+        "current_rain_mm": 2.5,
         "current_wind_mps": 1.8,
-        "max_72h_rain_mm": 2.56,
-        "max_72h_rain_time": "2026-10-05 00:00",
-        "max_72h_wind_mps": 2.1,
-        "max_72h_wind_time": "2026-10-04 13:00"
+        "max_72h_rain_mm": 2.5,
+        "max_72h_rain_time": "2026-10-03 20:15",
+        "max_72h_wind_mps": 2.0,
+        "max_72h_wind_time": "2026-10-04 20:00"
       },
       "score_detail": {
         "distance": 0,
@@ -240,7 +240,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 2.76 mm)",
+      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 3.84 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -256,7 +256,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 2.76 mm)",
+      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 3.84 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -272,7 +272,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 2.76 mm)",
+      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 3.84 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -288,7 +288,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 2.76 mm)",
+      "reason_ko": "쑤저우 주의 (태풍 최접근 685 km / 최대 시간당 강수 3.84 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -304,7 +304,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "푸동 국제공항 주의 (태풍 최접근 643 km / 최대 시간당 강수 3.23 mm)",
+      "reason_ko": "푸동 국제공항 주의 (태풍 최접근 643 km / 최대 시간당 강수 4.22 mm)",
       "locations": [
         "ICN",
         "PVG"
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-03T07:02:54.901275+00:00"
+  "generated_at_utc": "2026-10-03T12:27:51.260782+00:00"
 }
