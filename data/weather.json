@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-04 04:10"
+        "localtime": "2026-10-04 05:08"
       },
       "current": {
-        "last_updated": "2026-10-04 04:00",
-        "rain_mm": 0.33,
-        "wind_mps": 3.9,
+        "last_updated": "2026-10-04 05:00",
+        "rain_mm": 0.31,
+        "wind_mps": 4.3,
         "wind_dir": "NNE",
         "condition": "Light drizzle"
       },
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-04 04:10"
+        "localtime": "2026-10-04 05:08"
       },
       "current": {
-        "last_updated": "2026-10-04 04:00",
-        "rain_mm": 2.85,
-        "wind_mps": 3.6,
-        "wind_dir": "ENE",
-        "condition": "Moderate rain"
+        "last_updated": "2026-10-04 05:00",
+        "rain_mm": 1.47,
+        "wind_mps": 3.8,
+        "wind_dir": "NE",
+        "condition": "Light rain"
       },
       "hourly_forecast": [
         {
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-04 05:10"
+        "localtime": "2026-10-04 06:08"
       },
       "current": {
-        "last_updated": "2026-10-04 05:00",
+        "last_updated": "2026-10-04 06:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.7,
+        "wind_mps": 2.3,
         "wind_dir": "ESE",
         "condition": "Clear"
       },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Airport Village",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-10-04 04:10"
+        "lat": 14.508,
+        "lon": 121.007,
+        "localtime": "2026-10-04 05:08"
       },
       "current": {
-        "last_updated": "2026-10-04 04:00",
-        "rain_mm": 0.01,
-        "wind_mps": 1.1,
+        "last_updated": "2026-10-04 05:00",
+        "rain_mm": 0.0,
+        "wind_mps": 1.0,
         "wind_dir": "N",
-        "condition": "Patchy rain nearby"
+        "condition": "Smoky haze"
       },
       "hourly_forecast": [
         {
@@ -1875,7 +1875,7 @@
           "time": "2026-10-04 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 19,
-          "wind_mps": 0.8,
+          "wind_mps": 1.0,
           "wind_dir": "N",
           "condition": "Smoky haze"
         },
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-04 03:10"
+        "localtime": "2026-10-04 04:08"
       },
       "current": {
-        "last_updated": "2026-10-04 03:00",
-        "rain_mm": 0.02,
-        "wind_mps": 2.0,
+        "last_updated": "2026-10-04 04:00",
+        "rain_mm": 0.01,
+        "wind_mps": 1.6,
         "wind_dir": "SE",
         "condition": "Patchy rain nearby"
       },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-04 04:10"
+        "localtime": "2026-10-04 05:08"
       },
       "current": {
-        "last_updated": "2026-10-04 04:00",
+        "last_updated": "2026-10-04 05:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "NW",
-        "condition": "Partly Cloudy"
+        "wind_dir": "WNW",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -3069,7 +3069,7 @@
           "time": "2026-10-04 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 19,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "NW",
           "condition": "Partly Cloudy"
         },
@@ -3077,7 +3077,7 @@
           "time": "2026-10-04 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 0.2,
+          "wind_mps": 1.0,
           "wind_dir": "WNW",
           "condition": "Clear"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-03T20:10:07.271593+00:00"
+  "generated_at_utc": "2026-10-03T21:08:58.255639+00:00"
 }
