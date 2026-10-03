@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-04 05:08"
+        "localtime": "2026-10-04 07:18"
       },
       "current": {
-        "last_updated": "2026-10-04 05:00",
-        "rain_mm": 0.31,
-        "wind_mps": 4.3,
+        "last_updated": "2026-10-04 07:15",
+        "rain_mm": 0.87,
+        "wind_mps": 3.9,
         "wind_dir": "NNE",
-        "condition": "Light drizzle"
+        "condition": "Light rain"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-04 05:08"
+        "localtime": "2026-10-04 07:18"
       },
       "current": {
-        "last_updated": "2026-10-04 05:00",
-        "rain_mm": 1.47,
+        "last_updated": "2026-10-04 07:15",
+        "rain_mm": 0.3,
         "wind_mps": 3.8,
         "wind_dir": "NE",
-        "condition": "Light rain"
+        "condition": "Light drizzle"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-04 06:08"
+        "localtime": "2026-10-04 08:18"
       },
       "current": {
-        "last_updated": "2026-10-04 06:00",
+        "last_updated": "2026-10-04 08:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.3,
-        "wind_dir": "ESE",
-        "condition": "Clear"
+        "wind_mps": 3.0,
+        "wind_dir": "SE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Airport Village",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.508,
-        "lon": 121.007,
-        "localtime": "2026-10-04 05:08"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-10-04 07:18"
       },
       "current": {
-        "last_updated": "2026-10-04 05:00",
-        "rain_mm": 0.0,
+        "last_updated": "2026-10-04 07:00",
+        "rain_mm": 0.01,
         "wind_mps": 1.0,
-        "wind_dir": "N",
-        "condition": "Smoky haze"
+        "wind_dir": "NE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -1875,7 +1875,7 @@
           "time": "2026-10-04 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 19,
-          "wind_mps": 1.0,
+          "wind_mps": 0.8,
           "wind_dir": "N",
           "condition": "Smoky haze"
         },
@@ -1891,7 +1891,7 @@
           "time": "2026-10-04 07:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 24,
-          "wind_mps": 0.4,
+          "wind_mps": 1.0,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
         },
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-04 04:08"
+        "localtime": "2026-10-04 06:18"
       },
       "current": {
-        "last_updated": "2026-10-04 04:00",
-        "rain_mm": 0.01,
-        "wind_mps": 1.6,
-        "wind_dir": "SE",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-10-04 06:00",
+        "rain_mm": 0.13,
+        "wind_mps": 1.0,
+        "wind_dir": "SSW",
+        "condition": "Thundery outbreaks in nearby"
       },
       "hourly_forecast": [
         {
@@ -2484,7 +2484,7 @@
           "time": "2026-10-04 06:00",
           "rain_mm": 0.13,
           "chance_of_rain_pct": 41,
-          "wind_mps": 0.9,
+          "wind_mps": 1.0,
           "wind_dir": "SSW",
           "condition": "Thundery outbreaks in nearby"
         },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-04 05:08"
+        "localtime": "2026-10-04 07:18"
       },
       "current": {
-        "last_updated": "2026-10-04 05:00",
+        "last_updated": "2026-10-04 07:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "WNW",
-        "condition": "Clear"
+        "wind_dir": "E",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3077,7 +3077,7 @@
           "time": "2026-10-04 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 1.0,
+          "wind_mps": 0.2,
           "wind_dir": "WNW",
           "condition": "Clear"
         },
@@ -3093,7 +3093,7 @@
           "time": "2026-10-04 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 13,
-          "wind_mps": 0.2,
+          "wind_mps": 1.0,
           "wind_dir": "E",
           "condition": "Sunny"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-03T21:08:58.255639+00:00"
+  "generated_at_utc": "2026-10-03T23:18:02.441005+00:00"
 }
