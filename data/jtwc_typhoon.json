@@ -1,6 +1,6 @@
 {
   "parser_version": "1.0",
-  "generated_at_utc": "2026-10-08T16:52:56.340952Z",
+  "generated_at_utc": "2026-10-08T17:50:27.554191Z",
   "source": "NOAA/NWS public relay of JTWC tropical cyclone warnings",
   "source_note": "JTWC maximum sustained winds are one-minute averages. JTWC wind radii are valid over open water only.",
   "active_count": 2,
@@ -8,7 +8,7 @@
     {
       "bulletin": "WTPN32",
       "issue_time_utc": "2026-10-06T21:00:00Z",
-      "age_hours": 43.9,
+      "age_hours": 44.8,
       "jtwc_id": "26W",
       "name": "CHOI-WAN",
       "storm_type": "TYPHOON",
@@ -275,7 +275,7 @@
     {
       "bulletin": "WTPN33",
       "issue_time_utc": "2026-10-08T15:00:00Z",
-      "age_hours": 1.9,
+      "age_hours": 2.8,
       "jtwc_id": "27W",
       "name": "KOGUMA",
       "storm_type": "TYPHOON",
