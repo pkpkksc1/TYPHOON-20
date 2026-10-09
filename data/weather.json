@@ -18,13 +18,13 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-10 05:12"
+        "localtime": "2026-10-10 07:59"
       },
       "current": {
-        "last_updated": "2026-10-10 05:00",
-        "rain_mm": 0.05,
-        "wind_mps": 1.1,
-        "wind_dir": "WSW",
+        "last_updated": "2026-10-10 07:45",
+        "rain_mm": 0.04,
+        "wind_mps": 1.2,
+        "wind_dir": "W",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-10 05:12"
+        "localtime": "2026-10-10 07:59"
       },
       "current": {
-        "last_updated": "2026-10-10 05:00",
-        "rain_mm": 0.12,
-        "wind_mps": 1.4,
+        "last_updated": "2026-10-10 07:45",
+        "rain_mm": 0.06,
+        "wind_mps": 1.5,
         "wind_dir": "E",
         "condition": "Patchy rain nearby"
       },
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-10 06:12"
+        "localtime": "2026-10-10 08:59"
       },
       "current": {
-        "last_updated": "2026-10-10 06:00",
+        "last_updated": "2026-10-10 08:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
+        "wind_mps": 1.2,
         "wind_dir": "NE",
-        "condition": "Smoky haze"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Tambo",
+        "name": "Paranaque",
         "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.52,
-        "lon": 120.992,
-        "localtime": "2026-10-10 05:12"
+        "lat": 14.509,
+        "lon": 120.993,
+        "localtime": "2026-10-10 07:59"
       },
       "current": {
-        "last_updated": "2026-10-10 05:00",
-        "rain_mm": 0.1,
-        "wind_mps": 1.0,
-        "wind_dir": "NE",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-10-10 07:45",
+        "rain_mm": 0.0,
+        "wind_mps": 1.8,
+        "wind_dir": "E",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -1875,7 +1875,7 @@
           "time": "2026-10-10 05:00",
           "rain_mm": 0.1,
           "chance_of_rain_pct": 33,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "NE",
           "condition": "Patchy rain nearby"
         },
@@ -2422,13 +2422,13 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-10 04:12"
+        "localtime": "2026-10-10 06:59"
       },
       "current": {
-        "last_updated": "2026-10-10 04:00",
+        "last_updated": "2026-10-10 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
-        "wind_dir": "NNW",
+        "wind_mps": 2.4,
+        "wind_dir": "NW",
         "condition": "Mist"
       },
       "hourly_forecast": [
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-10 05:12"
+        "localtime": "2026-10-10 07:59"
       },
       "current": {
-        "last_updated": "2026-10-10 05:00",
+        "last_updated": "2026-10-10 07:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "NW",
-        "condition": "Partly Cloudy"
+        "wind_dir": "NNE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3077,7 +3077,7 @@
           "time": "2026-10-10 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 19,
-          "wind_mps": 1.0,
+          "wind_mps": 0.7,
           "wind_dir": "NW",
           "condition": "Partly Cloudy"
         },
@@ -3093,7 +3093,7 @@
           "time": "2026-10-10 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 28,
-          "wind_mps": 0.7,
+          "wind_mps": 1.0,
           "wind_dir": "NNE",
           "condition": "Overcast"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-09T21:12:14.452530+00:00"
+  "generated_at_utc": "2026-10-09T23:59:03.997629+00:00"
 }
