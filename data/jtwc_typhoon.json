@@ -1,6 +1,6 @@
 {
   "parser_version": "1.0",
-  "generated_at_utc": "2026-10-10T05:42:16.950281Z",
+  "generated_at_utc": "2026-10-10T07:42:20.456455Z",
   "source": "NOAA/NWS public relay of JTWC tropical cyclone warnings",
   "source_note": "JTWC maximum sustained winds are one-minute averages. JTWC wind radii are valid over open water only.",
   "active_count": 1,
@@ -8,7 +8,7 @@
     {
       "bulletin": "WTPN33",
       "issue_time_utc": "2026-10-10T03:00:00Z",
-      "age_hours": 2.7,
+      "age_hours": 4.7,
       "jtwc_id": "27W",
       "name": "KOGUMA",
       "storm_type": "TYPHOON",
