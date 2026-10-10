@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-10 07:59"
+        "localtime": "2026-10-10 09:11"
       },
       "current": {
-        "last_updated": "2026-10-10 07:45",
-        "rain_mm": 0.04,
-        "wind_mps": 1.2,
-        "wind_dir": "W",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-10-10 09:00",
+        "rain_mm": 0.0,
+        "wind_mps": 2.0,
+        "wind_dir": "WNW",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-10 07:59"
+        "localtime": "2026-10-10 09:11"
       },
       "current": {
-        "last_updated": "2026-10-10 07:45",
-        "rain_mm": 0.06,
-        "wind_mps": 1.5,
-        "wind_dir": "E",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-10-10 09:00",
+        "rain_mm": 0.0,
+        "wind_mps": 1.9,
+        "wind_dir": "NE",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-10 08:59"
+        "localtime": "2026-10-10 10:11"
       },
       "current": {
-        "last_updated": "2026-10-10 08:45",
+        "last_updated": "2026-10-10 10:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
+        "wind_mps": 1.0,
         "wind_dir": "NE",
         "condition": "Sunny"
       },
@@ -1314,7 +1314,7 @@
           "time": "2026-10-10 10:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 1,
-          "wind_mps": 0.7,
+          "wind_mps": 1.0,
           "wind_dir": "NE",
           "condition": "Sunny"
         },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Paranaque",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.509,
-        "lon": 120.993,
-        "localtime": "2026-10-10 07:59"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-10-10 09:11"
       },
       "current": {
-        "last_updated": "2026-10-10 07:45",
+        "last_updated": "2026-10-10 09:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.8,
-        "wind_dir": "E",
-        "condition": "Overcast"
+        "wind_mps": 2.5,
+        "wind_dir": "ESE",
+        "condition": "Cloudy"
       },
       "hourly_forecast": [
         {
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-10 06:59"
+        "localtime": "2026-10-10 08:11"
       },
       "current": {
-        "last_updated": "2026-10-10 06:45",
+        "last_updated": "2026-10-10 08:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.4,
+        "wind_mps": 2.7,
         "wind_dir": "NW",
         "condition": "Mist"
       },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-10 07:59"
+        "localtime": "2026-10-10 09:11"
       },
       "current": {
-        "last_updated": "2026-10-10 07:45",
+        "last_updated": "2026-10-10 09:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.0,
-        "wind_dir": "NNE",
-        "condition": "Overcast"
+        "wind_mps": 1.6,
+        "wind_dir": "NE",
+        "condition": "Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3093,7 +3093,7 @@
           "time": "2026-10-10 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 28,
-          "wind_mps": 1.0,
+          "wind_mps": 0.7,
           "wind_dir": "NNE",
           "condition": "Overcast"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-09T23:59:03.997629+00:00"
+  "generated_at_utc": "2026-10-10T01:11:31.113667+00:00"
 }
