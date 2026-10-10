@@ -2,18 +2,18 @@
   "source": "SBLC Typhoon Dashboard",
   "product": "Dashboard Summary",
   "parser_version": "8.72.0-GAENARI-NO-FLIGHT",
-  "generated_at_utc": "2026-10-10T19:29:10.654818+00:00",
+  "generated_at_utc": "2026-10-10T21:35:01.583816+00:00",
   "source_updated_at_utc": {
     "jma": "2026-10-10T19:29:01.756500+00:00",
-    "weather": "2026-10-10T19:29:10.531019+00:00",
-    "risk": "2026-10-10T19:29:10.580292+00:00"
+    "weather": "2026-10-10T21:35:00.998372+00:00",
+    "risk": "2026-10-10T21:35:01.052634+00:00"
   },
   "risk_meta": {
     "typhoon_reference_time": "2026-08-23T09:00:00+09:00",
     "jma_updated_at_utc": "2026-10-10T19:29:01.756500+00:00",
-    "weather_updated_at_utc": "2026-10-10T19:29:10.531019+00:00",
-    "impact_updated_at_utc": "2026-10-10T19:29:09.119467+00:00",
-    "risk_updated_at_utc": "2026-10-10T19:29:10.580292+00:00",
+    "weather_updated_at_utc": "2026-10-10T21:35:00.998372+00:00",
+    "impact_updated_at_utc": "2026-10-10T21:34:59.246563+00:00",
+    "risk_updated_at_utc": "2026-10-10T21:35:01.052634+00:00",
     "risk_version": "6.6-CURRENT-DISTANCE"
   },
   "typhoon": {
@@ -57,9 +57,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 03:15",
-        "rain_mm": 0.21,
-        "wind_mps": 1.7
+        "last_updated": "2026-10-11 05:30",
+        "rain_mm": 0.0,
+        "wind_mps": 1.2
       },
       "forecast_72h": {
         "max_rain_mm": 0.78,
@@ -84,20 +84,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 03:15",
+        "last_updated": "2026-10-11 05:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.0
+        "wind_mps": 1.6
       },
       "forecast_72h": {
-        "max_rain_mm": 0.02,
-        "max_rain_time": "2026-10-12 18:00",
+        "max_rain_mm": 0.06,
+        "max_rain_time": "2026-10-13 20:00",
         "max_wind_mps": 4.5,
-        "max_wind_time": "2026-10-13 11:00"
+        "max_wind_time": "2026-10-13 16:00"
       }
     },
     "ICN": {
       "name_ko": "인천 국제공항",
-      "score": 13,
+      "score": 8,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -111,15 +111,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 04:15",
+        "last_updated": "2026-10-11 06:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.6
+        "wind_mps": 1.1
       },
       "forecast_72h": {
-        "max_rain_mm": 1.41,
-        "max_rain_time": "2026-10-13 03:00",
-        "max_wind_mps": 7.4,
-        "max_wind_time": "2026-10-13 22:00"
+        "max_rain_mm": 1.3,
+        "max_rain_time": "2026-10-12 23:00",
+        "max_wind_mps": 6.7,
+        "max_wind_time": "2026-10-13 23:00"
       }
     },
     "MNL": {
@@ -138,9 +138,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 03:15",
+        "last_updated": "2026-10-11 05:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.6
+        "wind_mps": 1.7
       },
       "forecast_72h": {
         "max_rain_mm": 2.18,
@@ -165,15 +165,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 02:15",
+        "last_updated": "2026-10-11 04:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0
       },
       "forecast_72h": {
-        "max_rain_mm": 0.15,
-        "max_rain_time": "2026-10-13 11:00",
-        "max_wind_mps": 4.5,
-        "max_wind_time": "2026-10-11 20:00"
+        "max_rain_mm": 0.04,
+        "max_rain_time": "2026-10-12 12:00",
+        "max_wind_mps": 4.2,
+        "max_wind_time": "2026-10-13 18:00"
       }
     },
     "CRK": {
@@ -192,15 +192,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-11 03:15",
+        "last_updated": "2026-10-11 05:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0
       },
       "forecast_72h": {
-        "max_rain_mm": 1.44,
-        "max_rain_time": "2026-10-12 17:00",
-        "max_wind_mps": 2.3,
-        "max_wind_time": "2026-10-12 16:00"
+        "max_rain_mm": 1.57,
+        "max_rain_time": "2026-10-12 16:00",
+        "max_wind_mps": 3.1,
+        "max_wind_time": "2026-10-11 16:00"
       }
     }
   },
