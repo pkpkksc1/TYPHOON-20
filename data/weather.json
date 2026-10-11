@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-11 10:08"
+        "localtime": "2026-10-11 15:05"
       },
       "current": {
-        "last_updated": "2026-10-11 10:00",
-        "rain_mm": 0.01,
-        "wind_mps": 1.1,
+        "last_updated": "2026-10-11 15:00",
+        "rain_mm": 0.02,
+        "wind_mps": 1.7,
         "wind_dir": "NW",
         "condition": "Patchy rain nearby"
       },
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-11 10:08"
+        "localtime": "2026-10-11 15:05"
       },
       "current": {
-        "last_updated": "2026-10-11 10:00",
+        "last_updated": "2026-10-11 14:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.9,
-        "wind_dir": "NNE",
-        "condition": "Sunny"
+        "wind_mps": 3.4,
+        "wind_dir": "N",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-11 11:08"
+        "localtime": "2026-10-11 16:05"
       },
       "current": {
-        "last_updated": "2026-10-11 11:00",
+        "last_updated": "2026-10-11 16:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.0,
-        "wind_dir": "NE",
-        "condition": "Sunny"
+        "wind_mps": 2.9,
+        "wind_dir": "W",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-11 10:08"
+        "localtime": "2026-10-11 15:05"
       },
       "current": {
-        "last_updated": "2026-10-11 10:00",
+        "last_updated": "2026-10-11 15:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.8,
-        "wind_dir": "E",
+        "wind_mps": 3.1,
+        "wind_dir": "ESE",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-11 09:08"
+        "localtime": "2026-10-11 14:05"
       },
       "current": {
-        "last_updated": "2026-10-11 09:00",
+        "last_updated": "2026-10-11 14:00",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "NW",
-        "condition": "Smoky haze"
+        "wind_dir": "SW",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -2508,7 +2508,7 @@
           "time": "2026-10-11 09:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 4,
-          "wind_mps": 1.0,
+          "wind_mps": 0.7,
           "wind_dir": "NW",
           "condition": "Smoky haze"
         },
@@ -2548,7 +2548,7 @@
           "time": "2026-10-11 14:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 2,
-          "wind_mps": 0.8,
+          "wind_mps": 1.0,
           "wind_dir": "SW",
           "condition": "Sunny"
         },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-11 10:08"
+        "localtime": "2026-10-11 15:05"
       },
       "current": {
-        "last_updated": "2026-10-11 10:00",
-        "rain_mm": 0.0,
-        "wind_mps": 1.6,
-        "wind_dir": "E",
-        "condition": "Sunny"
+        "last_updated": "2026-10-11 15:00",
+        "rain_mm": 2.19,
+        "wind_mps": 2.4,
+        "wind_dir": "SE",
+        "condition": "Light rain"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-11T02:08:20.712998+00:00"
+  "generated_at_utc": "2026-10-11T07:05:03.001146+00:00"
 }
