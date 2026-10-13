@@ -11,85 +11,58 @@
       "name_cn": "小熊\n",
       "state": "start",
       "current": {
-        "point_id": 3358897,
-        "time_utc": "202610122100",
-        "grade": "TY",
-        "grade_ko": "태풍",
-        "lon": 150.5,
-        "lat": 33.1,
-        "pressure_hpa": 970,
-        "max_wind_mps": 35,
+        "point_id": 3358947,
+        "time_utc": "202610130000",
+        "grade": "STS",
+        "grade_ko": "강한 열대폭풍",
+        "lon": 151.6,
+        "lat": 33.7,
+        "pressure_hpa": 980,
+        "max_wind_mps": 30,
         "movement_direction": "NE",
         "movement_direction_ko": "북동",
-        "movement_speed_kmh": 41,
+        "movement_speed_kmh": 40,
         "wind_radii": [
           {
             "label": "30KTS",
-            "ne_km": 320,
-            "se_km": 320,
-            "sw_km": 200,
-            "nw_km": 250,
+            "ne_km": 200,
+            "se_km": 180,
+            "sw_km": 130,
+            "nw_km": 160,
             "raw": [
               "30KTS",
-              320,
-              320,
               200,
-              250,
-              3358897
+              180,
+              130,
+              160,
+              3358947
             ],
             "meaning_ko": "30kt 풍권"
           },
           {
             "label": "50KTS",
-            "ne_km": 120,
-            "se_km": 120,
-            "sw_km": 100,
-            "nw_km": 100,
+            "ne_km": 100,
+            "se_km": 100,
+            "sw_km": 80,
+            "nw_km": 80,
             "raw": [
               "50KTS",
-              120,
-              120,
               100,
               100,
-              3358897
+              80,
+              80,
+              3358947
             ],
             "meaning_ko": "50kt 폭풍권"
-          },
-          {
-            "label": "64KTS",
-            "ne_km": 50,
-            "se_km": 50,
-            "sw_km": 50,
-            "nw_km": 50,
-            "raw": [
-              "64KTS",
-              50,
-              50,
-              50,
-              50,
-              3358897
-            ],
-            "meaning_ko": "64kt 매우 강한 폭풍권"
           }
         ]
       },
       "forecast": [
         {
           "forecast_hour": 12,
-          "base_time_utc": "202610122100",
-          "lon": 154.2,
-          "lat": 36.2,
-          "pressure_hpa": 980,
-          "max_wind_mps": 30,
-          "agency": "BABJ",
-          "grade": "STS",
-          "grade_ko": "강한 열대폭풍"
-        },
-        {
-          "forecast_hour": 24,
-          "base_time_utc": "202610122100",
-          "lon": 157.3,
-          "lat": 39,
+          "base_time_utc": "202610130000",
+          "lon": 155,
+          "lat": 36.9,
           "pressure_hpa": 982,
           "max_wind_mps": 28,
           "agency": "BABJ",
@@ -97,18 +70,29 @@
           "grade_ko": "강한 열대폭풍"
         },
         {
-          "forecast_hour": 36,
-          "base_time_utc": "202610122100",
-          "lon": 161.3,
-          "lat": 41.4,
+          "forecast_hour": 24,
+          "base_time_utc": "202610130000",
+          "lon": 158.3,
+          "lat": 39.8,
           "pressure_hpa": 985,
           "max_wind_mps": 25,
           "agency": "BABJ",
           "grade": "STS",
           "grade_ko": "강한 열대폭풍"
+        },
+        {
+          "forecast_hour": 36,
+          "base_time_utc": "202610130000",
+          "lon": 162.4,
+          "lat": 41.9,
+          "pressure_hpa": 990,
+          "max_wind_mps": 23,
+          "agency": "BABJ",
+          "grade": "TS",
+          "grade_ko": "열대폭풍"
         }
       ],
-      "raw_point_count": 64
+      "raw_point_count": 65
     },
     {
       "id": 3308554,
@@ -199,5 +183,5 @@
     }
   ],
   "errors": [],
-  "generated_at_utc": "2026-10-12T23:10:49.855035+00:00"
+  "generated_at_utc": "2026-10-13T02:32:17.206852+00:00"
 }
