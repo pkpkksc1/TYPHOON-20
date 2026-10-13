@@ -2,18 +2,18 @@
   "source": "SBLC Typhoon Dashboard",
   "product": "Dashboard Summary",
   "parser_version": "8.72.0-GAENARI-NO-FLIGHT",
-  "generated_at_utc": "2026-10-13T10:26:17.179647+00:00",
+  "generated_at_utc": "2026-10-13T12:06:38.183060+00:00",
   "source_updated_at_utc": {
     "jma": "2026-10-13T10:26:08.195270+00:00",
-    "weather": "2026-10-13T10:26:17.043620+00:00",
-    "risk": "2026-10-13T10:26:17.098608+00:00"
+    "weather": "2026-10-13T12:06:38.039572+00:00",
+    "risk": "2026-10-13T12:06:38.097647+00:00"
   },
   "risk_meta": {
     "typhoon_reference_time": "2026-08-23T09:00:00+09:00",
     "jma_updated_at_utc": "2026-10-13T10:26:08.195270+00:00",
-    "weather_updated_at_utc": "2026-10-13T10:26:17.043620+00:00",
-    "impact_updated_at_utc": "2026-10-13T10:26:15.354141+00:00",
-    "risk_updated_at_utc": "2026-10-13T10:26:17.098608+00:00",
+    "weather_updated_at_utc": "2026-10-13T12:06:38.039572+00:00",
+    "impact_updated_at_utc": "2026-10-13T12:06:35.894717+00:00",
+    "risk_updated_at_utc": "2026-10-13T12:06:38.097647+00:00",
     "risk_version": "6.6-CURRENT-DISTANCE"
   },
   "typhoon": {
@@ -57,9 +57,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 18:15",
+        "last_updated": "2026-10-13 20:00",
         "rain_mm": 0.0,
-        "wind_mps": 4.1
+        "wind_mps": 6.3
       },
       "forecast_72h": {
         "max_rain_mm": 0.01,
@@ -84,9 +84,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 18:15",
+        "last_updated": "2026-10-13 20:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.5
+        "wind_mps": 3.7
       },
       "forecast_72h": {
         "max_rain_mm": 0.05,
@@ -111,9 +111,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 19:15",
+        "last_updated": "2026-10-13 21:00",
         "rain_mm": 0.0,
-        "wind_mps": 7.1
+        "wind_mps": 7.0
       },
       "forecast_72h": {
         "max_rain_mm": 3.0,
@@ -138,9 +138,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 18:15",
-        "rain_mm": 0.01,
-        "wind_mps": 3.9
+        "last_updated": "2026-10-13 20:00",
+        "rain_mm": 0.33,
+        "wind_mps": 4.0
       },
       "forecast_72h": {
         "max_rain_mm": 0.57,
@@ -165,13 +165,13 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 17:15",
+        "last_updated": "2026-10-13 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.9
+        "wind_mps": 4.1
       },
       "forecast_72h": {
         "max_rain_mm": 0.0,
-        "max_rain_time": "2026-10-13 17:15",
+        "max_rain_time": "2026-10-13 19:00",
         "max_wind_mps": 6.0,
         "max_wind_time": "2026-10-15 17:00"
       }
@@ -192,9 +192,9 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-10-13 18:15",
-        "rain_mm": 0.02,
-        "wind_mps": 1.2
+        "last_updated": "2026-10-13 20:00",
+        "rain_mm": 0.0,
+        "wind_mps": 1.0
       },
       "forecast_72h": {
         "max_rain_mm": 1.3,
