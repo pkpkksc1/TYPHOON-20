@@ -18,13 +18,13 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-14 10:07"
+        "localtime": "2026-10-14 12:44"
       },
       "current": {
-        "last_updated": "2026-10-14 10:00",
+        "last_updated": "2026-10-14 12:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.6,
-        "wind_dir": "NE",
+        "wind_mps": 2.7,
+        "wind_dir": "NNE",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -619,13 +619,13 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-14 10:07"
+        "localtime": "2026-10-14 12:44"
       },
       "current": {
-        "last_updated": "2026-10-14 10:00",
+        "last_updated": "2026-10-14 12:30",
         "rain_mm": 0.0,
-        "wind_mps": 4.2,
-        "wind_dir": "NNE",
+        "wind_mps": 3.8,
+        "wind_dir": "NE",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-14 11:07"
+        "localtime": "2026-10-14 13:44"
       },
       "current": {
-        "last_updated": "2026-10-14 11:00",
+        "last_updated": "2026-10-14 13:30",
         "rain_mm": 0.0,
-        "wind_mps": 5.1,
-        "wind_dir": "NNW",
+        "wind_mps": 4.7,
+        "wind_dir": "NW",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1816,18 +1816,18 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Merville Subdivision",
+        "region": "Northern Samar",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-10-14 10:07"
+        "lat": 14.503,
+        "lon": 121.027,
+        "localtime": "2026-10-14 12:44"
       },
       "current": {
-        "last_updated": "2026-10-14 10:00",
-        "rain_mm": 0.01,
-        "wind_mps": 2.0,
-        "wind_dir": "ESE",
+        "last_updated": "2026-10-14 12:30",
+        "rain_mm": 0.06,
+        "wind_mps": 1.9,
+        "wind_dir": "SE",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -2417,19 +2417,19 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Thuy Ha",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.183,
-        "lon": 105.8,
-        "localtime": "2026-10-14 09:07"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-10-14 11:44"
       },
       "current": {
-        "last_updated": "2026-10-14 09:00",
+        "last_updated": "2026-10-14 11:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
-        "wind_dir": "WNW",
-        "condition": "Smoky haze"
+        "wind_mps": 1.0,
+        "wind_dir": "SW",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -2524,7 +2524,7 @@
           "time": "2026-10-14 11:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 2,
-          "wind_mps": 0.4,
+          "wind_mps": 1.0,
           "wind_dir": "SW",
           "condition": "Sunny"
         },
@@ -3023,12 +3023,12 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-14 10:07"
+        "localtime": "2026-10-14 12:44"
       },
       "current": {
-        "last_updated": "2026-10-14 10:00",
-        "rain_mm": 0.01,
-        "wind_mps": 2.1,
+        "last_updated": "2026-10-14 12:30",
+        "rain_mm": 0.03,
+        "wind_mps": 2.2,
         "wind_dir": "ESE",
         "condition": "Patchy rain nearby"
       },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-14T02:07:39.454184+00:00"
+  "generated_at_utc": "2026-10-14T04:44:44.328186+00:00"
 }
