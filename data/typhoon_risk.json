@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-15T14:54:42.797176+00:00",
-    "weather": "2026-10-15T14:54:45.336995+00:00"
+    "impact": "2026-10-15T17:18:29.953726+00:00",
+    "weather": "2026-10-15T17:18:31.574542+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,11 +45,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 22:45",
+        "current_last_updated": "2026-10-16 01:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.8,
-        "max_72h_rain_mm": 0.05,
-        "max_72h_rain_time": "2026-10-17 05:00",
+        "current_wind_mps": 4.3,
+        "max_72h_rain_mm": 0.31,
+        "max_72h_rain_time": "2026-10-18 22:00",
         "max_72h_wind_mps": 7.6,
         "max_72h_wind_time": "2026-10-17 11:00"
       },
@@ -62,7 +62,7 @@
     "PVG": {
       "code": "PVG",
       "name_ko": "푸동 국제공항",
-      "score": 20,
+      "score": 23,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -79,30 +79,30 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 22:45",
+        "current_last_updated": "2026-10-16 01:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.9,
-        "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-10-15 22:45",
+        "current_wind_mps": 3.0,
+        "max_72h_rain_mm": 0.12,
+        "max_72h_rain_time": "2026-10-18 23:00",
         "max_72h_wind_mps": 6.8,
         "max_72h_wind_time": "2026-10-17 23:00"
       },
       "score_detail": {
         "distance": 20,
-        "rain": 0,
+        "rain": 3,
         "wind": 0
       }
     },
     "ICN": {
       "code": "ICN",
       "name_ko": "인천 국제공항",
-      "score": 13,
+      "score": 30,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "특이 위험요소 낮음",
+      "reason_ko": "최대 시간당 강수 18.55 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1389,
@@ -113,17 +113,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 23:45",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 6.0,
-        "max_72h_rain_mm": 0.8,
-        "max_72h_rain_time": "2026-10-16 04:00",
-        "max_72h_wind_mps": 7.5,
-        "max_72h_wind_time": "2026-10-15 15:00"
+        "current_last_updated": "2026-10-16 02:15",
+        "current_rain_mm": 0.28,
+        "current_wind_mps": 5.4,
+        "max_72h_rain_mm": 18.55,
+        "max_72h_rain_time": "2026-10-18 13:00",
+        "max_72h_wind_mps": 8.8,
+        "max_72h_wind_time": "2026-10-18 12:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 8,
+        "rain": 25,
         "wind": 5
       }
     },
@@ -147,11 +147,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 22:45",
+        "current_last_updated": "2026-10-16 01:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.1,
-        "max_72h_rain_mm": 0.23,
-        "max_72h_rain_time": "2026-10-17 14:00",
+        "current_wind_mps": 2.9,
+        "max_72h_rain_mm": 0.41,
+        "max_72h_rain_time": "2026-10-18 12:00",
         "max_72h_wind_mps": 7.1,
         "max_72h_wind_time": "2026-10-16 14:00"
       },
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 21:45",
+        "current_last_updated": "2026-10-16 00:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.7,
-        "max_72h_rain_mm": 0.02,
-        "max_72h_rain_time": "2026-10-16 09:00",
-        "max_72h_wind_mps": 5.8,
-        "max_72h_wind_time": "2026-10-15 17:00"
+        "current_wind_mps": 3.7,
+        "max_72h_rain_mm": 0.08,
+        "max_72h_rain_time": "2026-10-18 04:00",
+        "max_72h_wind_mps": 5.6,
+        "max_72h_wind_time": "2026-10-16 17:00"
       },
       "score_detail": {
         "distance": 0,
@@ -215,9 +215,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-15 22:45",
+        "current_last_updated": "2026-10-16 01:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
+        "current_wind_mps": 1.1,
         "max_72h_rain_mm": 0.09,
         "max_72h_rain_time": "2026-10-17 17:00",
         "max_72h_wind_mps": 5.7,
@@ -234,13 +234,13 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 28,
+      "score": 30,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)",
+      "reason_ko": "인천 국제공항 낮음 (최대 시간당 강수 18.55 mm)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -298,13 +298,13 @@
     {
       "code": "ICN_PVG",
       "name_ko": "한국 → PVG",
-      "score": 20,
+      "score": 30,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "푸동 국제공항 낮음 (태풍 최접근 643 km)",
+      "reason_ko": "인천 국제공항 낮음 (최대 시간당 강수 18.55 mm)",
       "locations": [
         "ICN",
         "PVG"
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-15T14:54:45.402060+00:00"
+  "generated_at_utc": "2026-10-15T17:18:31.639408+00:00"
 }
