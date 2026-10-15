@@ -1,6 +1,6 @@
 {
   "parser_version": "1.0",
-  "generated_at_utc": "2026-10-15T09:48:41.874279Z",
+  "generated_at_utc": "2026-10-15T12:00:54.642053Z",
   "source": "NOAA/NWS public relay of JTWC tropical cyclone warnings",
   "source_note": "JTWC maximum sustained winds are one-minute averages. JTWC wind radii are valid over open water only.",
   "active_count": 3,
@@ -8,7 +8,7 @@
     {
       "bulletin": "WTPN33",
       "issue_time_utc": "2026-10-13T21:00:00Z",
-      "age_hours": 36.8,
+      "age_hours": 39.0,
       "jtwc_id": "27W",
       "name": "KOGUMA",
       "storm_type": "TROPICAL STORM",
@@ -155,7 +155,7 @@
     {
       "bulletin": "WTPN31",
       "issue_time_utc": "2026-10-15T09:00:00Z",
-      "age_hours": 0.8,
+      "age_hours": 3.0,
       "jtwc_id": "28W",
       "name": "TWENTYEIGHT",
       "storm_type": "TROPICAL DISTURBANCE",
@@ -203,7 +203,7 @@
     {
       "bulletin": "WTPN32",
       "issue_time_utc": "2026-10-15T09:00:00Z",
-      "age_hours": 0.8,
+      "age_hours": 3.0,
       "jtwc_id": "29W",
       "name": "CHAMPI",
       "storm_type": "TROPICAL DEPRESSION",
@@ -786,7 +786,7 @@
     },
     {
       "bulletin": "WTPN37",
-      "error": "HTTP Error 404: Not Found"
+      "error": "The read operation timed out"
     },
     {
       "bulletin": "WTPN38",
