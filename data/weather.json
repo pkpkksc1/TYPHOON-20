@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-17 04:03"
+        "localtime": "2026-10-17 04:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:00",
+        "last_updated": "2026-10-17 04:45",
         "rain_mm": 0.18,
         "wind_mps": 4.6,
         "wind_dir": "SE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-17 04:03"
+        "localtime": "2026-10-17 04:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:00",
+        "last_updated": "2026-10-17 04:45",
         "rain_mm": 0.0,
         "wind_mps": 3.2,
         "wind_dir": "SE",
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-17 05:03"
+        "localtime": "2026-10-17 05:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:45",
+        "last_updated": "2026-10-17 05:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.1,
-        "wind_dir": "NE",
+        "wind_mps": 1.9,
+        "wind_dir": "ENE",
         "condition": "Clear"
       },
       "hourly_forecast": [
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-17 04:03"
+        "localtime": "2026-10-17 04:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:00",
+        "last_updated": "2026-10-17 04:45",
         "rain_mm": 0.0,
         "wind_mps": 3.3,
         "wind_dir": "E",
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-17 03:03"
+        "localtime": "2026-10-17 03:59"
       },
       "current": {
-        "last_updated": "2026-10-17 02:45",
+        "last_updated": "2026-10-17 03:45",
         "rain_mm": 0.0,
-        "wind_mps": 3.5,
+        "wind_mps": 3.0,
         "wind_dir": "SSE",
         "condition": "Smoky haze"
       },
@@ -3018,15 +3018,15 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Culayo",
+        "name": "Tibo",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.183,
-        "lon": 120.567,
-        "localtime": "2026-10-17 04:03"
+        "lat": 15.2,
+        "lon": 120.517,
+        "localtime": "2026-10-17 04:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:00",
+        "last_updated": "2026-10-17 04:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "NW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-16T20:03:31.642046+00:00"
+  "generated_at_utc": "2026-10-16T20:59:38.572828+00:00"
 }
