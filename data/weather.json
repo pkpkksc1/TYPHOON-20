@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-17 04:59"
+        "localtime": "2026-10-17 06:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:45",
-        "rain_mm": 0.18,
+        "last_updated": "2026-10-17 06:45",
+        "rain_mm": 0.0,
         "wind_mps": 4.6,
         "wind_dir": "SE",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-17 04:59"
+        "localtime": "2026-10-17 06:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:45",
+        "last_updated": "2026-10-17 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 3.2,
+        "wind_mps": 3.4,
         "wind_dir": "SE",
-        "condition": "Partly Cloudy"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-17 05:59"
+        "localtime": "2026-10-17 07:59"
       },
       "current": {
-        "last_updated": "2026-10-17 05:45",
+        "last_updated": "2026-10-17 07:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
+        "wind_mps": 2.0,
         "wind_dir": "ENE",
-        "condition": "Clear"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-17 04:59"
+        "localtime": "2026-10-17 06:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:45",
+        "last_updated": "2026-10-17 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 3.3,
-        "wind_dir": "E",
-        "condition": "Overcast"
+        "wind_mps": 2.7,
+        "wind_dir": "ENE",
+        "condition": "Cloudy"
       },
       "hourly_forecast": [
         {
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-17 03:59"
+        "localtime": "2026-10-17 05:59"
       },
       "current": {
-        "last_updated": "2026-10-17 03:45",
+        "last_updated": "2026-10-17 05:45",
         "rain_mm": 0.0,
-        "wind_mps": 3.0,
+        "wind_mps": 1.9,
         "wind_dir": "SSE",
-        "condition": "Smoky haze"
+        "condition": "Mist"
       },
       "hourly_forecast": [
         {
@@ -3018,19 +3018,19 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Tibo",
+        "name": "Culayo",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.2,
-        "lon": 120.517,
-        "localtime": "2026-10-17 04:59"
+        "lat": 15.183,
+        "lon": 120.567,
+        "localtime": "2026-10-17 06:59"
       },
       "current": {
-        "last_updated": "2026-10-17 04:45",
+        "last_updated": "2026-10-17 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.0,
+        "wind_mps": 1.1,
         "wind_dir": "NW",
-        "condition": "Partly Cloudy"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3069,7 +3069,7 @@
           "time": "2026-10-17 04:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 16,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "NW",
           "condition": "Partly Cloudy"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-16T20:59:38.572828+00:00"
+  "generated_at_utc": "2026-10-16T22:59:03.895200+00:00"
 }
