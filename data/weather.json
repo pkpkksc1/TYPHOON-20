@@ -13,17 +13,17 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Fengchiaochen",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.313,
-        "lon": 120.561,
-        "localtime": "2026-10-17 17:14"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-10-17 19:07"
       },
       "current": {
-        "last_updated": "2026-10-17 17:00",
+        "last_updated": "2026-10-17 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 5.8,
+        "wind_mps": 5.2,
         "wind_dir": "SE",
         "condition": "Overcast"
       },
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-17 17:14"
+        "localtime": "2026-10-17 19:07"
       },
       "current": {
-        "last_updated": "2026-10-17 17:00",
+        "last_updated": "2026-10-17 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 5.6,
+        "wind_mps": 6.0,
         "wind_dir": "SE",
         "condition": "Overcast"
       },
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-17 18:14"
+        "localtime": "2026-10-17 20:07"
       },
       "current": {
-        "last_updated": "2026-10-17 18:00",
+        "last_updated": "2026-10-17 20:00",
         "rain_mm": 0.0,
-        "wind_mps": 6.5,
+        "wind_mps": 7.9,
         "wind_dir": "ESE",
         "condition": "Partly Cloudy"
       },
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-17 17:14"
+        "localtime": "2026-10-17 19:07"
       },
       "current": {
-        "last_updated": "2026-10-17 17:00",
+        "last_updated": "2026-10-17 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 5.3,
-        "wind_dir": "E",
+        "wind_mps": 4.3,
+        "wind_dir": "ESE",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -2417,19 +2417,19 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-10-17 16:14"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-10-17 18:07"
       },
       "current": {
-        "last_updated": "2026-10-17 16:00",
+        "last_updated": "2026-10-17 18:00",
         "rain_mm": 0.0,
-        "wind_mps": 4.2,
+        "wind_mps": 6.0,
         "wind_dir": "SSE",
-        "condition": "Partly Cloudy"
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -3023,13 +3023,13 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-17 17:14"
+        "localtime": "2026-10-17 19:07"
       },
       "current": {
-        "last_updated": "2026-10-17 17:00",
+        "last_updated": "2026-10-17 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.0,
-        "wind_dir": "SSE",
+        "wind_mps": 2.0,
+        "wind_dir": "SSW",
         "condition": "Cloudy"
       },
       "hourly_forecast": [
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-17T09:14:06.592922+00:00"
+  "generated_at_utc": "2026-10-17T11:07:26.552644+00:00"
 }
