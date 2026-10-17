@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-17 12:15"
+        "localtime": "2026-10-17 14:05"
       },
       "current": {
-        "last_updated": "2026-10-17 12:00",
+        "last_updated": "2026-10-17 14:00",
         "rain_mm": 0.0,
-        "wind_mps": 6.7,
+        "wind_mps": 6.4,
         "wind_dir": "SE",
         "condition": "Overcast"
       },
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-17 12:15"
+        "localtime": "2026-10-17 14:05"
       },
       "current": {
-        "last_updated": "2026-10-17 12:00",
+        "last_updated": "2026-10-17 14:00",
         "rain_mm": 0.0,
-        "wind_mps": 5.9,
+        "wind_mps": 6.2,
         "wind_dir": "SSE",
         "condition": "Overcast"
       },
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-17 13:15"
+        "localtime": "2026-10-17 15:05"
       },
       "current": {
-        "last_updated": "2026-10-17 13:00",
+        "last_updated": "2026-10-17 15:00",
         "rain_mm": 0.0,
-        "wind_mps": 6.0,
-        "wind_dir": "ESE",
+        "wind_mps": 5.8,
+        "wind_dir": "SE",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
+        "name": "Moonwalk I",
         "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-10-17 12:15"
+        "lat": 14.499,
+        "lon": 121.011,
+        "localtime": "2026-10-17 14:05"
       },
       "current": {
-        "last_updated": "2026-10-17 12:00",
-        "rain_mm": 0.01,
-        "wind_mps": 3.7,
+        "last_updated": "2026-10-17 14:00",
+        "rain_mm": 0.0,
+        "wind_mps": 4.3,
         "wind_dir": "E",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-17 11:15"
+        "localtime": "2026-10-17 13:05"
       },
       "current": {
-        "last_updated": "2026-10-17 11:00",
-        "rain_mm": 0.02,
+        "last_updated": "2026-10-17 13:00",
+        "rain_mm": 0.0,
         "wind_mps": 2.8,
-        "wind_dir": "S",
-        "condition": "Patchy rain nearby"
+        "wind_dir": "SSE",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3018,18 +3018,18 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Culayo",
+        "name": "Mamatitang",
         "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.183,
+        "lat": 15.233,
         "lon": 120.567,
-        "localtime": "2026-10-17 12:15"
+        "localtime": "2026-10-17 14:05"
       },
       "current": {
-        "last_updated": "2026-10-17 12:00",
+        "last_updated": "2026-10-17 14:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.6,
-        "wind_dir": "ENE",
+        "wind_mps": 1.5,
+        "wind_dir": "ESE",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -3188,7 +3188,7 @@
         {
           "time": "2026-10-17 19:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 15,
+          "chance_of_rain_pct": 16,
           "wind_mps": 2.3,
           "wind_dir": "SSW",
           "condition": "Partly Cloudy"
@@ -3380,7 +3380,7 @@
         {
           "time": "2026-10-18 19:00",
           "rain_mm": 0.18,
-          "chance_of_rain_pct": 37,
+          "chance_of_rain_pct": 35,
           "wind_mps": 1.9,
           "wind_dir": "SSW",
           "condition": "Patchy rain nearby"
@@ -3412,7 +3412,7 @@
         {
           "time": "2026-10-18 23:00",
           "rain_mm": 0.02,
-          "chance_of_rain_pct": 25,
+          "chance_of_rain_pct": 26,
           "wind_mps": 1.0,
           "wind_dir": "WSW",
           "condition": "Patchy rain nearby"
@@ -3508,7 +3508,7 @@
         {
           "time": "2026-10-19 11:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 17,
+          "chance_of_rain_pct": 16,
           "wind_mps": 1.6,
           "wind_dir": "ENE",
           "condition": "Overcast"
@@ -3572,7 +3572,7 @@
         {
           "time": "2026-10-19 19:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 18,
+          "chance_of_rain_pct": 19,
           "wind_mps": 2.6,
           "wind_dir": "S",
           "condition": "Patchy rain nearby"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-17T04:15:24.680809+00:00"
+  "generated_at_utc": "2026-10-17T06:05:44.606151+00:00"
 }
