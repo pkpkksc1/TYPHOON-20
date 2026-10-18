@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-18 22:07"
+        "localtime": "2026-10-18 22:30"
       },
       "current": {
-        "last_updated": "2026-10-18 22:00",
+        "last_updated": "2026-10-18 22:15",
         "rain_mm": 0.0,
         "wind_mps": 2.8,
         "wind_dir": "NNE",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-18 22:07"
+        "localtime": "2026-10-18 22:30"
       },
       "current": {
-        "last_updated": "2026-10-18 22:00",
+        "last_updated": "2026-10-18 22:15",
         "rain_mm": 0.06,
         "wind_mps": 2.7,
         "wind_dir": "N",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-18 23:07"
+        "localtime": "2026-10-18 23:30"
       },
       "current": {
-        "last_updated": "2026-10-18 23:00",
+        "last_updated": "2026-10-18 23:15",
         "rain_mm": 0.0,
         "wind_mps": 3.2,
         "wind_dir": "NNW",
@@ -1821,10 +1821,10 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-18 22:07"
+        "localtime": "2026-10-18 22:30"
       },
       "current": {
-        "last_updated": "2026-10-18 22:00",
+        "last_updated": "2026-10-18 22:15",
         "rain_mm": 0.0,
         "wind_mps": 2.6,
         "wind_dir": "E",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-18 21:07"
+        "localtime": "2026-10-18 21:30"
       },
       "current": {
-        "last_updated": "2026-10-18 21:00",
+        "last_updated": "2026-10-18 21:15",
         "rain_mm": 0.0,
         "wind_mps": 4.0,
         "wind_dir": "SSE",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-18 22:07"
+        "localtime": "2026-10-18 22:30"
       },
       "current": {
-        "last_updated": "2026-10-18 22:00",
+        "last_updated": "2026-10-18 22:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "SW",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-18T14:07:48.206912+00:00"
+  "generated_at_utc": "2026-10-18T14:30:56.234276+00:00"
 }
