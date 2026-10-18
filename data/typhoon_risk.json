@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-18T05:47:49.288040+00:00",
-    "weather": "2026-10-18T05:47:50.733717+00:00"
+    "impact": "2026-10-18T09:51:15.370927+00:00",
+    "weather": "2026-10-18T09:51:16.811508+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,13 +45,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 13:30",
-        "current_rain_mm": 0.0,
-        "current_wind_mps": 7.1,
-        "max_72h_rain_mm": 0.85,
-        "max_72h_rain_time": "2026-10-20 23:00",
-        "max_72h_wind_mps": 7.1,
-        "max_72h_wind_time": "2026-10-18 13:30"
+        "current_last_updated": "2026-10-18 17:45",
+        "current_rain_mm": 0.32,
+        "current_wind_mps": 4.8,
+        "max_72h_rain_mm": 0.74,
+        "max_72h_rain_time": "2026-10-20 22:00",
+        "max_72h_wind_mps": 7.3,
+        "max_72h_wind_time": "2026-10-18 14:00"
       },
       "score_detail": {
         "distance": 20,
@@ -79,11 +79,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 13:30",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 4.1,
-        "max_72h_rain_mm": 0.49,
-        "max_72h_rain_time": "2026-10-18 19:00",
+        "current_last_updated": "2026-10-18 17:45",
+        "current_rain_mm": 0.06,
+        "current_wind_mps": 5.0,
+        "max_72h_rain_mm": 0.41,
+        "max_72h_rain_time": "2026-10-20 23:00",
         "max_72h_wind_mps": 6.2,
         "max_72h_wind_time": "2026-10-18 00:00"
       },
@@ -96,13 +96,13 @@
     "ICN": {
       "code": "ICN",
       "name_ko": "인천 국제공항",
-      "score": 35,
+      "score": 30,
       "risk": {
-        "level": "YELLOW",
-        "emoji": "🟡",
-        "label_ko": "주의"
+        "level": "GREEN",
+        "emoji": "🟢",
+        "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 14.64 mm / 최대 풍속 12.3 m/s",
+      "reason_ko": "최대 시간당 강수 8.67 mm / 최대 풍속 13.0 m/s",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1389,
@@ -113,17 +113,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 14:30",
-        "current_rain_mm": 12.64,
-        "current_wind_mps": 10.6,
-        "max_72h_rain_mm": 14.64,
-        "max_72h_rain_time": "2026-10-18 12:00",
-        "max_72h_wind_mps": 12.3,
-        "max_72h_wind_time": "2026-10-18 13:00"
+        "current_last_updated": "2026-10-18 18:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 6.0,
+        "max_72h_rain_mm": 8.67,
+        "max_72h_rain_time": "2026-10-18 11:00",
+        "max_72h_wind_mps": 13.0,
+        "max_72h_wind_time": "2026-10-18 14:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 25,
+        "rain": 20,
         "wind": 10
       }
     },
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 13:30",
-        "current_rain_mm": 0.02,
-        "current_wind_mps": 3.0,
-        "max_72h_rain_mm": 0.22,
-        "max_72h_rain_time": "2026-10-19 16:00",
-        "max_72h_wind_mps": 5.1,
-        "max_72h_wind_time": "2026-10-19 18:00"
+        "current_last_updated": "2026-10-18 17:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 4.7,
+        "max_72h_rain_mm": 0.13,
+        "max_72h_rain_time": "2026-10-18 12:00",
+        "max_72h_wind_mps": 4.9,
+        "max_72h_wind_time": "2026-10-18 16:00"
       },
       "score_detail": {
         "distance": 0,
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 12:30",
-        "current_rain_mm": 0.04,
-        "current_wind_mps": 2.3,
-        "max_72h_rain_mm": 0.18,
+        "current_last_updated": "2026-10-18 16:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 2.5,
+        "max_72h_rain_mm": 0.28,
         "max_72h_rain_time": "2026-10-18 10:00",
-        "max_72h_wind_mps": 5.0,
-        "max_72h_wind_time": "2026-10-19 17:00"
+        "max_72h_wind_mps": 6.2,
+        "max_72h_wind_time": "2026-10-19 14:00"
       },
       "score_detail": {
         "distance": 0,
@@ -215,12 +215,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-18 13:45",
-        "current_rain_mm": 0.0,
-        "current_wind_mps": 2.0,
-        "max_72h_rain_mm": 1.87,
-        "max_72h_rain_time": "2026-10-20 17:00",
-        "max_72h_wind_mps": 3.6,
+        "current_last_updated": "2026-10-18 17:45",
+        "current_rain_mm": 0.51,
+        "current_wind_mps": 1.0,
+        "max_72h_rain_mm": 0.7,
+        "max_72h_rain_time": "2026-10-18 16:00",
+        "max_72h_wind_mps": 3.5,
         "max_72h_wind_time": "2026-10-19 17:00"
       },
       "score_detail": {
@@ -234,13 +234,13 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 35,
+      "score": 33,
       "risk": {
-        "level": "YELLOW",
-        "emoji": "🟡",
-        "label_ko": "주의"
+        "level": "GREEN",
+        "emoji": "🟢",
+        "label_ko": "낮음"
       },
-      "reason_ko": "인천 국제공항 주의 (최대 시간당 강수 14.64 mm / 최대 풍속 12.3 m/s)",
+      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)",
       "locations": [
         "SUZHOU",
         "PVG",
@@ -298,13 +298,13 @@
     {
       "code": "ICN_PVG",
       "name_ko": "한국 → PVG",
-      "score": 35,
+      "score": 30,
       "risk": {
-        "level": "YELLOW",
-        "emoji": "🟡",
-        "label_ko": "주의"
+        "level": "GREEN",
+        "emoji": "🟢",
+        "label_ko": "낮음"
       },
-      "reason_ko": "인천 국제공항 주의 (최대 시간당 강수 14.64 mm / 최대 풍속 12.3 m/s)",
+      "reason_ko": "인천 국제공항 낮음 (최대 시간당 강수 8.67 mm / 최대 풍속 13.0 m/s)",
       "locations": [
         "ICN",
         "PVG"
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-18T05:47:50.798986+00:00"
+  "generated_at_utc": "2026-10-18T09:51:16.865392+00:00"
 }
