@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-18T19:37:02.315726+00:00",
-    "weather": "2026-10-18T19:37:03.869536+00:00"
+    "impact": "2026-10-18T20:34:11.475416+00:00",
+    "weather": "2026-10-18T20:34:13.346324+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,9 +45,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 03:30",
-        "current_rain_mm": 0.42,
-        "current_wind_mps": 2.5,
+        "current_last_updated": "2026-10-19 04:15",
+        "current_rain_mm": 0.08,
+        "current_wind_mps": 3.1,
         "max_72h_rain_mm": 1.04,
         "max_72h_rain_time": "2026-10-19 01:00",
         "max_72h_wind_mps": 7.6,
@@ -79,8 +79,8 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 03:30",
-        "current_rain_mm": 0.27,
+        "current_last_updated": "2026-10-19 04:30",
+        "current_rain_mm": 0.28,
         "current_wind_mps": 2.3,
         "max_72h_rain_mm": 2.29,
         "max_72h_rain_time": "2026-10-21 00:00",
@@ -113,9 +113,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 04:30",
+        "current_last_updated": "2026-10-19 05:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.0,
+        "current_wind_mps": 3.0,
         "max_72h_rain_mm": 0.73,
         "max_72h_rain_time": "2026-10-20 20:00",
         "max_72h_wind_mps": 9.4,
@@ -147,9 +147,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 03:30",
+        "current_last_updated": "2026-10-19 04:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.3,
+        "current_wind_mps": 2.0,
         "max_72h_rain_mm": 1.11,
         "max_72h_rain_time": "2026-10-21 20:00",
         "max_72h_wind_mps": 5.8,
@@ -164,13 +164,13 @@
     "HAN": {
       "code": "HAN",
       "name_ko": "하노이 노이바이 국제공항",
-      "score": 15,
+      "score": 3,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.54 mm",
+      "reason_ko": "특이 위험요소 낮음",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 1775,
@@ -181,17 +181,17 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 02:30",
+        "current_last_updated": "2026-10-19 03:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.4,
-        "max_72h_rain_mm": 2.54,
-        "max_72h_rain_time": "2026-10-21 09:00",
-        "max_72h_wind_mps": 6.0,
+        "current_wind_mps": 2.2,
+        "max_72h_rain_mm": 0.18,
+        "max_72h_rain_time": "2026-10-21 14:00",
+        "max_72h_wind_mps": 6.4,
         "max_72h_wind_time": "2026-10-19 15:00"
       },
       "score_detail": {
         "distance": 0,
-        "rain": 15,
+        "rain": 3,
         "wind": 0
       }
     },
@@ -215,9 +215,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-19 03:30",
+        "current_last_updated": "2026-10-19 04:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.1,
+        "current_wind_mps": 1.0,
         "max_72h_rain_mm": 1.93,
         "max_72h_rain_time": "2026-10-20 19:00",
         "max_72h_wind_mps": 3.4,
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-18T19:37:03.916334+00:00"
+  "generated_at_utc": "2026-10-18T20:34:13.412385+00:00"
 }
