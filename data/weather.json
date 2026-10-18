@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-18 08:16"
+        "localtime": "2026-10-18 08:53"
       },
       "current": {
-        "last_updated": "2026-10-18 08:00",
+        "last_updated": "2026-10-18 08:45",
         "rain_mm": 0.0,
         "wind_mps": 5.2,
         "wind_dir": "NW",
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-18 08:16"
+        "localtime": "2026-10-18 08:53"
       },
       "current": {
-        "last_updated": "2026-10-18 08:00",
+        "last_updated": "2026-10-18 08:45",
         "rain_mm": 0.0,
         "wind_mps": 3.8,
         "wind_dir": "SSW",
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-18 09:16"
+        "localtime": "2026-10-18 09:53"
       },
       "current": {
-        "last_updated": "2026-10-18 09:00",
+        "last_updated": "2026-10-18 09:45",
         "rain_mm": 1.1,
         "wind_mps": 7.4,
         "wind_dir": "SSE",
@@ -1816,15 +1816,15 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk I",
+        "name": "Moonwalk Ii",
         "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.499,
-        "lon": 121.011,
-        "localtime": "2026-10-18 08:16"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-10-18 08:53"
       },
       "current": {
-        "last_updated": "2026-10-18 08:15",
+        "last_updated": "2026-10-18 08:45",
         "rain_mm": 0.0,
         "wind_mps": 2.8,
         "wind_dir": "E",
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-18 07:16"
+        "localtime": "2026-10-18 07:53"
       },
       "current": {
-        "last_updated": "2026-10-18 07:00",
+        "last_updated": "2026-10-18 07:45",
         "rain_mm": 0.12,
         "wind_mps": 1.3,
         "wind_dir": "S",
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-18 08:16"
+        "localtime": "2026-10-18 08:53"
       },
       "current": {
-        "last_updated": "2026-10-18 08:15",
+        "last_updated": "2026-10-18 08:45",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
         "wind_dir": "NNE",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-18T00:16:38.768349+00:00"
+  "generated_at_utc": "2026-10-18T00:55:44.179810+00:00"
 }
