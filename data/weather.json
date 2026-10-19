@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-10-19 15:40"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-10-19 19:10"
       },
       "current": {
-        "last_updated": "2026-10-19 15:30",
-        "rain_mm": 0.0,
-        "wind_mps": 2.5,
-        "wind_dir": "ESE",
-        "condition": "Overcast"
+        "last_updated": "2026-10-19 19:00",
+        "rain_mm": 0.01,
+        "wind_mps": 1.5,
+        "wind_dir": "ENE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-19 15:40"
+        "localtime": "2026-10-19 19:10"
       },
       "current": {
-        "last_updated": "2026-10-19 15:30",
+        "last_updated": "2026-10-19 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.4,
-        "wind_dir": "E",
-        "condition": "Overcast"
+        "wind_mps": 2.2,
+        "wind_dir": "ENE",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-19 16:40"
+        "localtime": "2026-10-19 20:10"
       },
       "current": {
-        "last_updated": "2026-10-19 16:30",
+        "last_updated": "2026-10-19 20:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
-        "wind_dir": "NW",
+        "wind_mps": 2.5,
+        "wind_dir": "NNW",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Paranaque",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-10-19 15:40"
+        "lat": 14.509,
+        "lon": 120.993,
+        "localtime": "2026-10-19 19:10"
       },
       "current": {
-        "last_updated": "2026-10-19 15:30",
+        "last_updated": "2026-10-19 19:00",
         "rain_mm": 0.0,
         "wind_mps": 5.0,
-        "wind_dir": "E",
-        "condition": "Sunny"
+        "wind_dir": "ESE",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-19 14:40"
+        "localtime": "2026-10-19 18:10"
       },
       "current": {
-        "last_updated": "2026-10-19 14:30",
+        "last_updated": "2026-10-19 18:00",
         "rain_mm": 0.0,
-        "wind_mps": 3.7,
+        "wind_mps": 5.1,
         "wind_dir": "SE",
         "condition": "Partly Cloudy"
       },
@@ -2547,8 +2547,8 @@
         {
           "time": "2026-10-19 14:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 3,
-          "wind_mps": 3.7,
+          "chance_of_rain_pct": 5,
+          "wind_mps": 3.8,
           "wind_dir": "SE",
           "condition": "Partly Cloudy"
         },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-19 15:40"
+        "localtime": "2026-10-19 19:10"
       },
       "current": {
-        "last_updated": "2026-10-19 15:30",
+        "last_updated": "2026-10-19 19:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
-        "wind_dir": "ESE",
-        "condition": "Partly Cloudy"
+        "wind_mps": 2.7,
+        "wind_dir": "S",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-19T07:40:47.090316+00:00"
+  "generated_at_utc": "2026-10-19T11:10:53.333163+00:00"
 }
