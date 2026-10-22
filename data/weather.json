@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.311,
         "lon": 120.618,
-        "localtime": "2026-10-22 07:12"
+        "localtime": "2026-10-22 09:46"
       },
       "current": {
-        "last_updated": "2026-10-22 07:00",
+        "last_updated": "2026-10-22 09:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.7,
-        "wind_dir": "NE",
-        "condition": "Partly Cloudy"
+        "wind_mps": 4.3,
+        "wind_dir": "ENE",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-22 07:12"
+        "localtime": "2026-10-22 09:46"
       },
       "current": {
-        "last_updated": "2026-10-22 07:00",
+        "last_updated": "2026-10-22 09:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.3,
+        "wind_mps": 4.6,
         "wind_dir": "NE",
         "condition": "Cloudy"
       },
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-22 08:12"
+        "localtime": "2026-10-22 10:46"
       },
       "current": {
-        "last_updated": "2026-10-22 08:00",
+        "last_updated": "2026-10-22 10:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.7,
+        "wind_mps": 3.5,
         "wind_dir": "NNW",
         "condition": "Sunny"
       },
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-22 07:12"
+        "localtime": "2026-10-22 09:46"
       },
       "current": {
-        "last_updated": "2026-10-22 07:00",
-        "rain_mm": 0.02,
-        "wind_mps": 1.0,
-        "wind_dir": "SE",
+        "last_updated": "2026-10-22 09:30",
+        "rain_mm": 0.01,
+        "wind_mps": 3.5,
+        "wind_dir": "SW",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -1891,7 +1891,7 @@
           "time": "2026-10-22 07:00",
           "rain_mm": 0.02,
           "chance_of_rain_pct": 26,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "SE",
           "condition": "Patchy rain nearby"
         },
@@ -2417,19 +2417,19 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-10-22 06:12"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-10-22 08:46"
       },
       "current": {
-        "last_updated": "2026-10-22 06:00",
-        "rain_mm": 0.0,
-        "wind_mps": 1.4,
-        "wind_dir": "ESE",
-        "condition": "Sunny"
+        "last_updated": "2026-10-22 08:30",
+        "rain_mm": 0.01,
+        "wind_mps": 1.9,
+        "wind_dir": "SE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-22 07:12"
+        "localtime": "2026-10-22 09:46"
       },
       "current": {
-        "last_updated": "2026-10-22 07:00",
-        "rain_mm": 0.0,
+        "last_updated": "2026-10-22 09:45",
+        "rain_mm": 0.01,
         "wind_mps": 1.0,
-        "wind_dir": "SSW",
-        "condition": "Overcast"
+        "wind_dir": "SE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -3093,7 +3093,7 @@
           "time": "2026-10-22 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 28,
-          "wind_mps": 1.0,
+          "wind_mps": 0.8,
           "wind_dir": "SSW",
           "condition": "Overcast"
         },
@@ -3109,7 +3109,7 @@
           "time": "2026-10-22 09:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 23,
-          "wind_mps": 0.6,
+          "wind_mps": 1.0,
           "wind_dir": "SE",
           "condition": "Patchy rain nearby"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-21T23:14:44.882313+00:00"
+  "generated_at_utc": "2026-10-22T01:46:39.898721+00:00"
 }
