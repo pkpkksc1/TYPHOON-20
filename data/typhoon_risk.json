@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-23T09:58:20.721643+00:00",
-    "weather": "2026-10-23T09:58:23.425360+00:00"
+    "impact": "2026-10-23T13:46:07.159937+00:00",
+    "weather": "2026-10-23T13:46:12.718933+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -34,7 +34,7 @@
         "emoji": "🟡",
         "label_ko": "주의"
       },
-      "reason_ko": "태풍 최접근 685 km / 최대 시간당 강수 3.17 mm",
+      "reason_ko": "태풍 최접근 685 km / 최대 시간당 강수 3.02 mm",
       "typhoon": {
         "source": "JMA_DISTANCE_FALLBACK",
         "current_distance_km": 685,
@@ -45,10 +45,10 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 17:45",
-        "current_rain_mm": 1.45,
-        "current_wind_mps": 4.1,
-        "max_72h_rain_mm": 3.17,
+        "current_last_updated": "2026-10-23 21:30",
+        "current_rain_mm": 1.82,
+        "current_wind_mps": 3.5,
+        "max_72h_rain_mm": 3.02,
         "max_72h_rain_time": "2026-10-25 14:00",
         "max_72h_wind_mps": 7.3,
         "max_72h_wind_time": "2026-10-25 13:00"
@@ -79,9 +79,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 17:45",
-        "current_rain_mm": 3.15,
-        "current_wind_mps": 4.6,
+        "current_last_updated": "2026-10-23 21:30",
+        "current_rain_mm": 5.2,
+        "current_wind_mps": 5.9,
         "max_72h_rain_mm": 6.71,
         "max_72h_rain_time": "2026-10-23 15:00",
         "max_72h_wind_mps": 7.0,
@@ -113,9 +113,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 18:45",
+        "current_last_updated": "2026-10-23 22:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.1,
+        "current_wind_mps": 1.0,
         "max_72h_rain_mm": 0.01,
         "max_72h_rain_time": "2026-10-24 13:00",
         "max_72h_wind_mps": 4.6,
@@ -147,9 +147,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 17:45",
+        "current_last_updated": "2026-10-23 21:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 5.2,
+        "current_wind_mps": 4.7,
         "max_72h_rain_mm": 0.22,
         "max_72h_rain_time": "2026-10-24 07:00",
         "max_72h_wind_mps": 6.6,
@@ -181,9 +181,9 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 16:45",
+        "current_last_updated": "2026-10-23 20:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.4,
+        "current_wind_mps": 3.4,
         "max_72h_rain_mm": 0.36,
         "max_72h_rain_time": "2026-10-25 13:00",
         "max_72h_wind_mps": 4.4,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-23 17:45",
-        "current_rain_mm": 0.01,
-        "current_wind_mps": 1.7,
+        "current_last_updated": "2026-10-23 21:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 3.1,
         "max_72h_rain_mm": 1.98,
         "max_72h_rain_time": "2026-10-25 13:00",
         "max_72h_wind_mps": 3.1,
-        "max_72h_wind_time": "2026-10-23 14:00"
+        "max_72h_wind_time": "2026-10-23 21:45"
       },
       "score_detail": {
         "distance": 0,
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-23T09:58:23.491943+00:00"
+  "generated_at_utc": "2026-10-23T13:46:12.765946+00:00"
 }

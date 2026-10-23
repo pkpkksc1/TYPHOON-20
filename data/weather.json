@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-10-23 17:58"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-10-23 21:46"
       },
       "current": {
-        "last_updated": "2026-10-23 17:45",
-        "rain_mm": 1.45,
-        "wind_mps": 4.1,
+        "last_updated": "2026-10-23 21:30",
+        "rain_mm": 1.82,
+        "wind_mps": 3.5,
         "wind_dir": "NE",
-        "condition": "Light rain shower"
+        "condition": "Light rain"
       },
       "hourly_forecast": [
         {
@@ -166,8 +166,8 @@
         },
         {
           "time": "2026-10-23 17:00",
-          "rain_mm": 1.45,
-          "chance_of_rain_pct": 67,
+          "rain_mm": 1.4,
+          "chance_of_rain_pct": 66,
           "wind_mps": 4.1,
           "wind_dir": "NE",
           "condition": "Light rain shower"
@@ -190,7 +190,7 @@
         },
         {
           "time": "2026-10-23 20:00",
-          "rain_mm": 1.71,
+          "rain_mm": 1.7,
           "chance_of_rain_pct": 79,
           "wind_mps": 4.4,
           "wind_dir": "NE",
@@ -214,7 +214,7 @@
         },
         {
           "time": "2026-10-23 23:00",
-          "rain_mm": 1.47,
+          "rain_mm": 1.45,
           "chance_of_rain_pct": 79,
           "wind_mps": 3.3,
           "wind_dir": "NNE",
@@ -238,7 +238,7 @@
         },
         {
           "time": "2026-10-24 02:00",
-          "rain_mm": 0.58,
+          "rain_mm": 0.56,
           "chance_of_rain_pct": 72,
           "wind_mps": 3.9,
           "wind_dir": "NNE",
@@ -383,7 +383,7 @@
         {
           "time": "2026-10-24 20:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 29,
+          "chance_of_rain_pct": 30,
           "wind_mps": 4.2,
           "wind_dir": "NNE",
           "condition": "Overcast"
@@ -430,11 +430,11 @@
         },
         {
           "time": "2026-10-25 02:00",
-          "rain_mm": 2.58,
-          "chance_of_rain_pct": 80,
+          "rain_mm": 2.48,
+          "chance_of_rain_pct": 79,
           "wind_mps": 4.9,
           "wind_dir": "NNE",
-          "condition": "Moderate or heavy rain shower"
+          "condition": "Light rain shower"
         },
         {
           "time": "2026-10-25 03:00",
@@ -454,8 +454,8 @@
         },
         {
           "time": "2026-10-25 05:00",
-          "rain_mm": 2.65,
-          "chance_of_rain_pct": 83,
+          "rain_mm": 2.76,
+          "chance_of_rain_pct": 84,
           "wind_mps": 5.5,
           "wind_dir": "NNE",
           "condition": "Moderate rain"
@@ -478,8 +478,8 @@
         },
         {
           "time": "2026-10-25 08:00",
-          "rain_mm": 0.52,
-          "chance_of_rain_pct": 67,
+          "rain_mm": 0.64,
+          "chance_of_rain_pct": 69,
           "wind_mps": 5.6,
           "wind_dir": "NNE",
           "condition": "Light drizzle"
@@ -502,8 +502,8 @@
         },
         {
           "time": "2026-10-25 11:00",
-          "rain_mm": 0.03,
-          "chance_of_rain_pct": 28,
+          "rain_mm": 0.04,
+          "chance_of_rain_pct": 29,
           "wind_mps": 6.3,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -526,8 +526,8 @@
         },
         {
           "time": "2026-10-25 14:00",
-          "rain_mm": 3.17,
-          "chance_of_rain_pct": 81,
+          "rain_mm": 3.02,
+          "chance_of_rain_pct": 80,
           "wind_mps": 6.6,
           "wind_dir": "NNE",
           "condition": "Moderate rain"
@@ -550,8 +550,8 @@
         },
         {
           "time": "2026-10-25 17:00",
-          "rain_mm": 1.9,
-          "chance_of_rain_pct": 77,
+          "rain_mm": 2.08,
+          "chance_of_rain_pct": 78,
           "wind_mps": 6.2,
           "wind_dir": "NNE",
           "condition": "Light rain"
@@ -574,8 +574,8 @@
         },
         {
           "time": "2026-10-25 20:00",
-          "rain_mm": 1.09,
-          "chance_of_rain_pct": 64,
+          "rain_mm": 1.23,
+          "chance_of_rain_pct": 65,
           "wind_mps": 5.4,
           "wind_dir": "N",
           "condition": "Patchy light rain"
@@ -619,13 +619,13 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-23 17:58"
+        "localtime": "2026-10-23 21:46"
       },
       "current": {
-        "last_updated": "2026-10-23 17:45",
-        "rain_mm": 3.15,
-        "wind_mps": 4.6,
-        "wind_dir": "NNE",
+        "last_updated": "2026-10-23 21:30",
+        "rain_mm": 5.2,
+        "wind_mps": 5.9,
+        "wind_dir": "ENE",
         "condition": "Moderate rain"
       },
       "hourly_forecast": [
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-23 18:58"
+        "localtime": "2026-10-23 22:46"
       },
       "current": {
-        "last_updated": "2026-10-23 18:45",
+        "last_updated": "2026-10-23 22:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
-        "wind_dir": "NW",
+        "wind_mps": 1.0,
+        "wind_dir": "ESE",
         "condition": "Overcast"
       },
       "hourly_forecast": [
@@ -1410,7 +1410,7 @@
           "time": "2026-10-23 22:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 12,
-          "wind_mps": 0.6,
+          "wind_mps": 1.0,
           "wind_dir": "ESE",
           "condition": "Overcast"
         },
@@ -1816,17 +1816,17 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Tambo",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-10-23 17:58"
+        "lat": 14.52,
+        "lon": 120.992,
+        "localtime": "2026-10-23 21:46"
       },
       "current": {
-        "last_updated": "2026-10-23 17:45",
+        "last_updated": "2026-10-23 21:30",
         "rain_mm": 0.0,
-        "wind_mps": 5.2,
+        "wind_mps": 4.7,
         "wind_dir": "WSW",
         "condition": "Overcast"
       },
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-23 16:58"
+        "localtime": "2026-10-23 20:46"
       },
       "current": {
-        "last_updated": "2026-10-23 16:45",
+        "last_updated": "2026-10-23 20:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.4,
-        "wind_dir": "ESE",
-        "condition": "Sunny"
+        "wind_mps": 3.4,
+        "wind_dir": "SSE",
+        "condition": "Clear"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-23 17:58"
+        "localtime": "2026-10-23 21:46"
       },
       "current": {
-        "last_updated": "2026-10-23 17:45",
-        "rain_mm": 0.01,
-        "wind_mps": 1.7,
-        "wind_dir": "W",
-        "condition": "Patchy rain nearby"
+        "last_updated": "2026-10-23 21:45",
+        "rain_mm": 0.0,
+        "wind_mps": 3.1,
+        "wind_dir": "SW",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-23T09:58:23.425360+00:00"
+  "generated_at_utc": "2026-10-23T13:46:12.718933+00:00"
 }
