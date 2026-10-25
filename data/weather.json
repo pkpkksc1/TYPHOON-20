@@ -13,19 +13,19 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-10-25 12:31"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-10-25 13:12"
       },
       "current": {
-        "last_updated": "2026-10-25 12:15",
-        "rain_mm": 0.13,
-        "wind_mps": 7.3,
+        "last_updated": "2026-10-25 13:00",
+        "rain_mm": 0.0,
+        "wind_mps": 7.1,
         "wind_dir": "N",
-        "condition": "Patchy rain nearby"
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -96,7 +96,7 @@
           "time": "2026-10-25 08:00",
           "rain_mm": 0.04,
           "chance_of_rain_pct": 22,
-          "wind_mps": 5.4,
+          "wind_mps": 5.5,
           "wind_dir": "N",
           "condition": "Patchy rain nearby"
         },
@@ -191,7 +191,7 @@
         {
           "time": "2026-10-25 20:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 8,
+          "chance_of_rain_pct": 9,
           "wind_mps": 4.1,
           "wind_dir": "N",
           "condition": "Clear"
@@ -527,7 +527,7 @@
         {
           "time": "2026-10-27 14:00",
           "rain_mm": 0.01,
-          "chance_of_rain_pct": 17,
+          "chance_of_rain_pct": 16,
           "wind_mps": 4.6,
           "wind_dir": "NNE",
           "condition": "Patchy rain nearby"
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-25 12:31"
+        "localtime": "2026-10-25 13:12"
       },
       "current": {
-        "last_updated": "2026-10-25 12:30",
-        "rain_mm": 0.2,
+        "last_updated": "2026-10-25 13:00",
+        "rain_mm": 0.11,
         "wind_mps": 6.5,
         "wind_dir": "N",
-        "condition": "Light rain shower"
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -1220,12 +1220,12 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-25 13:31"
+        "localtime": "2026-10-25 14:12"
       },
       "current": {
-        "last_updated": "2026-10-25 13:15",
+        "last_updated": "2026-10-25 14:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.8,
+        "wind_mps": 1.5,
         "wind_dir": "ESE",
         "condition": "Sunny"
       },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Paranaque",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.509,
-        "lon": 120.993,
-        "localtime": "2026-10-25 12:31"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-10-25 13:12"
       },
       "current": {
-        "last_updated": "2026-10-25 12:15",
+        "last_updated": "2026-10-25 13:00",
         "rain_mm": 0.0,
-        "wind_mps": 1.7,
-        "wind_dir": "WNW",
-        "condition": "Overcast"
+        "wind_mps": 1.6,
+        "wind_dir": "W",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-25 11:31"
+        "localtime": "2026-10-25 12:12"
       },
       "current": {
-        "last_updated": "2026-10-25 11:15",
-        "rain_mm": 0.01,
-        "wind_mps": 2.4,
+        "last_updated": "2026-10-25 12:00",
+        "rain_mm": 0.0,
+        "wind_mps": 2.0,
         "wind_dir": "SE",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3023,11 +3023,11 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-25 12:31"
+        "localtime": "2026-10-25 13:12"
       },
       "current": {
-        "last_updated": "2026-10-25 12:30",
-        "rain_mm": 0.13,
+        "last_updated": "2026-10-25 13:00",
+        "rain_mm": 0.03,
         "wind_mps": 2.4,
         "wind_dir": "ENE",
         "condition": "Patchy rain nearby"
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-25T04:31:27.461549+00:00"
+  "generated_at_utc": "2026-10-25T05:12:18.958338+00:00"
 }
