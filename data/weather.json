@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-26 05:40"
+        "localtime": "2026-10-26 07:30"
       },
       "current": {
-        "last_updated": "2026-10-26 05:30",
+        "last_updated": "2026-10-26 07:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.3,
+        "wind_mps": 2.2,
         "wind_dir": "NNW",
-        "condition": "Clear"
+        "condition": "Smoky haze"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-26 05:40"
+        "localtime": "2026-10-26 07:30"
       },
       "current": {
-        "last_updated": "2026-10-26 05:30",
+        "last_updated": "2026-10-26 07:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.8,
-        "wind_dir": "NW",
-        "condition": "Clear"
+        "wind_mps": 2.9,
+        "wind_dir": "NNW",
+        "condition": "Smoky haze"
       },
       "hourly_forecast": [
         {
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-26 06:40"
+        "localtime": "2026-10-26 08:30"
       },
       "current": {
-        "last_updated": "2026-10-26 06:30",
-        "rain_mm": 0.07,
-        "wind_mps": 3.0,
-        "wind_dir": "NE",
+        "last_updated": "2026-10-26 08:15",
+        "rain_mm": 0.01,
+        "wind_mps": 1.9,
+        "wind_dir": "ENE",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-26 05:40"
+        "localtime": "2026-10-26 07:30"
       },
       "current": {
-        "last_updated": "2026-10-26 05:30",
+        "last_updated": "2026-10-26 07:15",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
-        "wind_dir": "NE",
+        "wind_mps": 2.2,
+        "wind_dir": "E",
         "condition": "Smoky haze"
       },
       "hourly_forecast": [
@@ -2417,19 +2417,19 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Noi Bai",
+        "name": "Ninh Bac",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.217,
-        "lon": 105.817,
-        "localtime": "2026-10-26 04:40"
+        "lat": 21.233,
+        "lon": 105.8,
+        "localtime": "2026-10-26 06:30"
       },
       "current": {
-        "last_updated": "2026-10-26 04:30",
-        "rain_mm": 0.37,
-        "wind_mps": 1.4,
+        "last_updated": "2026-10-26 06:15",
+        "rain_mm": 0.0,
+        "wind_mps": 2.2,
         "wind_dir": "ESE",
-        "condition": "Light rain shower"
+        "condition": "Smoky haze"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-26 05:40"
+        "localtime": "2026-10-26 07:30"
       },
       "current": {
-        "last_updated": "2026-10-26 05:30",
+        "last_updated": "2026-10-26 07:30",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "NW",
-        "condition": "Cloudy"
+        "wind_dir": "N",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3077,7 +3077,7 @@
           "time": "2026-10-26 05:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 24,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "NW",
           "condition": "Cloudy"
         },
@@ -3093,7 +3093,7 @@
           "time": "2026-10-26 07:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 17,
-          "wind_mps": 0.8,
+          "wind_mps": 1.0,
           "wind_dir": "N",
           "condition": "Partly Cloudy"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-25T21:41:30.769626+00:00"
+  "generated_at_utc": "2026-10-25T23:30:24.921412+00:00"
 }
