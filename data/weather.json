@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-10-27 12:53"
+        "localtime": "2026-10-27 13:30"
       },
       "current": {
-        "last_updated": "2026-10-27 12:45",
-        "rain_mm": 0.03,
-        "wind_mps": 6.3,
+        "last_updated": "2026-10-27 13:15",
+        "rain_mm": 0.0,
+        "wind_mps": 5.7,
         "wind_dir": "N",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-27 12:53"
+        "localtime": "2026-10-27 13:30"
       },
       "current": {
-        "last_updated": "2026-10-27 12:45",
-        "rain_mm": 0.02,
-        "wind_mps": 5.7,
+        "last_updated": "2026-10-27 13:15",
+        "rain_mm": 0.0,
+        "wind_mps": 6.1,
         "wind_dir": "N",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1215,17 +1215,17 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Sammok",
+        "name": "Sinbul",
         "region": "",
         "country": "South Korea",
-        "lat": 37.483,
-        "lon": 126.466,
-        "localtime": "2026-10-27 13:53"
+        "lat": 37.45,
+        "lon": 126.483,
+        "localtime": "2026-10-27 14:30"
       },
       "current": {
-        "last_updated": "2026-10-27 13:45",
+        "last_updated": "2026-10-27 14:15",
         "rain_mm": 0.0,
-        "wind_mps": 8.7,
+        "wind_mps": 9.3,
         "wind_dir": "NW",
         "condition": "Sunny"
       },
@@ -1821,13 +1821,13 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-27 12:53"
+        "localtime": "2026-10-27 13:30"
       },
       "current": {
-        "last_updated": "2026-10-27 12:45",
+        "last_updated": "2026-10-27 13:15",
         "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "SW",
+        "wind_dir": "S",
         "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
@@ -1931,7 +1931,7 @@
           "time": "2026-10-27 12:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 6,
-          "wind_mps": 1.0,
+          "wind_mps": 0.9,
           "wind_dir": "SW",
           "condition": "Partly Cloudy"
         },
@@ -1939,7 +1939,7 @@
           "time": "2026-10-27 13:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 8,
-          "wind_mps": 0.6,
+          "wind_mps": 1.0,
           "wind_dir": "S",
           "condition": "Partly Cloudy"
         },
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-27 11:53"
+        "localtime": "2026-10-27 12:30"
       },
       "current": {
-        "last_updated": "2026-10-27 11:45",
+        "last_updated": "2026-10-27 12:15",
         "rain_mm": 0.0,
-        "wind_mps": 2.8,
+        "wind_mps": 3.0,
         "wind_dir": "NE",
         "condition": "Partly Cloudy"
       },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-27 12:53"
+        "localtime": "2026-10-27 13:30"
       },
       "current": {
-        "last_updated": "2026-10-27 12:45",
+        "last_updated": "2026-10-27 13:30",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
-        "wind_dir": "ENE",
-        "condition": "Cloudy"
+        "wind_mps": 1.8,
+        "wind_dir": "E",
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-27T04:53:53.517284+00:00"
+  "generated_at_utc": "2026-10-27T05:30:46.262496+00:00"
 }
