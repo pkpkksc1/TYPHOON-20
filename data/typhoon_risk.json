@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-10-28T15:57:10.885792+00:00",
-    "weather": "2026-10-28T15:57:11.577311+00:00"
+    "impact": "2026-10-28T19:49:50.978803+00:00",
+    "weather": "2026-10-28T19:49:52.575766+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -28,7 +28,7 @@
     "SUZHOU": {
       "code": "SUZHOU",
       "name_ko": "쑤저우",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -45,18 +45,18 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-28 23:45",
+        "current_last_updated": "2026-10-29 03:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.2,
-        "max_72h_rain_mm": 0.16,
+        "current_wind_mps": 2.7,
+        "max_72h_rain_mm": 0.17,
         "max_72h_rain_time": "2026-10-29 05:00",
-        "max_72h_wind_mps": 5.0,
-        "max_72h_wind_time": "2026-10-29 18:00"
+        "max_72h_wind_mps": 7.1,
+        "max_72h_wind_time": "2026-10-31 19:00"
       },
       "score_detail": {
         "distance": 20,
         "rain": 3,
-        "wind": 0
+        "wind": 5
       }
     },
     "PVG": {
@@ -79,13 +79,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-28 23:45",
+        "current_last_updated": "2026-10-29 03:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.6,
+        "current_wind_mps": 2.4,
         "max_72h_rain_mm": 0.02,
         "max_72h_rain_time": "2026-10-29 14:00",
-        "max_72h_wind_mps": 4.5,
-        "max_72h_wind_time": "2026-10-29 10:00"
+        "max_72h_wind_mps": 4.8,
+        "max_72h_wind_time": "2026-10-31 15:00"
       },
       "score_detail": {
         "distance": 20,
@@ -113,7 +113,7 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-29 00:45",
+        "current_last_updated": "2026-10-29 04:30",
         "current_rain_mm": 0.0,
         "current_wind_mps": 1.0,
         "max_72h_rain_mm": 0.56,
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-28 23:45",
+        "current_last_updated": "2026-10-29 03:45",
         "current_rain_mm": 0.02,
-        "current_wind_mps": 2.6,
-        "max_72h_rain_mm": 0.52,
-        "max_72h_rain_time": "2026-10-29 11:00",
-        "max_72h_wind_mps": 6.2,
-        "max_72h_wind_time": "2026-10-28 13:00"
+        "current_wind_mps": 2.3,
+        "max_72h_rain_mm": 0.82,
+        "max_72h_rain_time": "2026-10-31 14:00",
+        "max_72h_wind_mps": 5.5,
+        "max_72h_wind_time": "2026-10-31 16:00"
       },
       "score_detail": {
         "distance": 0,
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-28 22:45",
+        "current_last_updated": "2026-10-29 02:30",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.2,
+        "current_wind_mps": 1.9,
         "max_72h_rain_mm": 0.92,
         "max_72h_rain_time": "2026-10-30 03:00",
-        "max_72h_wind_mps": 5.3,
-        "max_72h_wind_time": "2026-10-28 15:00"
+        "max_72h_wind_mps": 5.5,
+        "max_72h_wind_time": "2026-10-31 18:00"
       },
       "score_detail": {
         "distance": 0,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-10-28 23:45",
+        "current_last_updated": "2026-10-29 03:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
+        "current_wind_mps": 1.5,
         "max_72h_rain_mm": 1.35,
         "max_72h_rain_time": "2026-10-30 16:00",
-        "max_72h_wind_mps": 3.2,
-        "max_72h_wind_time": "2026-10-28 14:00"
+        "max_72h_wind_mps": 3.4,
+        "max_72h_wind_time": "2026-10-31 16:00"
       },
       "score_detail": {
         "distance": 0,
@@ -234,7 +234,7 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -250,7 +250,7 @@
     {
       "code": "SUZHOU_PVG_HAN",
       "name_ko": "쑤저우 → PVG → 하노이",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -266,7 +266,7 @@
     {
       "code": "SUZHOU_PVG_CRK",
       "name_ko": "쑤저우 → PVG → 클락",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -282,7 +282,7 @@
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 23,
+      "score": 28,
       "risk": {
         "level": "GREEN",
         "emoji": "🟢",
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-10-28T15:57:11.640216+00:00"
+  "generated_at_utc": "2026-10-28T19:49:52.635063+00:00"
 }
