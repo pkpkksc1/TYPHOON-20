@@ -1,123 +1,14 @@
 {
   "parser_version": "1.0",
-  "generated_at_utc": "2026-10-27T21:27:40.340137Z",
+  "generated_at_utc": "2026-10-28T00:42:09.417123Z",
   "source": "NOAA/NWS public relay of JTWC tropical cyclone warnings",
   "source_note": "JTWC maximum sustained winds are one-minute averages. JTWC wind radii are valid over open water only.",
-  "active_count": 2,
+  "active_count": 1,
   "storms": [
-    {
-      "bulletin": "WTPN32",
-      "issue_time_utc": "2026-10-25T09:00:00Z",
-      "age_hours": 60.5,
-      "jtwc_id": "29W",
-      "name": "CHAMPI",
-      "storm_type": "TROPICAL STORM",
-      "warning_number": 44,
-      "source_url": "https://tgftp.nws.noaa.gov/data/raw/wt/wtpn32.pgtw..txt",
-      "current": {
-        "valid_time_raw": "250600Z",
-        "lat": 30.1,
-        "lon": 125.5,
-        "movement_degrees": 40,
-        "movement_speed_kt": 14,
-        "movement_speed_kmh": 25.9,
-        "pressure_hpa": 995,
-        "max_wind_kt": 45,
-        "max_wind_mps": 23.1,
-        "gust_kt": 55,
-        "gust_mps": 28.3,
-        "wind_radii": {
-          "34kt": {
-            "threshold_kt": 34,
-            "threshold_mps": 17.5,
-            "quadrants": {
-              "NE": {
-                "nm": 170,
-                "km": 314.8
-              },
-              "SE": {
-                "nm": 100,
-                "km": 185.2
-              },
-              "SW": {
-                "nm": 130,
-                "km": 240.8
-              },
-              "NW": {
-                "nm": 170,
-                "km": 314.8
-              }
-            },
-            "max_radius_nm": 170,
-            "max_radius_km": 314.8
-          }
-        }
-      },
-      "forecast": [
-        {
-          "forecast_hour": 12,
-          "valid_time_raw": "251800Z",
-          "lat": 31.4,
-          "lon": 127.8,
-          "max_wind_kt": 35,
-          "max_wind_mps": 18.0,
-          "gust_kt": 45,
-          "gust_mps": 23.1,
-          "wind_radii": {
-            "34kt": {
-              "threshold_kt": 34,
-              "threshold_mps": 17.5,
-              "quadrants": {
-                "NE": {
-                  "nm": 110,
-                  "km": 203.7
-                },
-                "SE": {
-                  "nm": 20,
-                  "km": 37.0
-                },
-                "SW": {
-                  "nm": 80,
-                  "km": 148.2
-                },
-                "NW": {
-                  "nm": 90,
-                  "km": 166.7
-                }
-              },
-              "max_radius_nm": 110,
-              "max_radius_km": 203.7
-            }
-          }
-        },
-        {
-          "forecast_hour": 24,
-          "valid_time_raw": "260600Z",
-          "lat": 32.1,
-          "lon": 131.1,
-          "max_wind_kt": 30,
-          "max_wind_mps": 15.4,
-          "gust_kt": 40,
-          "gust_mps": 20.6,
-          "wind_radii": {}
-        },
-        {
-          "forecast_hour": 36,
-          "valid_time_raw": "261800Z",
-          "lat": 32.9,
-          "lon": 134.9,
-          "max_wind_kt": 30,
-          "max_wind_mps": 15.4,
-          "gust_kt": 40,
-          "gust_mps": 20.6,
-          "wind_radii": {}
-        }
-      ]
-    },
     {
       "bulletin": "WTPN31",
       "issue_time_utc": "2026-10-27T21:00:00Z",
-      "age_hours": 0.5,
+      "age_hours": 3.7,
       "jtwc_id": "30W",
       "name": "IN-FA",
       "storm_type": "TYPHOON",
