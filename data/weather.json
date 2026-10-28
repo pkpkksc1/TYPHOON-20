@@ -13,17 +13,17 @@
         "lon": 120.5853
       },
       "resolved_location": {
-        "name": "Yangchiatsun",
+        "name": "Suzhou",
         "region": "Jiangsu",
         "country": "China",
-        "lat": 31.285,
-        "lon": 120.596,
-        "localtime": "2026-10-28 22:25"
+        "lat": 31.311,
+        "lon": 120.618,
+        "localtime": "2026-10-28 23:56"
       },
       "current": {
-        "last_updated": "2026-10-28 22:15",
+        "last_updated": "2026-10-28 23:45",
         "rain_mm": 0.0,
-        "wind_mps": 4.0,
+        "wind_mps": 3.2,
         "wind_dir": "SE",
         "condition": "Smoky haze"
       },
@@ -262,9 +262,9 @@
         },
         {
           "time": "2026-10-29 05:00",
-          "rain_mm": 0.17,
-          "chance_of_rain_pct": 37,
-          "wind_mps": 2.6,
+          "rain_mm": 0.16,
+          "chance_of_rain_pct": 36,
+          "wind_mps": 2.7,
           "wind_dir": "SSE",
           "condition": "Light rain shower"
         },
@@ -336,7 +336,7 @@
           "time": "2026-10-29 14:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 10,
-          "wind_mps": 3.1,
+          "wind_mps": 3.2,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
         },
@@ -527,7 +527,7 @@
         {
           "time": "2026-10-30 14:00",
           "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
+          "chance_of_rain_pct": 2,
           "wind_mps": 2.3,
           "wind_dir": "WNW",
           "condition": "Smoky haze"
@@ -576,8 +576,8 @@
           "time": "2026-10-30 20:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 4,
-          "wind_mps": 0.1,
-          "wind_dir": "E",
+          "wind_mps": 0.0,
+          "wind_dir": "ESE",
           "condition": "Smoky haze"
         },
         {
@@ -619,10 +619,10 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-10-28 22:25"
+        "localtime": "2026-10-28 23:56"
       },
       "current": {
-        "last_updated": "2026-10-28 22:15",
+        "last_updated": "2026-10-28 23:45",
         "rain_mm": 0.0,
         "wind_mps": 2.6,
         "wind_dir": "SE",
@@ -1220,208 +1220,16 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-10-28 23:25"
+        "localtime": "2026-10-29 00:56"
       },
       "current": {
-        "last_updated": "2026-10-28 23:15",
+        "last_updated": "2026-10-29 00:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.2,
-        "wind_dir": "NW",
+        "wind_mps": 1.0,
+        "wind_dir": "NNW",
         "condition": "Overcast"
       },
       "hourly_forecast": [
-        {
-          "time": "2026-10-28 00:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 6.3,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 01:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 6.6,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 02:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 6.3,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 03:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 5.6,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 04:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 5.9,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 05:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 5.7,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 06:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 4.6,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 07:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 5.1,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 08:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 4.8,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 09:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 3.8,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 10:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 4.2,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 11:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 4.2,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 12:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 3.3,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 13:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 4.5,
-          "wind_dir": "NNW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 14:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 4.4,
-          "wind_dir": "NW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 15:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 3.7,
-          "wind_dir": "NW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 16:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 3.8,
-          "wind_dir": "NW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 17:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 3.4,
-          "wind_dir": "NW",
-          "condition": "Sunny"
-        },
-        {
-          "time": "2026-10-28 18:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 2.5,
-          "wind_dir": "WNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 19:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 2.3,
-          "wind_dir": "NW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 20:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 0,
-          "wind_mps": 1.7,
-          "wind_dir": "NW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 21:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 2,
-          "wind_mps": 1.1,
-          "wind_dir": "WNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 22:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 1,
-          "wind_mps": 0.6,
-          "wind_dir": "NNW",
-          "condition": "Clear"
-        },
-        {
-          "time": "2026-10-28 23:00",
-          "rain_mm": 0.0,
-          "chance_of_rain_pct": 10,
-          "wind_mps": 1.2,
-          "wind_dir": "NW",
-          "condition": "Overcast"
-        },
         {
           "time": "2026-10-29 00:00",
           "rain_mm": 0.0,
@@ -1805,6 +1613,198 @@
           "wind_mps": 5.4,
           "wind_dir": "WNW",
           "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 00:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 7,
+          "wind_mps": 4.6,
+          "wind_dir": "WNW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 01:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 4,
+          "wind_mps": 6.0,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 02:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 2,
+          "wind_mps": 5.9,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 03:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 4,
+          "wind_mps": 4.8,
+          "wind_dir": "NNW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 04:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 5.2,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 05:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 5.6,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 06:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 2,
+          "wind_mps": 4.7,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 07:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 6.0,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 08:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 6.1,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 09:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 5.2,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 10:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 6.3,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 11:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 6.0,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 12:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 5.2,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 13:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 6.1,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 14:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 5.8,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 15:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 4.7,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 16:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 5.5,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 17:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 0,
+          "wind_mps": 4.9,
+          "wind_dir": "NW",
+          "condition": "Sunny"
+        },
+        {
+          "time": "2026-10-31 18:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 3,
+          "wind_mps": 2.9,
+          "wind_dir": "NW",
+          "condition": "Partly Cloudy"
+        },
+        {
+          "time": "2026-10-31 19:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 4.5,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 20:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 1,
+          "wind_mps": 3.8,
+          "wind_dir": "NW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 21:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 6,
+          "wind_mps": 2.7,
+          "wind_dir": "NNW",
+          "condition": "Partly Cloudy"
+        },
+        {
+          "time": "2026-10-31 22:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 2,
+          "wind_mps": 2.0,
+          "wind_dir": "NNW",
+          "condition": "Clear"
+        },
+        {
+          "time": "2026-10-31 23:00",
+          "rain_mm": 0.0,
+          "chance_of_rain_pct": 9,
+          "wind_mps": 1.9,
+          "wind_dir": "NW",
+          "condition": "Overcast"
         }
       ]
     },
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-10-28 22:25"
+        "localtime": "2026-10-28 23:56"
       },
       "current": {
-        "last_updated": "2026-10-28 22:15",
-        "rain_mm": 0.0,
-        "wind_mps": 2.8,
+        "last_updated": "2026-10-28 23:45",
+        "rain_mm": 0.02,
+        "wind_mps": 2.6,
         "wind_dir": "E",
-        "condition": "Clear"
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -2422,12 +2422,12 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-10-28 21:25"
+        "localtime": "2026-10-28 22:56"
       },
       "current": {
-        "last_updated": "2026-10-28 21:15",
+        "last_updated": "2026-10-28 22:45",
         "rain_mm": 0.0,
-        "wind_mps": 3.7,
+        "wind_mps": 2.2,
         "wind_dir": "S",
         "condition": "Smoky haze"
       },
@@ -3023,13 +3023,13 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-10-28 22:25"
+        "localtime": "2026-10-28 23:56"
       },
       "current": {
-        "last_updated": "2026-10-28 22:15",
+        "last_updated": "2026-10-28 23:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
-        "wind_dir": "WSW",
+        "wind_mps": 1.0,
+        "wind_dir": "WNW",
         "condition": "Clear"
       },
       "hourly_forecast": [
@@ -3221,7 +3221,7 @@
           "time": "2026-10-28 23:00",
           "rain_mm": 0.0,
           "chance_of_rain_pct": 13,
-          "wind_mps": 0.3,
+          "wind_mps": 1.0,
           "wind_dir": "WNW",
           "condition": "Clear"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-28T14:25:52.542832+00:00"
+  "generated_at_utc": "2026-10-28T15:57:11.577311+00:00"
 }
