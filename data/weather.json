@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-01 05:25"
+        "localtime": "2026-11-01 07:39"
       },
       "current": {
-        "last_updated": "2026-11-01 05:15",
+        "last_updated": "2026-11-01 07:30",
         "rain_mm": 0.0,
-        "wind_mps": 5.5,
-        "wind_dir": "SSE",
-        "condition": "Clear"
+        "wind_mps": 6.6,
+        "wind_dir": "S",
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-01 05:25"
+        "localtime": "2026-11-01 07:39"
       },
       "current": {
-        "last_updated": "2026-11-01 05:15",
+        "last_updated": "2026-11-01 07:30",
         "rain_mm": 0.0,
-        "wind_mps": 5.9,
+        "wind_mps": 6.2,
         "wind_dir": "S",
-        "condition": "Clear"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-11-01 06:25"
+        "localtime": "2026-11-01 08:39"
       },
       "current": {
-        "last_updated": "2026-11-01 06:15",
-        "rain_mm": 0.15,
-        "wind_mps": 1.0,
-        "wind_dir": "ENE",
-        "condition": "Light drizzle"
+        "last_updated": "2026-11-01 08:30",
+        "rain_mm": 0.03,
+        "wind_mps": 4.1,
+        "wind_dir": "SSE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -1282,7 +1282,7 @@
           "time": "2026-11-01 06:00",
           "rain_mm": 0.15,
           "chance_of_rain_pct": 28,
-          "wind_mps": 1.0,
+          "wind_mps": 0.5,
           "wind_dir": "ENE",
           "condition": "Light drizzle"
         },
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Paranaque",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.509,
-        "lon": 120.993,
-        "localtime": "2026-11-01 05:25"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-11-01 07:39"
       },
       "current": {
-        "last_updated": "2026-11-01 05:15",
-        "rain_mm": 0.02,
-        "wind_mps": 2.2,
+        "last_updated": "2026-11-01 07:30",
+        "rain_mm": 0.0,
+        "wind_mps": 1.7,
         "wind_dir": "E",
-        "condition": "Patchy rain nearby"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-11-01 04:25"
+        "localtime": "2026-11-01 06:39"
       },
       "current": {
-        "last_updated": "2026-11-01 04:15",
+        "last_updated": "2026-11-01 06:30",
         "rain_mm": 0.0,
-        "wind_mps": 4.5,
+        "wind_mps": 4.6,
         "wind_dir": "SSE",
-        "condition": "Clear"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-01 05:25"
+        "localtime": "2026-11-01 07:39"
       },
       "current": {
-        "last_updated": "2026-11-01 05:15",
-        "rain_mm": 0.01,
+        "last_updated": "2026-11-01 07:30",
+        "rain_mm": 0.0,
         "wind_mps": 1.0,
-        "wind_dir": "WNW",
-        "condition": "Patchy rain nearby"
+        "wind_dir": "N",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3077,7 +3077,7 @@
           "time": "2026-11-01 05:00",
           "rain_mm": 0.01,
           "chance_of_rain_pct": 29,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "WNW",
           "condition": "Patchy rain nearby"
         },
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-10-31T21:26:38.663964+00:00"
+  "generated_at_utc": "2026-10-31T23:39:30.816761+00:00"
 }
