@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-02 10:42"
+        "localtime": "2026-11-02 13:51"
       },
       "current": {
-        "last_updated": "2026-11-02 10:30",
+        "last_updated": "2026-11-02 13:45",
         "rain_mm": 0.0,
         "wind_mps": 3.6,
         "wind_dir": "NW",
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-02 10:42"
+        "localtime": "2026-11-02 13:51"
       },
       "current": {
-        "last_updated": "2026-11-02 10:30",
+        "last_updated": "2026-11-02 13:30",
         "rain_mm": 0.0,
-        "wind_mps": 4.3,
+        "wind_mps": 4.2,
         "wind_dir": "NNW",
         "condition": "Sunny"
       },
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-11-02 11:42"
+        "localtime": "2026-11-02 14:51"
       },
       "current": {
-        "last_updated": "2026-11-02 11:30",
+        "last_updated": "2026-11-02 14:45",
         "rain_mm": 0.0,
-        "wind_mps": 4.8,
-        "wind_dir": "NW",
+        "wind_mps": 5.9,
+        "wind_dir": "WNW",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1816,18 +1816,18 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Ebaiu",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.507,
-        "lon": 120.995,
-        "localtime": "2026-11-02 10:42"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-11-02 13:51"
       },
       "current": {
-        "last_updated": "2026-11-02 10:30",
+        "last_updated": "2026-11-02 13:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.9,
-        "wind_dir": "ESE",
+        "wind_mps": 2.8,
+        "wind_dir": "SE",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -2422,14 +2422,14 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-11-02 09:42"
+        "localtime": "2026-11-02 12:51"
       },
       "current": {
-        "last_updated": "2026-11-02 09:30",
-        "rain_mm": 0.03,
-        "wind_mps": 3.7,
+        "last_updated": "2026-11-02 12:45",
+        "rain_mm": 0.56,
+        "wind_mps": 2.9,
         "wind_dir": "SE",
-        "condition": "Patchy rain nearby"
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -3018,19 +3018,19 @@
         "lon": 120.5603
       },
       "resolved_location": {
-        "name": "Taconda",
-        "region": "Angeles",
+        "name": "Culayo",
+        "region": "Pampanga",
         "country": "Philippines",
-        "lat": 15.171,
-        "lon": 120.536,
-        "localtime": "2026-11-02 10:42"
+        "lat": 15.183,
+        "lon": 120.567,
+        "localtime": "2026-11-02 13:51"
       },
       "current": {
-        "last_updated": "2026-11-02 10:30",
-        "rain_mm": 0.0,
-        "wind_mps": 1.8,
-        "wind_dir": "ENE",
-        "condition": "Sunny"
+        "last_updated": "2026-11-02 13:45",
+        "rain_mm": 0.01,
+        "wind_mps": 1.9,
+        "wind_dir": "E",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-02T02:42:51.151645+00:00"
+  "generated_at_utc": "2026-11-02T05:52:51.378859+00:00"
 }
