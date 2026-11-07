@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-07 10:43"
+        "localtime": "2026-11-07 15:43"
       },
       "current": {
-        "last_updated": "2026-11-07 10:30",
+        "last_updated": "2026-11-07 15:30",
         "rain_mm": 0.0,
-        "wind_mps": 7.8,
-        "wind_dir": "ESE",
-        "condition": "Partly Cloudy"
+        "wind_mps": 7.2,
+        "wind_dir": "SE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -619,12 +619,12 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-07 10:43"
+        "localtime": "2026-11-07 15:43"
       },
       "current": {
-        "last_updated": "2026-11-07 10:30",
+        "last_updated": "2026-11-07 15:30",
         "rain_mm": 0.0,
-        "wind_mps": 5.7,
+        "wind_mps": 6.0,
         "wind_dir": "E",
         "condition": "Overcast"
       },
@@ -1220,13 +1220,13 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-11-07 11:43"
+        "localtime": "2026-11-07 16:43"
       },
       "current": {
-        "last_updated": "2026-11-07 11:30",
+        "last_updated": "2026-11-07 16:30",
         "rain_mm": 0.0,
-        "wind_mps": 4.3,
-        "wind_dir": "NNW",
+        "wind_mps": 4.8,
+        "wind_dir": "NW",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-11-07 10:43"
+        "localtime": "2026-11-07 15:43"
       },
       "current": {
-        "last_updated": "2026-11-07 10:30",
-        "rain_mm": 0.02,
-        "wind_mps": 5.9,
+        "last_updated": "2026-11-07 15:30",
+        "rain_mm": 0.0,
+        "wind_mps": 7.6,
         "wind_dir": "E",
-        "condition": "Patchy rain nearby"
+        "condition": "Sunny"
       },
       "hourly_forecast": [
         {
@@ -2417,18 +2417,18 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Noi Bai",
+        "name": "Ninh Bac",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.217,
-        "lon": 105.817,
-        "localtime": "2026-11-07 09:43"
+        "lat": 21.233,
+        "lon": 105.8,
+        "localtime": "2026-11-07 14:43"
       },
       "current": {
-        "last_updated": "2026-11-07 09:30",
-        "rain_mm": 0.2,
+        "last_updated": "2026-11-07 14:30",
+        "rain_mm": 0.19,
         "wind_mps": 3.8,
-        "wind_dir": "SE",
+        "wind_dir": "ESE",
         "condition": "Light rain shower"
       },
       "hourly_forecast": [
@@ -3023,13 +3023,13 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-07 10:43"
+        "localtime": "2026-11-07 15:43"
       },
       "current": {
-        "last_updated": "2026-11-07 10:30",
+        "last_updated": "2026-11-07 15:30",
         "rain_mm": 0.0,
-        "wind_mps": 2.4,
-        "wind_dir": "NE",
+        "wind_mps": 3.1,
+        "wind_dir": "E",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-07T02:43:24.226579+00:00"
+  "generated_at_utc": "2026-11-07T07:43:31.907068+00:00"
 }
