@@ -2,18 +2,18 @@
   "source": "SBLC Typhoon Dashboard",
   "product": "Dashboard Summary",
   "parser_version": "8.72.0-GAENARI-NO-FLIGHT",
-  "generated_at_utc": "2026-11-09T08:37:27.459718+00:00",
+  "generated_at_utc": "2026-11-09T17:24:35.992619+00:00",
   "source_updated_at_utc": {
-    "jma": "2026-11-09T08:37:20.532006+00:00",
-    "weather": "2026-11-09T08:37:27.303204+00:00",
-    "risk": "2026-11-09T08:37:27.366765+00:00"
+    "jma": "2026-11-09T17:24:24.260603+00:00",
+    "weather": "2026-11-09T17:24:35.883236+00:00",
+    "risk": "2026-11-09T17:24:35.929589+00:00"
   },
   "risk_meta": {
     "typhoon_reference_time": "2026-08-23T09:00:00+09:00",
-    "jma_updated_at_utc": "2026-11-09T08:37:20.532006+00:00",
-    "weather_updated_at_utc": "2026-11-09T08:37:27.303204+00:00",
-    "impact_updated_at_utc": "2026-11-09T08:37:25.982013+00:00",
-    "risk_updated_at_utc": "2026-11-09T08:37:27.366765+00:00",
+    "jma_updated_at_utc": "2026-11-09T17:24:24.260603+00:00",
+    "weather_updated_at_utc": "2026-11-09T17:24:35.883236+00:00",
+    "impact_updated_at_utc": "2026-11-09T17:24:34.356912+00:00",
+    "risk_updated_at_utc": "2026-11-09T17:24:35.929589+00:00",
     "risk_version": "6.6-CURRENT-DISTANCE"
   },
   "typhoon": {
@@ -43,12 +43,12 @@
   "locations": {
     "SUZHOU": {
       "name_ko": "쑤저우",
-      "score": 33,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "태풍 최접근 685 km / 최대 풍속 10.9 m/s",
+      "reason_ko": "태풍 최접근 685 km",
       "current_distance_km": 685,
       "closest_distance_km": 685,
       "closest_time": "2026-08-23T09:00:00+09:00",
@@ -57,20 +57,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 16:30",
+        "last_updated": "2026-11-10 01:15",
         "rain_mm": 0.0,
-        "wind_mps": 8.3
+        "wind_mps": 6.0
       },
       "forecast_72h": {
-        "max_rain_mm": 0.17,
-        "max_rain_time": "2026-11-09 03:00",
-        "max_wind_mps": 10.9,
-        "max_wind_time": "2026-11-09 03:00"
+        "max_rain_mm": 0.02,
+        "max_rain_time": "2026-11-12 16:00",
+        "max_wind_mps": 6.1,
+        "max_wind_time": "2026-11-10 00:00"
       }
     },
     "PVG": {
       "name_ko": "푸동 국제공항",
-      "score": 28,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -84,15 +84,15 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 16:30",
+        "last_updated": "2026-11-10 01:15",
         "rain_mm": 0.0,
-        "wind_mps": 7.6
+        "wind_mps": 5.9
       },
       "forecast_72h": {
-        "max_rain_mm": 0.09,
-        "max_rain_time": "2026-11-09 05:00",
-        "max_wind_mps": 8.3,
-        "max_wind_time": "2026-11-09 12:00"
+        "max_rain_mm": 0.04,
+        "max_rain_time": "2026-11-12 23:00",
+        "max_wind_mps": 5.9,
+        "max_wind_time": "2026-11-10 01:15"
       }
     },
     "ICN": {
@@ -111,20 +111,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 17:30",
+        "last_updated": "2026-11-10 02:15",
         "rain_mm": 0.0,
-        "wind_mps": 4.8
+        "wind_mps": 2.9
       },
       "forecast_72h": {
         "max_rain_mm": 0.02,
-        "max_rain_time": "2026-11-09 00:00",
-        "max_wind_mps": 5.0,
-        "max_wind_time": "2026-11-09 19:00"
+        "max_rain_time": "2026-11-12 23:00",
+        "max_wind_mps": 4.3,
+        "max_wind_time": "2026-11-12 19:00"
       }
     },
     "MNL": {
       "name_ko": "마닐라 국제공항",
-      "score": 8,
+      "score": 13,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -138,25 +138,25 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 16:30",
+        "last_updated": "2026-11-10 01:15",
         "rain_mm": 0.01,
-        "wind_mps": 7.4
+        "wind_mps": 2.7
       },
       "forecast_72h": {
-        "max_rain_mm": 0.29,
-        "max_rain_time": "2026-11-09 14:00",
+        "max_rain_mm": 0.69,
+        "max_rain_time": "2026-11-10 11:00",
         "max_wind_mps": 8.0,
-        "max_wind_time": "2026-11-10 12:00"
+        "max_wind_time": "2026-11-10 13:00"
       }
     },
     "HAN": {
       "name_ko": "하노이 노이바이 국제공항",
-      "score": 20,
+      "score": 8,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "최대 시간당 강수 2.2 mm",
+      "reason_ko": "특이 위험요소 낮음",
       "current_distance_km": 1775,
       "closest_distance_km": 1775,
       "closest_time": "2026-08-23T09:00:00+09:00",
@@ -165,20 +165,20 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 15:30",
-        "rain_mm": 0.08,
-        "wind_mps": 6.6
+        "last_updated": "2026-11-10 00:15",
+        "rain_mm": 0.0,
+        "wind_mps": 4.5
       },
       "forecast_72h": {
-        "max_rain_mm": 2.2,
-        "max_rain_time": "2026-11-09 00:00",
-        "max_wind_mps": 8.9,
-        "max_wind_time": "2026-11-09 05:00"
+        "max_rain_mm": 0.94,
+        "max_rain_time": "2026-11-12 22:00",
+        "max_wind_mps": 5.1,
+        "max_wind_time": "2026-11-10 11:00"
       }
     },
     "CRK": {
       "name_ko": "클락 국제공항",
-      "score": 8,
+      "score": 3,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
@@ -192,14 +192,14 @@
       "trend_ko": "마지막 위치",
       "current_weather": {
         "source": "WeatherAPI.com",
-        "last_updated": "2026-11-09 16:30",
-        "rain_mm": 0.08,
-        "wind_mps": 2.8
+        "last_updated": "2026-11-10 01:15",
+        "rain_mm": 0.0,
+        "wind_mps": 1.9
       },
       "forecast_72h": {
-        "max_rain_mm": 1.81,
-        "max_rain_time": "2026-11-09 12:00",
-        "max_wind_mps": 5.0,
+        "max_rain_mm": 0.21,
+        "max_rain_time": "2026-11-12 14:00",
+        "max_wind_mps": 4.6,
         "max_wind_time": "2026-11-10 14:00"
       }
     }
@@ -208,47 +208,47 @@
     {
       "code": "SUZHOU_PVG_ICN",
       "name_ko": "쑤저우 → PVG → 한국",
-      "score": 33,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km / 최대 풍속 10.9 m/s)"
+      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)"
     },
     {
       "code": "SUZHOU_PVG_HAN",
       "name_ko": "쑤저우 → PVG → 하노이",
-      "score": 33,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km / 최대 풍속 10.9 m/s)"
+      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)"
     },
     {
       "code": "SUZHOU_PVG_CRK",
       "name_ko": "쑤저우 → PVG → 클락",
-      "score": 33,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km / 최대 풍속 10.9 m/s)"
+      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)"
     },
     {
       "code": "SUZHOU_PVG_MNL",
       "name_ko": "쑤저우 → PVG → 마닐라",
-      "score": 33,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
       },
-      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km / 최대 풍속 10.9 m/s)"
+      "reason_ko": "쑤저우 낮음 (태풍 최접근 685 km)"
     },
     {
       "code": "ICN_PVG",
       "name_ko": "한국 → PVG",
-      "score": 28,
+      "score": 23,
       "risk": {
         "emoji": "🟢",
         "label_ko": "낮음"
