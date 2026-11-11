@@ -18,10 +18,10 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-12 05:21"
+        "localtime": "2026-11-12 06:58"
       },
       "current": {
-        "last_updated": "2026-11-12 05:15",
+        "last_updated": "2026-11-12 06:45",
         "rain_mm": 0.0,
         "wind_mps": 2.2,
         "wind_dir": "SSE",
@@ -619,14 +619,14 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-12 05:21"
+        "localtime": "2026-11-12 06:58"
       },
       "current": {
-        "last_updated": "2026-11-12 05:15",
+        "last_updated": "2026-11-12 06:45",
         "rain_mm": 0.0,
         "wind_mps": 2.0,
         "wind_dir": "SE",
-        "condition": "Cloudy"
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-11-12 06:21"
+        "localtime": "2026-11-12 07:58"
       },
       "current": {
-        "last_updated": "2026-11-12 06:15",
+        "last_updated": "2026-11-12 07:45",
         "rain_mm": 0.0,
-        "wind_mps": 2.1,
+        "wind_mps": 2.2,
         "wind_dir": "SE",
-        "condition": "Partly Cloudy"
+        "condition": "Haze"
       },
       "hourly_forecast": [
         {
@@ -1821,14 +1821,14 @@
         "country": "Philippines",
         "lat": 14.5,
         "lon": 121.019,
-        "localtime": "2026-11-12 05:21"
+        "localtime": "2026-11-12 06:58"
       },
       "current": {
-        "last_updated": "2026-11-12 05:15",
-        "rain_mm": 0.0,
-        "wind_mps": 2.1,
+        "last_updated": "2026-11-12 06:45",
+        "rain_mm": 0.01,
+        "wind_mps": 1.9,
         "wind_dir": "E",
-        "condition": "Cloudy"
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -2417,17 +2417,17 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-11-12 04:21"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-11-12 05:58"
       },
       "current": {
-        "last_updated": "2026-11-12 04:15",
-        "rain_mm": 0.01,
-        "wind_mps": 2.5,
+        "last_updated": "2026-11-12 05:45",
+        "rain_mm": 0.02,
+        "wind_mps": 2.6,
         "wind_dir": "NW",
         "condition": "Patchy rain nearby"
       },
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-12 05:21"
+        "localtime": "2026-11-12 06:58"
       },
       "current": {
-        "last_updated": "2026-11-12 05:15",
+        "last_updated": "2026-11-12 06:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.1,
+        "wind_mps": 1.3,
         "wind_dir": "N",
-        "condition": "Cloudy"
+        "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-11T21:21:17.575969+00:00"
+  "generated_at_utc": "2026-11-11T22:58:47.640239+00:00"
 }
