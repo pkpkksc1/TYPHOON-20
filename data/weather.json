@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-12 10:53"
+        "localtime": "2026-11-12 12:07"
       },
       "current": {
-        "last_updated": "2026-11-12 10:45",
-        "rain_mm": 0.0,
-        "wind_mps": 1.5,
-        "wind_dir": "SW",
-        "condition": "Smoky haze"
+        "last_updated": "2026-11-12 12:00",
+        "rain_mm": 0.02,
+        "wind_mps": 1.6,
+        "wind_dir": "W",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -619,13 +619,13 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-12 10:53"
+        "localtime": "2026-11-12 12:07"
       },
       "current": {
-        "last_updated": "2026-11-12 10:45",
-        "rain_mm": 0.03,
-        "wind_mps": 1.6,
-        "wind_dir": "SSW",
+        "last_updated": "2026-11-12 12:00",
+        "rain_mm": 0.01,
+        "wind_mps": 1.5,
+        "wind_dir": "SW",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -1220,14 +1220,14 @@
         "country": "South Korea",
         "lat": 37.45,
         "lon": 126.417,
-        "localtime": "2026-11-12 11:53"
+        "localtime": "2026-11-12 13:07"
       },
       "current": {
-        "last_updated": "2026-11-12 11:45",
+        "last_updated": "2026-11-12 13:00",
         "rain_mm": 0.0,
-        "wind_mps": 2.6,
-        "wind_dir": "S",
-        "condition": "Partly Cloudy"
+        "wind_mps": 3.1,
+        "wind_dir": "SSW",
+        "condition": "Cloudy"
       },
       "hourly_forecast": [
         {
@@ -1816,19 +1816,19 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Moonwalk Ii",
-        "region": "Misamis Oriental",
+        "name": "Airport Village",
+        "region": "Rizal",
         "country": "Philippines",
-        "lat": 14.5,
-        "lon": 121.019,
-        "localtime": "2026-11-12 10:53"
+        "lat": 14.508,
+        "lon": 121.007,
+        "localtime": "2026-11-12 12:07"
       },
       "current": {
-        "last_updated": "2026-11-12 10:45",
-        "rain_mm": 0.05,
-        "wind_mps": 3.9,
+        "last_updated": "2026-11-12 12:00",
+        "rain_mm": 0.24,
+        "wind_mps": 4.5,
         "wind_dir": "E",
-        "condition": "Patchy rain nearby"
+        "condition": "Light rain shower"
       },
       "hourly_forecast": [
         {
@@ -2422,11 +2422,11 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-11-12 09:53"
+        "localtime": "2026-11-12 11:07"
       },
       "current": {
-        "last_updated": "2026-11-12 09:45",
-        "rain_mm": 0.01,
+        "last_updated": "2026-11-12 11:00",
+        "rain_mm": 0.06,
         "wind_mps": 2.5,
         "wind_dir": "NNW",
         "condition": "Patchy rain nearby"
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-12 10:53"
+        "localtime": "2026-11-12 12:07"
       },
       "current": {
-        "last_updated": "2026-11-12 10:45",
-        "rain_mm": 0.0,
-        "wind_mps": 3.1,
-        "wind_dir": "NE",
-        "condition": "Partly Cloudy"
+        "last_updated": "2026-11-12 12:00",
+        "rain_mm": 0.04,
+        "wind_mps": 3.7,
+        "wind_dir": "ENE",
+        "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-12T02:53:18.919003+00:00"
+  "generated_at_utc": "2026-11-12T04:07:33.416531+00:00"
 }
