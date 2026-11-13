@@ -18,14 +18,14 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-14 06:32"
+        "localtime": "2026-11-14 07:49"
       },
       "current": {
-        "last_updated": "2026-11-14 06:15",
-        "rain_mm": 0.85,
+        "last_updated": "2026-11-14 07:30",
+        "rain_mm": 0.62,
         "wind_mps": 1.0,
-        "wind_dir": "WNW",
-        "condition": "Light rain"
+        "wind_dir": "N",
+        "condition": "Light drizzle"
       },
       "hourly_forecast": [
         {
@@ -80,7 +80,7 @@
           "time": "2026-11-14 06:00",
           "rain_mm": 0.85,
           "chance_of_rain_pct": 75,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "WNW",
           "condition": "Light rain"
         },
@@ -88,7 +88,7 @@
           "time": "2026-11-14 07:00",
           "rain_mm": 0.62,
           "chance_of_rain_pct": 74,
-          "wind_mps": 0.4,
+          "wind_mps": 1.0,
           "wind_dir": "N",
           "condition": "Light drizzle"
         },
@@ -619,13 +619,13 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-14 06:32"
+        "localtime": "2026-11-14 07:49"
       },
       "current": {
-        "last_updated": "2026-11-14 06:30",
-        "rain_mm": 0.99,
+        "last_updated": "2026-11-14 07:30",
+        "rain_mm": 1.34,
         "wind_mps": 1.0,
-        "wind_dir": "E",
+        "wind_dir": "N",
         "condition": "Light rain"
       },
       "hourly_forecast": [
@@ -681,7 +681,7 @@
           "time": "2026-11-14 06:00",
           "rain_mm": 0.99,
           "chance_of_rain_pct": 78,
-          "wind_mps": 1.0,
+          "wind_mps": 0.4,
           "wind_dir": "E",
           "condition": "Light rain"
         },
@@ -689,7 +689,7 @@
           "time": "2026-11-14 07:00",
           "rain_mm": 1.34,
           "chance_of_rain_pct": 80,
-          "wind_mps": 0.2,
+          "wind_mps": 1.0,
           "wind_dir": "N",
           "condition": "Light rain"
         },
@@ -1215,17 +1215,17 @@
         "lon": 126.4407
       },
       "resolved_location": {
-        "name": "Sammok",
+        "name": "Namni",
         "region": "",
         "country": "South Korea",
-        "lat": 37.483,
-        "lon": 126.466,
-        "localtime": "2026-11-14 07:32"
+        "lat": 37.45,
+        "lon": 126.417,
+        "localtime": "2026-11-14 08:49"
       },
       "current": {
-        "last_updated": "2026-11-14 07:30",
-        "rain_mm": 1.11,
-        "wind_mps": 2.7,
+        "last_updated": "2026-11-14 08:30",
+        "rain_mm": 1.72,
+        "wind_mps": 2.6,
         "wind_dir": "ENE",
         "condition": "Light rain"
       },
@@ -1816,18 +1816,18 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Ebaiu",
-        "region": "Rizal",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.507,
-        "lon": 120.995,
-        "localtime": "2026-11-14 06:32"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-11-14 07:49"
       },
       "current": {
-        "last_updated": "2026-11-14 06:15",
+        "last_updated": "2026-11-14 07:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.7,
-        "wind_dir": "E",
+        "wind_mps": 1.6,
+        "wind_dir": "ENE",
         "condition": "Partly Cloudy"
       },
       "hourly_forecast": [
@@ -2422,10 +2422,10 @@
         "country": "Vietnam",
         "lat": 21.217,
         "lon": 105.817,
-        "localtime": "2026-11-14 05:32"
+        "localtime": "2026-11-14 06:49"
       },
       "current": {
-        "last_updated": "2026-11-14 05:15",
+        "last_updated": "2026-11-14 06:30",
         "rain_mm": 0.0,
         "wind_mps": 1.4,
         "wind_dir": "NNW",
@@ -3023,14 +3023,14 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-14 06:32"
+        "localtime": "2026-11-14 07:49"
       },
       "current": {
-        "last_updated": "2026-11-14 06:15",
+        "last_updated": "2026-11-14 07:45",
         "rain_mm": 0.0,
-        "wind_mps": 1.0,
-        "wind_dir": "N",
-        "condition": "Cloudy"
+        "wind_mps": 1.1,
+        "wind_dir": "NNE",
+        "condition": "Overcast"
       },
       "hourly_forecast": [
         {
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-13T22:32:13.525189+00:00"
+  "generated_at_utc": "2026-11-13T23:49:30.640809+00:00"
 }
