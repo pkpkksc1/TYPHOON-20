@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-11-19T03:48:14.196319+00:00",
-    "weather": "2026-11-19T03:48:15.744064+00:00"
+    "impact": "2026-11-19T12:53:09.967084+00:00",
+    "weather": "2026-11-19T12:53:11.300260+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,11 +45,11 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 11:30",
+        "current_last_updated": "2026-11-19 20:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.4,
+        "current_wind_mps": 4.0,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-19 11:30",
+        "max_72h_rain_time": "2026-11-19 20:45",
         "max_72h_wind_mps": 5.5,
         "max_72h_wind_time": "2026-11-19 23:00"
       },
@@ -79,12 +79,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 11:30",
+        "current_last_updated": "2026-11-19 20:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.7,
+        "current_wind_mps": 1.9,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-19 11:30",
-        "max_72h_wind_mps": 4.3,
+        "max_72h_rain_time": "2026-11-19 20:45",
+        "max_72h_wind_mps": 4.4,
         "max_72h_wind_time": "2026-11-19 23:00"
       },
       "score_detail": {
@@ -113,13 +113,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 12:30",
-        "current_rain_mm": 0.06,
-        "current_wind_mps": 6.6,
+        "current_last_updated": "2026-11-19 21:45",
+        "current_rain_mm": 0.01,
+        "current_wind_mps": 4.9,
         "max_72h_rain_mm": 0.06,
-        "max_72h_rain_time": "2026-11-19 12:30",
-        "max_72h_wind_mps": 7.2,
-        "max_72h_wind_time": "2026-11-19 13:00"
+        "max_72h_rain_time": "2026-11-19 13:00",
+        "max_72h_wind_mps": 7.3,
+        "max_72h_wind_time": "2026-11-20 14:00"
       },
       "score_detail": {
         "distance": 0,
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 11:30",
-        "current_rain_mm": 0.12,
-        "current_wind_mps": 2.4,
-        "max_72h_rain_mm": 0.29,
-        "max_72h_rain_time": "2026-11-19 14:00",
-        "max_72h_wind_mps": 5.2,
-        "max_72h_wind_time": "2026-11-19 16:00"
+        "current_last_updated": "2026-11-19 20:45",
+        "current_rain_mm": 0.0,
+        "current_wind_mps": 3.6,
+        "max_72h_rain_mm": 0.25,
+        "max_72h_rain_time": "2026-11-20 14:00",
+        "max_72h_wind_mps": 5.3,
+        "max_72h_wind_time": "2026-11-19 15:00"
       },
       "score_detail": {
         "distance": 0,
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 10:30",
+        "current_last_updated": "2026-11-19 19:45",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.6,
+        "current_wind_mps": 2.5,
         "max_72h_rain_mm": 0.47,
         "max_72h_rain_time": "2026-11-19 00:00",
-        "max_72h_wind_mps": 5.2,
-        "max_72h_wind_time": "2026-11-20 13:00"
+        "max_72h_wind_mps": 5.0,
+        "max_72h_wind_time": "2026-11-20 11:00"
       },
       "score_detail": {
         "distance": 0,
@@ -215,12 +215,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-19 11:45",
-        "current_rain_mm": 0.03,
-        "current_wind_mps": 3.2,
-        "max_72h_rain_mm": 0.64,
+        "current_last_updated": "2026-11-19 20:45",
+        "current_rain_mm": 0.02,
+        "current_wind_mps": 1.0,
+        "max_72h_rain_mm": 1.38,
         "max_72h_rain_time": "2026-11-20 14:00",
-        "max_72h_wind_mps": 3.8,
+        "max_72h_wind_mps": 4.2,
         "max_72h_wind_time": "2026-11-19 14:00"
       },
       "score_detail": {
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-11-19T03:48:15.808019+00:00"
+  "generated_at_utc": "2026-11-19T12:53:11.346242+00:00"
 }
