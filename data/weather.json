@@ -18,12 +18,12 @@
         "country": "China",
         "lat": 31.285,
         "lon": 120.596,
-        "localtime": "2026-11-20 11:03"
+        "localtime": "2026-11-20 11:41"
       },
       "current": {
-        "last_updated": "2026-11-20 10:45",
+        "last_updated": "2026-11-20 11:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.6,
+        "wind_mps": 3.8,
         "wind_dir": "WNW",
         "condition": "Sunny"
       },
@@ -619,13 +619,13 @@
         "country": "China",
         "lat": 31.121,
         "lon": 121.789,
-        "localtime": "2026-11-20 11:03"
+        "localtime": "2026-11-20 11:41"
       },
       "current": {
-        "last_updated": "2026-11-20 10:45",
+        "last_updated": "2026-11-20 11:30",
         "rain_mm": 0.0,
-        "wind_mps": 3.3,
-        "wind_dir": "WNW",
+        "wind_mps": 3.7,
+        "wind_dir": "NW",
         "condition": "Sunny"
       },
       "hourly_forecast": [
@@ -1220,10 +1220,10 @@
         "country": "South Korea",
         "lat": 37.483,
         "lon": 126.466,
-        "localtime": "2026-11-20 12:03"
+        "localtime": "2026-11-20 12:41"
       },
       "current": {
-        "last_updated": "2026-11-20 12:00",
+        "last_updated": "2026-11-20 12:30",
         "rain_mm": 0.0,
         "wind_mps": 6.4,
         "wind_dir": "NW",
@@ -1816,17 +1816,17 @@
         "lon": 121.0198
       },
       "resolved_location": {
-        "name": "Airmen Village",
-        "region": "Pasay",
+        "name": "Moonwalk Ii",
+        "region": "Misamis Oriental",
         "country": "Philippines",
-        "lat": 14.526,
-        "lon": 121.016,
-        "localtime": "2026-11-20 11:03"
+        "lat": 14.5,
+        "lon": 121.019,
+        "localtime": "2026-11-20 11:41"
       },
       "current": {
-        "last_updated": "2026-11-20 10:45",
-        "rain_mm": 0.12,
-        "wind_mps": 2.5,
+        "last_updated": "2026-11-20 11:30",
+        "rain_mm": 0.08,
+        "wind_mps": 2.8,
         "wind_dir": "E",
         "condition": "Patchy rain nearby"
       },
@@ -2417,18 +2417,18 @@
         "lon": 105.807
       },
       "resolved_location": {
-        "name": "Ninh Bac",
+        "name": "Noi Bai",
         "region": "",
         "country": "Vietnam",
-        "lat": 21.233,
-        "lon": 105.8,
-        "localtime": "2026-11-20 10:03"
+        "lat": 21.217,
+        "lon": 105.817,
+        "localtime": "2026-11-20 10:41"
       },
       "current": {
-        "last_updated": "2026-11-20 09:45",
-        "rain_mm": 0.08,
+        "last_updated": "2026-11-20 10:30",
+        "rain_mm": 0.03,
         "wind_mps": 4.7,
-        "wind_dir": "NNE",
+        "wind_dir": "N",
         "condition": "Patchy rain nearby"
       },
       "hourly_forecast": [
@@ -3023,10 +3023,10 @@
         "country": "Philippines",
         "lat": 15.183,
         "lon": 120.567,
-        "localtime": "2026-11-20 11:03"
+        "localtime": "2026-11-20 11:41"
       },
       "current": {
-        "last_updated": "2026-11-20 11:00",
+        "last_updated": "2026-11-20 11:30",
         "rain_mm": 0.2,
         "wind_mps": 3.0,
         "wind_dir": "ENE",
@@ -3614,5 +3614,5 @@
   },
   "errors": [],
   "data_changed": true,
-  "generated_at_utc": "2026-11-20T03:03:13.862365+00:00"
+  "generated_at_utc": "2026-11-20T03:41:33.844707+00:00"
 }
