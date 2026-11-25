@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-11-25T17:33:58.719391+00:00",
-    "weather": "2026-11-25T17:34:00.090295+00:00"
+    "impact": "2026-11-25T22:26:28.566133+00:00",
+    "weather": "2026-11-25T22:26:30.139188+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,12 +45,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 01:15",
+        "current_last_updated": "2026-11-26 06:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.9,
+        "current_wind_mps": 2.8,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-26 01:15",
-        "max_72h_wind_mps": 7.0,
+        "max_72h_rain_time": "2026-11-26 06:15",
+        "max_72h_wind_mps": 7.6,
         "max_72h_wind_time": "2026-11-28 14:00"
       },
       "score_detail": {
@@ -79,12 +79,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 01:15",
+        "current_last_updated": "2026-11-26 06:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.7,
+        "current_wind_mps": 2.5,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-26 01:15",
-        "max_72h_wind_mps": 6.3,
+        "max_72h_rain_time": "2026-11-26 06:15",
+        "max_72h_wind_mps": 6.5,
         "max_72h_wind_time": "2026-11-28 14:00"
       },
       "score_detail": {
@@ -113,13 +113,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 02:15",
+        "current_last_updated": "2026-11-26 07:15",
         "current_rain_mm": 0.01,
-        "current_wind_mps": 7.1,
-        "max_72h_rain_mm": 0.14,
-        "max_72h_rain_time": "2026-11-28 10:00",
-        "max_72h_wind_mps": 7.7,
-        "max_72h_wind_time": "2026-11-28 21:00"
+        "current_wind_mps": 6.1,
+        "max_72h_rain_mm": 0.12,
+        "max_72h_rain_time": "2026-11-27 12:00",
+        "max_72h_wind_mps": 7.5,
+        "max_72h_wind_time": "2026-11-28 15:00"
       },
       "score_detail": {
         "distance": 0,
@@ -147,13 +147,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 01:15",
+        "current_last_updated": "2026-11-26 06:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.6,
-        "max_72h_rain_mm": 0.11,
-        "max_72h_rain_time": "2026-11-27 14:00",
-        "max_72h_wind_mps": 5.7,
-        "max_72h_wind_time": "2026-11-27 17:00"
+        "current_wind_mps": 2.8,
+        "max_72h_rain_mm": 0.09,
+        "max_72h_rain_time": "2026-11-26 14:00",
+        "max_72h_wind_mps": 5.9,
+        "max_72h_wind_time": "2026-11-27 14:00"
       },
       "score_detail": {
         "distance": 0,
@@ -181,12 +181,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 00:30",
+        "current_last_updated": "2026-11-26 05:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.8,
+        "current_wind_mps": 1.7,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-26 00:30",
-        "max_72h_wind_mps": 3.2,
+        "max_72h_rain_time": "2026-11-26 05:15",
+        "max_72h_wind_mps": 3.4,
         "max_72h_wind_time": "2026-11-28 10:00"
       },
       "score_detail": {
@@ -215,12 +215,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-26 01:15",
+        "current_last_updated": "2026-11-26 06:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 1.0,
-        "max_72h_rain_mm": 0.05,
+        "current_wind_mps": 1.2,
+        "max_72h_rain_mm": 0.06,
         "max_72h_rain_time": "2026-11-26 14:00",
-        "max_72h_wind_mps": 4.7,
+        "max_72h_wind_mps": 4.6,
         "max_72h_wind_time": "2026-11-26 13:00"
       },
       "score_detail": {
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-11-25T17:34:00.136734+00:00"
+  "generated_at_utc": "2026-11-25T22:26:30.199617+00:00"
 }
