@@ -6,8 +6,8 @@
   "note_ko": "내부 물류 판단용 위험도입니다. 공항 공식 결항/지연 기준이 아닙니다.",
   "attribution": "Powered by WeatherAPI.com",
   "source_updated_at_utc": {
-    "impact": "2026-11-27T18:52:03.788099+00:00",
-    "weather": "2026-11-27T18:52:05.355117+00:00"
+    "impact": "2026-11-27T22:17:11.502050+00:00",
+    "weather": "2026-11-27T22:17:16.145116+00:00"
   },
   "typhoon": {
     "number": "2620",
@@ -45,12 +45,12 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 02:45",
+        "current_last_updated": "2026-11-28 06:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.9,
+        "current_wind_mps": 4.2,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-28 02:45",
-        "max_72h_wind_mps": 6.8,
+        "max_72h_rain_time": "2026-11-28 06:00",
+        "max_72h_wind_mps": 6.6,
         "max_72h_wind_time": "2026-11-28 14:00"
       },
       "score_detail": {
@@ -79,13 +79,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 02:45",
+        "current_last_updated": "2026-11-28 06:00",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 3.0,
+        "current_wind_mps": 3.1,
         "max_72h_rain_mm": 0.0,
-        "max_72h_rain_time": "2026-11-28 02:45",
+        "max_72h_rain_time": "2026-11-28 06:00",
         "max_72h_wind_mps": 5.7,
-        "max_72h_wind_time": "2026-11-28 14:00"
+        "max_72h_wind_time": "2026-11-28 13:00"
       },
       "score_detail": {
         "distance": 20,
@@ -113,13 +113,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 03:45",
+        "current_last_updated": "2026-11-28 07:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 4.4,
-        "max_72h_rain_mm": 0.02,
+        "current_wind_mps": 3.9,
+        "max_72h_rain_mm": 0.03,
         "max_72h_rain_time": "2026-11-30 04:00",
         "max_72h_wind_mps": 7.8,
-        "max_72h_wind_time": "2026-11-28 15:00"
+        "max_72h_wind_time": "2026-11-28 14:00"
       },
       "score_detail": {
         "distance": 0,
@@ -147,10 +147,10 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 02:30",
+        "current_last_updated": "2026-11-28 06:15",
         "current_rain_mm": 0.0,
-        "current_wind_mps": 2.0,
-        "max_72h_rain_mm": 0.33,
+        "current_wind_mps": 1.8,
+        "max_72h_rain_mm": 0.42,
         "max_72h_rain_time": "2026-11-28 14:00",
         "max_72h_wind_mps": 6.1,
         "max_72h_wind_time": "2026-11-29 14:00"
@@ -181,13 +181,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 01:45",
+        "current_last_updated": "2026-11-28 05:15",
         "current_rain_mm": 0.0,
         "current_wind_mps": 2.2,
-        "max_72h_rain_mm": 0.07,
-        "max_72h_rain_time": "2026-11-30 23:00",
+        "max_72h_rain_mm": 0.01,
+        "max_72h_rain_time": "2026-11-30 17:00",
         "max_72h_wind_mps": 3.6,
-        "max_72h_wind_time": "2026-11-28 13:00"
+        "max_72h_wind_time": "2026-11-28 11:00"
       },
       "score_detail": {
         "distance": 0,
@@ -215,13 +215,13 @@
       },
       "weather": {
         "source": "WeatherAPI.com",
-        "current_last_updated": "2026-11-28 02:45",
+        "current_last_updated": "2026-11-28 06:15",
         "current_rain_mm": 0.0,
         "current_wind_mps": 1.0,
-        "max_72h_rain_mm": 0.09,
+        "max_72h_rain_mm": 0.36,
         "max_72h_rain_time": "2026-11-29 14:00",
-        "max_72h_wind_mps": 6.2,
-        "max_72h_wind_time": "2026-11-29 14:00"
+        "max_72h_wind_mps": 5.9,
+        "max_72h_wind_time": "2026-11-29 15:00"
       },
       "score_detail": {
         "distance": 0,
@@ -312,5 +312,5 @@
     }
   ],
   "data_changed": true,
-  "generated_at_utc": "2026-11-27T18:52:05.398932+00:00"
+  "generated_at_utc": "2026-11-27T22:17:16.202689+00:00"
 }
